@@ -1,0 +1,728 @@
+{
+ "file": "lean/Cor15.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|1CO 15:13": {
+   "text": "If there is no resurrection of the dead, then not even Christ has been raised."
+  },
+  "bsb|1CO 15:14": {
+   "text": "And if Christ has not been raised, our preaching is worthless, and so is your faith."
+  },
+  "bsb|1CO 15:16": {
+   "text": "For if the dead are not raised, then not even Christ has been raised."
+  },
+  "bsb|1CO 15:17": {
+   "text": "And if Christ has not been raised, your faith is futile; you are still in your sins."
+  },
+  "bsb|1CO 15:20": {
+   "text": "But Christ has indeed been raised from the dead, the firstfruits of those who have fallen asleep."
+  },
+  "grc|1CO 15:13": {
+   "lemmas": [
+    "Χριστός",
+    "δέ",
+    "εἰ",
+    "εἰμί",
+    "νεκρός",
+    "οὐ",
+    "οὐδέ",
+    "ἀνάστασις",
+    "ἐγείρω"
+   ],
+   "text": "εἰ δὲ ἀνάστασις νεκρῶν οὐκ ἔστιν,οὐδὲ Χριστὸς ἐγήγερται·",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "If",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "however",
+     "lemma": "δέ",
+     "ln": "89.124",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a resurrection",
+     "lemma": "ἀνάστασις",
+     "ln": "23.93",
+     "morph": "N-NSF",
+     "strong": "386",
+     "text": "ἀνάστασις"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of [the] dead",
+     "lemma": "νεκρός",
+     "ln": "23.121",
+     "morph": "A-GPM",
+     "strong": "3498",
+     "text": "νεκρῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "there is",
+     "lemma": "εἰμί",
+     "ln": "13.69",
+     "morph": "V-PAI-3S",
+     "strong": "1510",
+     "text": "ἔστιν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "neither",
+     "lemma": "οὐδέ",
+     "ln": "69.7",
+     "morph": "CONJ-N",
+     "strong": "3761",
+     "text": "οὐδὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-NSM",
+     "strong": "5547",
+     "text": "Χριστὸς"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "has been raised",
+     "lemma": "ἐγείρω",
+     "ln": "23.94",
+     "morph": "V-RPI-3S",
+     "strong": "1453",
+     "text": "ἐγήγερται"
+    }
+   ]
+  },
+  "grc|1CO 15:14": {
+   "lemmas": [
+    "Χριστός",
+    "δέ",
+    "εἰ",
+    "κήρυγμα",
+    "καί",
+    "κενός",
+    "οὐ",
+    "πίστις",
+    "σύ",
+    "ἄρα",
+    "ἐγείρω",
+    "ἐγώ",
+    "ὁ"
+   ],
+   "text": "εἰ δὲ Χριστὸς οὐκ ἐγήγερται,κενὸν ἄρα τὸ κήρυγμα ἡμῶν,κενὴ καὶ ἡ πίστις ὑμῶν·",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "δέ",
+     "ln": "89.94",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-NSM",
+     "strong": "5547",
+     "text": "Χριστὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "has been raised",
+     "lemma": "ἐγείρω",
+     "ln": "23.94",
+     "morph": "V-RPI-3S",
+     "strong": "1453",
+     "text": "ἐγήγερται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[is] void",
+     "lemma": "κενός",
+     "ln": "72.10 89.53 89.64",
+     "morph": "A-NSN",
+     "strong": "2756",
+     "text": "κενὸν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "ἄρα",
+     "ln": "89.46",
+     "morph": "PRT",
+     "strong": "686",
+     "text": "ἄρα"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSN",
+     "strong": "3588",
+     "text": "τὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "preaching",
+     "lemma": "κήρυγμα",
+     "ln": "33.258",
+     "morph": "N-NSN",
+     "strong": "2782",
+     "text": "κήρυγμα"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "of us",
+     "lemma": "ἐγώ",
+     "ln": "92.4",
+     "morph": "P-1GP",
+     "strong": "1473",
+     "text": "ἡμῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "void",
+     "lemma": "κενός",
+     "ln": "72.10 89.53 89.64",
+     "morph": "A-NSF",
+     "strong": "2756",
+     "text": "κενὴ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "also",
+     "lemma": "καί",
+     "ln": "89.93",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "faith",
+     "lemma": "πίστις",
+     "ln": "31.102",
+     "morph": "N-NSF",
+     "strong": "4102",
+     "text": "πίστις"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "of you",
+     "lemma": "σύ",
+     "ln": "92.7",
+     "morph": "P-2GP",
+     "strong": "4771",
+     "text": "ὑμῶν"
+    }
+   ]
+  },
+  "grc|1CO 15:16": {
+   "lemmas": [
+    "Χριστός",
+    "γάρ",
+    "εἰ",
+    "νεκρός",
+    "οὐ",
+    "οὐδέ",
+    "ἐγείρω"
+   ],
+   "text": "εἰ γὰρ νεκροὶ οὐκ ἐγείρονται,οὐδὲ Χριστὸς ἐγήγερται·",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "If",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "γάρ",
+     "ln": "89.23",
+     "morph": "CONJ",
+     "strong": "1063",
+     "text": "γὰρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[the] dead",
+     "lemma": "νεκρός",
+     "ln": "23.121",
+     "morph": "A-NPM",
+     "strong": "3498",
+     "text": "νεκροὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "are raised",
+     "lemma": "ἐγείρω",
+     "ln": "23.94",
+     "morph": "V-PPI-3P",
+     "strong": "1453",
+     "text": "ἐγείρονται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "neither",
+     "lemma": "οὐδέ",
+     "ln": "69.7",
+     "morph": "CONJ-N",
+     "strong": "3761",
+     "text": "οὐδὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-NSM",
+     "strong": "5547",
+     "text": "Χριστὸς"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "has been raised",
+     "lemma": "ἐγείρω",
+     "ln": "23.94",
+     "morph": "V-RPI-3S",
+     "strong": "1453",
+     "text": "ἐγήγερται"
+    }
+   ]
+  },
+  "grc|1CO 15:17": {
+   "lemmas": [
+    "Χριστός",
+    "δέ",
+    "εἰ",
+    "εἰμί",
+    "μάταιος",
+    "οὐ",
+    "πίστις",
+    "σύ",
+    "ἁμαρτία",
+    "ἐγείρω",
+    "ἐν",
+    "ἔτι",
+    "ὁ"
+   ],
+   "text": "εἰ δὲ Χριστὸς οὐκ ἐγήγερται,ματαία ἡ πίστις ὑμῶν,ἔτι ἐστὲ ἐν ταῖς ἁμαρτίαις ὑμῶν.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "δέ",
+     "ln": "89.94",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-NSM",
+     "strong": "5547",
+     "text": "Χριστὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "has been raised",
+     "lemma": "ἐγείρω",
+     "ln": "23.94",
+     "morph": "V-RPI-3S",
+     "strong": "1453",
+     "text": "ἐγήγερται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "futile",
+     "lemma": "μάταιος",
+     "ln": "65.37",
+     "morph": "A-NSF",
+     "strong": "3152",
+     "text": "ματαία"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "faith",
+     "lemma": "πίστις",
+     "ln": "31.102",
+     "morph": "N-NSF",
+     "strong": "4102",
+     "text": "πίστις"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "of you",
+     "lemma": "σύ",
+     "ln": "92.7",
+     "morph": "P-2GP",
+     "strong": "4771",
+     "text": "ὑμῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "still",
+     "lemma": "ἔτι",
+     "ln": "67.128",
+     "morph": "ADV",
+     "strong": "2089",
+     "text": "ἔτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "you are",
+     "lemma": "εἰμί",
+     "ln": "13.1",
+     "morph": "V-PAI-2P",
+     "strong": "1510",
+     "text": "ἐστὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "13.8",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DPF",
+     "strong": "3588",
+     "text": "ταῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "sins",
+     "lemma": "ἁμαρτία",
+     "ln": "88.289 88.310",
+     "morph": "N-DPF",
+     "strong": "266",
+     "text": "ἁμαρτίαις"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "of you",
+     "lemma": "σύ",
+     "ln": "92.7",
+     "morph": "P-2GP",
+     "strong": "4771",
+     "text": "ὑμῶν"
+    }
+   ]
+  },
+  "grc|1CO 15:20": {
+   "lemmas": [
+    "Χριστός",
+    "δέ",
+    "κοιμάομαι",
+    "νεκρός",
+    "νυνί",
+    "ἀπαρχή",
+    "ἐγείρω",
+    "ἐκ",
+    "ὁ"
+   ],
+   "text": "Νυνὶ δὲ Χριστὸς ἐγήγερται ἐκ νεκρῶν,ἀπαρχὴ τῶν κεκοιμημένων.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Now",
+     "lemma": "νυνί",
+     "ln": "91.4",
+     "morph": "ADV",
+     "strong": "3570",
+     "text": "Νυνὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "however",
+     "lemma": "δέ",
+     "ln": "89.124",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-NSM",
+     "strong": "5547",
+     "text": "Χριστὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "has been raised",
+     "lemma": "ἐγείρω",
+     "ln": "23.94",
+     "morph": "V-RPI-3S",
+     "strong": "1453",
+     "text": "ἐγήγερται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "out from",
+     "lemma": "ἐκ",
+     "ln": "89.121",
+     "morph": "PREP",
+     "strong": "1537",
+     "text": "ἐκ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "[the] dead",
+     "lemma": "νεκρός",
+     "ln": "23.121",
+     "morph": "A-GPM",
+     "strong": "3498",
+     "text": "νεκρῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "firstfruit",
+     "lemma": "ἀπαρχή",
+     "ln": "61.8",
+     "morph": "N-NSF",
+     "strong": "536",
+     "text": "ἀπαρχὴ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of those",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GPM",
+     "strong": "3588",
+     "text": "τῶν"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "having fallen asleep",
+     "lemma": "κοιμάομαι",
+     "ln": "23.104",
+     "morph": "V-RPP-GPM",
+     "strong": "2837",
+     "text": "κεκοιμημένων"
+    }
+   ]
+  },
+  "kjv|1CO 15:13": {
+   "marked": "But if there be no resurrection of the dead, then is Christ not risen:",
+   "text": "But if there be no resurrection of the dead, then is Christ not risen:"
+  },
+  "kjv|1CO 15:14": {
+   "marked": "And if Christ be not risen, then [is] our preaching vain, and your faith [is] also vain.",
+   "text": "And if Christ be not risen, then is our preaching vain, and your faith is also vain."
+  },
+  "kjv|1CO 15:16": {
+   "marked": "For if the dead rise not, then is not Christ raised:",
+   "text": "For if the dead rise not, then is not Christ raised:"
+  },
+  "kjv|1CO 15:17": {
+   "marked": "And if Christ be not raised, your faith [is] vain; ye are yet in your sins.",
+   "text": "And if Christ be not raised, your faith is vain; ye are yet in your sins."
+  },
+  "kjv|1CO 15:20": {
+   "marked": "But now is Christ risen from the dead, [and] become the firstfruits of them that slept.",
+   "text": "But now is Christ risen from the dead, and become the firstfruits of them that slept."
+  },
+  "lat|1CO 15:13": {
+   "text": "Si autem resurrectio mortuorum non est: neque Christus resurrexit."
+  },
+  "lat|1CO 15:14": {
+   "text": "Si autem Christus non resurrexit, inanis est ergo prædicatio nostra, inanis est et fides vestra:"
+  },
+  "lat|1CO 15:16": {
+   "text": "Nam si mortui non resurgunt, neque Christus resurrexit."
+  },
+  "lat|1CO 15:17": {
+   "text": "Quod si Christus non resurrexit, vana est fides vestra: adhuc enim estis in peccatis vestris."
+  },
+  "lat|1CO 15:20": {
+   "text": "Nunc autem Christus resurrexit a mortuis primitiæ dormientium,"
+  }
+ }
+}

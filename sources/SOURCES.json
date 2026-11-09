@@ -1,0 +1,50 @@
+{
+ "_about": "Every text layer, pinned. tools/fetch_sources.py downloads each file and refuses it unless the SHA-256 matches. MACULA files are pinned to a git commit, so they never change. eBible files are regenerated over time; if a hash ever stops matching, the checked-in data/cited slices remain the reference and the mismatch is reported, never silently accepted.",
+ "files": [
+  {
+   "id": "macula_greek",
+   "layer": "grc",
+   "name": "macula-greek-Nestle1904.tsv",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "what": "Greek New Testament, Nestle 1904 text; lemma, Strong's, morphology, glosses, Louw-Nida domains",
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek"
+  },
+  {
+   "id": "macula_hebrew",
+   "layer": "heb",
+   "name": "macula-hebrew.tsv",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "what": "Hebrew Bible, Westminster Leningrad Codex (Hebrew versification); lemma, Strong's, morphology, glosses, Septuagint Greek equivalents",
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew"
+  },
+  {
+   "id": "vulgate",
+   "layer": "lat",
+   "name": "latVUC_vpl.zip",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "what": "Clementine Vulgate 1598 (Vulgate versification: e.g. English Psalm 110 = Vulgate Psalm 109)",
+   "license": "Public domain (eBible.org latVUC)"
+  },
+  {
+   "id": "kjv",
+   "layer": "kjv",
+   "name": "eng-kjv_vpl.zip",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "what": "King James Version 1769; [brackets] mark words the translators supplied (printed in italics)",
+   "license": "Public domain outside the UK (eBible.org eng-kjv)"
+  },
+  {
+   "id": "bsb",
+   "layer": "bsb",
+   "name": "engbsb_vpl.zip",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "what": "Berean Standard Bible",
+   "license": "Public domain (eBible.org engbsb)"
+  }
+ ]
+}
