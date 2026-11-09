@@ -1,0 +1,35 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  proofs-and-citations:
+    name: Lean proofs, citations, tamper tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lean (version pinned in lean-toolchain)
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Check everything
+        run: |
+          lean --version
+          python3 -I tools/check_all.py
+
+  sources-match-citations:
+    name: Cited verses match the pinned original sources
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch every source and verify its SHA-256
+        run: python3 -I tools/fetch_sources.py
+      - name: Build the whole-Bible corpus
+        run: python3 -I tools/build_corpus.py
+      - name: Re-extract every citation and require no change
+        run: |
+          for f in lean/*.lean; do python3 -I tools/extract.py "$f"; done
+          git diff --exit-code -- data/cited && echo "Every committed citation matches the pinned sources."

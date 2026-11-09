@@ -36,7 +36,7 @@ def main():
             verses[f"{layer}|{ref}"] = v
     os.makedirs(CITED_DIR, exist_ok=True)
     out = os.path.join(CITED_DIR, f"{name}.json")
-    with open(out, "w", encoding="utf-8") as f:
+    with open(out, "w", encoding="utf-8", newline="\n") as f:  # LF everywhere, so CI can diff byte-for-byte
         json.dump({"file": f"lean/{name}.lean",
                    "sources": {s["id"]: {"sha256": s["sha256"], "url": s["url"], "license": s["license"]}
                                for s in spec["files"]},
