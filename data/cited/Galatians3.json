@@ -1,0 +1,1450 @@
+{
+ "file": "lean/Galatians3.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|EXO 12:40": {
+   "text": "Now the duration of the Israelites’ stay in Egypt was 430 years."
+  },
+  "bsb|GAL 3:15": {
+   "text": "Brothers, let me put this in human terms. Even a human covenant, once it is ratified, cannot be canceled or amended."
+  },
+  "bsb|GAL 3:16": {
+   "text": "The promises were spoken to Abraham and to his seed. The Scripture does not say, “and to seeds,” meaning many, but “and to your seed,” meaning One, who is Christ."
+  },
+  "bsb|GAL 3:17": {
+   "text": "What I mean is this: The law that came 430 years later does not revoke the covenant previously established by God, so as to nullify the promise."
+  },
+  "bsb|GAL 3:18": {
+   "text": "For if the inheritance depends on the law, then it no longer depends on a promise; but God freely granted it to Abraham through a promise."
+  },
+  "bsb|GEN 13:15": {
+   "text": "for all the land that you see, I will give to you and your offspring forever."
+  },
+  "grc|GAL 3:15": {
+   "lemmas": [
+    "διαθήκη",
+    "κατά",
+    "κυρόω",
+    "λέγω",
+    "οὐδείς",
+    "ἀδελφός",
+    "ἀθετέω",
+    "ἄνθρωπος",
+    "ἐπιδιατάσσομαι",
+    "ἤ",
+    "ὅμως"
+   ],
+   "text": "Ἀδελφοί,κατὰ ἄνθρωπον λέγω.ὅμως ἀνθρώπου κεκυρωμένην διαθήκην οὐδεὶς ἀθετεῖ ἢ ἐπιδιατάσσεται.",
+   "words": [
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "Brothers",
+     "lemma": "ἀδελφός",
+     "ln": "11.23",
+     "morph": "N-VPM",
+     "strong": "80",
+     "text": "Ἀδελφοί"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "according to",
+     "lemma": "κατά",
+     "ln": "89.8",
+     "morph": "PREP",
+     "strong": "2596",
+     "text": "κατὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "man",
+     "lemma": "ἄνθρωπος",
+     "ln": "9.1",
+     "morph": "N-ASM",
+     "strong": "444",
+     "text": "ἄνθρωπον"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "I am speaking",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAI-1S",
+     "strong": "3004",
+     "text": "λέγω"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Even",
+     "lemma": "ὅμως",
+     "ln": "64.11 89.74",
+     "morph": "CONJ",
+     "strong": "3676",
+     "text": "ὅμως"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of man",
+     "lemma": "ἄνθρωπος",
+     "ln": "9.1",
+     "morph": "N-GSM",
+     "strong": "444",
+     "text": "ἀνθρώπου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having been ratified",
+     "lemma": "κυρόω",
+     "ln": "76.18",
+     "morph": "V-RPP-ASF",
+     "strong": "2964",
+     "text": "κεκυρωμένην"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a covenant",
+     "lemma": "διαθήκη",
+     "ln": "34.44",
+     "morph": "N-ASF",
+     "strong": "1242",
+     "text": "διαθήκην"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "no one",
+     "lemma": "οὐδείς",
+     "ln": "92.23",
+     "morph": "A-NSM-N",
+     "strong": "3762",
+     "text": "οὐδεὶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "sets aside",
+     "lemma": "ἀθετέω",
+     "ln": "76.24",
+     "morph": "V-PAI-3S",
+     "strong": "114",
+     "text": "ἀθετεῖ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "or",
+     "lemma": "ἤ",
+     "ln": "89.139",
+     "morph": "PRT",
+     "strong": "2228",
+     "text": "ἢ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "adds thereto",
+     "lemma": "ἐπιδιατάσσομαι",
+     "ln": "59.73",
+     "morph": "V-PNI-3S",
+     "strong": "1928",
+     "text": "ἐπιδιατάσσεται"
+    }
+   ]
+  },
+  "grc|GAL 3:16": {
+   "lemmas": [
+    "Χριστός",
+    "αὐτός",
+    "δέ",
+    "εἰμί",
+    "εἶπον",
+    "εἷς",
+    "καί",
+    "λέγω",
+    "οὐ",
+    "πολύς",
+    "σπέρμα",
+    "σύ",
+    "ἀλλά",
+    "Ἀβραάμ",
+    "ἐπί",
+    "ἐπαγγελία",
+    "ὁ",
+    "ὅς",
+    "ὡς"
+   ],
+   "text": "τῷ δὲ Ἀβραὰμ ἐρρέθησαν αἱ ἐπαγγελίαι καὶ τῷ σπέρματι αὐτοῦ.οὐ λέγει Καὶ τοῖς σπέρμασιν,ὡς ἐπὶ πολλῶν,ἀλλ’ὡς ἐφ’ἑνός Καὶ τῷ σπέρματί σου,ὅς ἐστιν Χριστός.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "δέ",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραὰμ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "were spoken",
+     "lemma": "εἶπον",
+     "ln": "33.69",
+     "morph": "V-API-3P",
+     "strong": "2046",
+     "text": "ἐρρέθησαν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NPF",
+     "strong": "3588",
+     "text": "αἱ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "promises",
+     "lemma": "ἐπαγγελία",
+     "ln": "33.288",
+     "morph": "N-NPF",
+     "strong": "1860",
+     "text": "ἐπαγγελίαι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSN",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "seed",
+     "lemma": "σπέρμα",
+     "ln": "10.29",
+     "morph": "N-DSN",
+     "strong": "4690",
+     "text": "σπέρματι"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "of him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-GSM",
+     "strong": "846",
+     "text": "αὐτοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "it does say",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAI-3S",
+     "strong": "3004",
+     "text": "λέγει"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "Καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DPN",
+     "strong": "3588",
+     "text": "τοῖς"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "to seeds",
+     "lemma": "σπέρμα",
+     "ln": "10.29",
+     "morph": "N-DPN",
+     "strong": "4690",
+     "text": "σπέρμασιν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "as",
+     "lemma": "ὡς",
+     "ln": "64.12",
+     "morph": "ADV",
+     "strong": "5613",
+     "text": "ὡς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of",
+     "lemma": "ἐπί",
+     "ln": "90.23",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐπὶ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "many",
+     "lemma": "πολύς",
+     "ln": "59.1",
+     "morph": "A-GPN",
+     "strong": "4183",
+     "text": "πολλῶν"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "but",
+     "lemma": "ἀλλά",
+     "ln": "89.125",
+     "morph": "CONJ",
+     "strong": "235",
+     "text": "ἀλλ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "as",
+     "lemma": "ὡς",
+     "ln": "64.12",
+     "morph": "ADV",
+     "strong": "5613",
+     "text": "ὡς"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "of",
+     "lemma": "ἐπί",
+     "ln": "90.23",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐφ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "One",
+     "lemma": "εἷς",
+     "ln": "60.10",
+     "morph": "A-GSN",
+     "strong": "1520",
+     "text": "ἑνός"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "Καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSN",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "seed",
+     "lemma": "σπέρμα",
+     "ln": "10.29",
+     "morph": "N-DSN",
+     "strong": "4690",
+     "text": "σπέρματί"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "of you",
+     "lemma": "σύ",
+     "ln": "92.6",
+     "morph": "P-2GS",
+     "strong": "4771",
+     "text": "σου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "who",
+     "lemma": "ὅς",
+     "ln": "92.27",
+     "morph": "R-NSM",
+     "strong": "3739",
+     "text": "ὅς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "is",
+     "lemma": "εἰμί",
+     "ln": "13.4",
+     "morph": "V-PAI-3S",
+     "strong": "1510",
+     "text": "ἐστιν"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-NSM",
+     "strong": "5547",
+     "text": "Χριστός"
+    }
+   ]
+  },
+  "grc|GAL 3:17": {
+   "lemmas": [
+    "γίνομαι",
+    "δέ",
+    "διαθήκη",
+    "εἰς",
+    "θεός",
+    "καί",
+    "καταργέω",
+    "λέγω",
+    "μετά",
+    "νόμος",
+    "οὐ",
+    "οὗτος",
+    "προκυρόω",
+    "τετρακόσιοι",
+    "τριάκοντα",
+    "ἀκυρόω",
+    "ἐπαγγελία",
+    "ἔτος",
+    "ὁ",
+    "ὑπό"
+   ],
+   "text": "τοῦτο δὲ λέγω·διαθήκην προκεκυρωμένην ὑπὸ τοῦ Θεοῦ ὁ μετὰ τετρακόσια καὶ τριάκοντα ἔτη γεγονὼς νόμος οὐκ ἀκυροῖ,εἰς τὸ καταργῆσαι τὴν ἐπαγγελίαν.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "This",
+     "lemma": "οὗτος",
+     "ln": "92.29",
+     "morph": "D-ASN",
+     "strong": "3778",
+     "text": "τοῦτο"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "now",
+     "lemma": "δέ",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "I say",
+     "lemma": "λέγω",
+     "ln": "33.140",
+     "morph": "V-PAI-1S",
+     "strong": "3004",
+     "text": "λέγω"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[The] covenant",
+     "lemma": "διαθήκη",
+     "ln": "34.44",
+     "morph": "N-ASF",
+     "strong": "1242",
+     "text": "διαθήκην"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having been confirmed beforehand",
+     "lemma": "προκυρόω",
+     "ln": "76.19",
+     "morph": "V-RPP-ASF",
+     "strong": "4300",
+     "text": "προκεκυρωμένην"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "by",
+     "lemma": "ὑπό",
+     "ln": "90.1",
+     "morph": "PREP",
+     "strong": "5259",
+     "text": "ὑπὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "God",
+     "lemma": "θεός",
+     "ln": "12.1",
+     "morph": "N-GSM",
+     "strong": "2316",
+     "text": "Θεοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "afterward",
+     "lemma": "μετά",
+     "ln": "67.48",
+     "morph": "PREP",
+     "strong": "3326",
+     "text": "μετὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "four hundred",
+     "lemma": "τετρακόσιοι",
+     "ln": "60.36",
+     "morph": "A-APN",
+     "strong": "5071",
+     "text": "τετρακόσια"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "thirty",
+     "lemma": "τριάκοντα",
+     "ln": "60.26",
+     "morph": "A-NUI",
+     "strong": "5144",
+     "text": "τριάκοντα"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "years",
+     "lemma": "ἔτος",
+     "ln": "67.167",
+     "morph": "N-APN",
+     "strong": "2094",
+     "text": "ἔτη"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having come",
+     "lemma": "γίνομαι",
+     "ln": "13.80",
+     "morph": "V-2RAP-NSM",
+     "strong": "1096",
+     "text": "γεγονὼς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[the] law",
+     "lemma": "νόμος",
+     "ln": "33.55",
+     "morph": "N-NSM",
+     "strong": "3551",
+     "text": "νόμος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "does annul",
+     "lemma": "ἀκυρόω",
+     "ln": "76.25",
+     "morph": "V-PAI-3S",
+     "strong": "208",
+     "text": "ἀκυροῖ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "so as",
+     "lemma": "εἰς",
+     "ln": "89.48",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASN",
+     "strong": "3588",
+     "text": "τὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to nullify",
+     "lemma": "καταργέω",
+     "ln": "76.26",
+     "morph": "V-AAN",
+     "strong": "2673",
+     "text": "καταργῆσαι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASF",
+     "strong": "3588",
+     "text": "τὴν"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "promise",
+     "lemma": "ἐπαγγελία",
+     "ln": "33.288",
+     "morph": "N-ASF",
+     "strong": "1860",
+     "text": "ἐπαγγελίαν"
+    }
+   ]
+  },
+  "grc|GAL 3:18": {
+   "lemmas": [
+    "γάρ",
+    "δέ",
+    "διά",
+    "εἰ",
+    "θεός",
+    "κληρονομία",
+    "νόμος",
+    "οὐκέτι",
+    "χαρίζομαι",
+    "Ἀβραάμ",
+    "ἐκ",
+    "ἐπαγγελία",
+    "ὁ"
+   ],
+   "text": "εἰ γὰρ ἐκ νόμου ἡ κληρονομία,οὐκέτι ἐξ ἐπαγγελίας·τῷ δὲ Ἀβραὰμ δι’ἐπαγγελίας κεχάρισται ὁ Θεός.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "If",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "γάρ",
+     "ln": "89.23",
+     "morph": "CONJ",
+     "strong": "1063",
+     "text": "γὰρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "by",
+     "lemma": "ἐκ",
+     "ln": "89.77",
+     "morph": "PREP",
+     "strong": "1537",
+     "text": "ἐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[the] Law [is]",
+     "lemma": "νόμος",
+     "ln": "33.55",
+     "morph": "N-GSM",
+     "strong": "3551",
+     "text": "νόμου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "inheritance",
+     "lemma": "κληρονομία",
+     "ln": "57.140",
+     "morph": "N-NSF",
+     "strong": "2817",
+     "text": "κληρονομία"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[it is] no longer",
+     "lemma": "οὐκέτι",
+     "ln": "67.130",
+     "morph": "ADV-N",
+     "strong": "3765",
+     "text": "οὐκέτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "by",
+     "lemma": "ἐκ",
+     "ln": "89.77",
+     "morph": "PREP",
+     "strong": "1537",
+     "text": "ἐξ"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "a promise",
+     "lemma": "ἐπαγγελία",
+     "ln": "33.288",
+     "morph": "N-GSF",
+     "strong": "1860",
+     "text": "ἐπαγγελίας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "but",
+     "lemma": "δέ",
+     "ln": "89.124",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραὰμ"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "through",
+     "lemma": "διά",
+     "ln": "90.8",
+     "morph": "PREP",
+     "strong": "1223",
+     "text": "δι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a promise",
+     "lemma": "ἐπαγγελία",
+     "ln": "33.288",
+     "morph": "N-GSF",
+     "strong": "1860",
+     "text": "ἐπαγγελίας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "has granted [it]",
+     "lemma": "χαρίζομαι",
+     "ln": "57.102",
+     "morph": "V-RNI-3S",
+     "strong": "5483",
+     "text": "κεχάρισται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "God",
+     "lemma": "θεός",
+     "ln": "12.1",
+     "morph": "N-NSM",
+     "strong": "2316",
+     "text": "Θεός"
+    }
+   ]
+  },
+  "heb|EXO 12:40": {
+   "lemmas": [
+    "אֲשֶׁר",
+    "אַרְבַּע",
+    "בְּ",
+    "בֵּן",
+    "וְ",
+    "יִשְׂרָאֵל",
+    "יָשַׁב",
+    "מִצְרַיִם",
+    "מֵאָה",
+    "מוֹשָׁב",
+    "שָׁלֹשׁ",
+    "שָׁנָה"
+   ],
+   "text": "וּמוֹשַׁב֙ בְּנֵ֣י יִשְׂרָאֵ֔ל אֲשֶׁ֥ר יָשְׁב֖וּ בְּמִצְרָ֑יִם שְׁלֹשִׁ֣ים שָׁנָ֔ה וְאַרְבַּ֥ע מֵא֖וֹת שָׁנָֽה׃",
+   "words": [
+    {
+     "after": "",
+     "english": "now",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "δὲ",
+     "lxx_strong": "1161",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וּ",
+     "translit": "û",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "time",
+     "gloss": "the.dwelling",
+     "lemma": "מוֹשָׁב",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncmsc",
+     "strong": "4186",
+     "text": "מוֹשַׁב֙",
+     "translit": "môšaḇ",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "people",
+     "gloss": "of.the.people",
+     "lemma": "בֵּן",
+     "lxx": "υἱῶν",
+     "lxx_strong": "5207",
+     "morph": "Ncmpc",
+     "strong": "1121",
+     "text": "בְּנֵ֣י",
+     "translit": "bənēy",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "Israel",
+     "gloss": "of.Israel",
+     "lemma": "יִשְׂרָאֵל",
+     "lxx": "ισραηλ",
+     "lxx_strong": "2474",
+     "morph": "Np",
+     "strong": "3478",
+     "text": "יִשְׂרָאֵ֔ל",
+     "translit": "yiśrāʾēl",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "that",
+     "gloss": "which",
+     "lemma": "אֲשֶׁר",
+     "lxx": "ἣν",
+     "lxx_strong": "3739",
+     "morph": "Tr",
+     "strong": "0834",
+     "text": "אֲשֶׁ֥ר",
+     "translit": "ʾăšer",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "lived",
+     "gloss": "they.dwelt",
+     "lemma": "יָשַׁב",
+     "lxx": "κατῴκησαν",
+     "lxx_strong": "2730",
+     "morph": "Vqp3cp",
+     "strong": "3427",
+     "text": "יָשְׁב֖וּ",
+     "translit": "yāšəḇû",
+     "w": 5
+    },
+    {
+     "after": "",
+     "english": "in",
+     "gloss": "in",
+     "lemma": "בְּ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "Egypt",
+     "gloss": "Egypt",
+     "lemma": "מִצְרַיִם",
+     "lxx": "αἰγύπτῳ",
+     "lxx_strong": "125",
+     "morph": "Np",
+     "strong": "4714",
+     "text": "מִצְרָ֑יִם",
+     "translit": "miṣrāyim",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "thirty",
+     "gloss": "[was].thirty",
+     "lemma": "שָׁלֹשׁ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Acbpa",
+     "strong": "7970",
+     "text": "שְׁלֹשִׁ֣ים",
+     "translit": "šəlōšiym",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "years",
+     "gloss": "year[s]",
+     "lemma": "שָׁנָה",
+     "lxx": "ἔτη",
+     "lxx_strong": "2094",
+     "morph": "Ncfsa",
+     "strong": "8141",
+     "text": "שָׁנָ֔ה",
+     "translit": "šānāh",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "four",
+     "gloss": "four",
+     "lemma": "אַרְבַּע",
+     "lxx": "τριάκοντα",
+     "lxx_strong": "5144",
+     "morph": "Acfsa",
+     "strong": "0702",
+     "text": "אַרְבַּ֥ע",
+     "translit": "ʾarbaʿ",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "hundred",
+     "gloss": "hundred(s)",
+     "lemma": "מֵאָה",
+     "lxx": "τετρακόσια",
+     "lxx_strong": "5071",
+     "morph": "Acbpa",
+     "strong": "3967",
+     "text": "מֵא֖וֹת",
+     "translit": "mēʾôṯ",
+     "w": 10
+    },
+    {
+     "after": "׃",
+     "english": "years",
+     "gloss": "year[s]",
+     "lemma": "שָׁנָה",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncfsa",
+     "strong": "8141",
+     "text": "שָׁנָֽה",
+     "translit": "šānāh:",
+     "w": 11
+    }
+   ]
+  },
+  "heb|GEN 13:15": {
+   "lemmas": [
+    "אֲשֶׁר",
+    "אֵת",
+    "אֶרֶץ",
+    "אַתָּה",
+    "הַ",
+    "הוּא",
+    "וְ",
+    "זֶרַע",
+    "כִּי",
+    "כֹּל",
+    "לְ",
+    "נָתַן",
+    "עַד",
+    "עוֹלָם",
+    "רָאָה"
+   ],
+   "text": "כִּ֧י אֶת־כָּל־הָאָ֛רֶץ אֲשֶׁר־אַתָּ֥ה רֹאֶ֖ה לְךָ֣ אֶתְּנֶ֑נָּה וּֽלְזַרְעֲךָ֖ עַד־עוֹלָֽם׃",
+   "words": [
+    {
+     "after": " ",
+     "english": "for",
+     "gloss": "(dm)",
+     "lemma": "כִּי",
+     "lxx": "ὅτι",
+     "lxx_strong": "3754",
+     "morph": "C",
+     "strong": "3588",
+     "text": "כִּ֧י",
+     "translit": "kiy",
+     "w": 1
+    },
+    {
+     "after": "־",
+     "english": "",
+     "gloss": "(et)",
+     "lemma": "אֵת",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "To",
+     "strong": "0853",
+     "text": "אֶת",
+     "translit": "ʾeṯ-",
+     "w": 2
+    },
+    {
+     "after": "־",
+     "english": "all",
+     "gloss": "all",
+     "lemma": "כֹּל",
+     "lxx": "πᾶσαν",
+     "lxx_strong": "3956",
+     "morph": "Ncmsc",
+     "strong": "3605",
+     "text": "כָּל",
+     "translit": "kol-",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "the",
+     "gloss": "the",
+     "lemma": "הַ",
+     "lxx": "τὴν",
+     "lxx_strong": "3588",
+     "morph": "Td",
+     "strong": "1886a",
+     "text": "הָ",
+     "translit": "hā",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "land",
+     "gloss": "land",
+     "lemma": "אֶרֶץ",
+     "lxx": "γῆν",
+     "lxx_strong": "1093",
+     "morph": "Ncbsa",
+     "strong": "0776",
+     "text": "אָ֛רֶץ",
+     "translit": "ʾāreṣ",
+     "w": 4
+    },
+    {
+     "after": "־",
+     "english": "that",
+     "gloss": "which",
+     "lemma": "אֲשֶׁר",
+     "lxx": "ἣν",
+     "lxx_strong": "3739",
+     "morph": "Tr",
+     "strong": "0834",
+     "text": "אֲשֶׁר",
+     "translit": "ʾăšer-",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "you",
+     "gloss": "you",
+     "lemma": "אַתָּה",
+     "lxx": "σὺ",
+     "lxx_strong": "4771",
+     "morph": "Pp2ms",
+     "strong": "0859",
+     "text": "אַתָּ֥ה",
+     "translit": "ʾattāh",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "see",
+     "gloss": "[are].seeing",
+     "lemma": "רָאָה",
+     "lxx": "ὁρᾷς",
+     "lxx_strong": "",
+     "morph": "Vqrmsa",
+     "strong": "7200",
+     "text": "רֹאֶ֖ה",
+     "translit": "rōʾeh",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "you",
+     "gloss": "you",
+     "lemma": "הוּא",
+     "lxx": "σοὶ",
+     "lxx_strong": "4671",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ֣",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "give",
+     "gloss": "I",
+     "lemma": "נָתַן",
+     "lxx": "δώσω",
+     "lxx_strong": "1325",
+     "morph": "Vqi1cs",
+     "strong": "5414",
+     "text": "אֶתְּנֶ֑",
+     "translit": "",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "it",
+     "gloss": "will.give.it",
+     "lemma": "הוּא",
+     "lxx": "αὐτὴν",
+     "lxx_strong": "848",
+     "morph": "Sp3fs",
+     "strong": "5089a",
+     "text": "נָּה",
+     "translit": "",
+     "w": 9
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וּֽ",
+     "translit": "û",
+     "w": 10
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 10
+    },
+    {
+     "after": "",
+     "english": "offspring",
+     "gloss": "offspring",
+     "lemma": "זֶרַע",
+     "lxx": "σπέρματί",
+     "lxx_strong": "4690",
+     "morph": "Ncmsc",
+     "strong": "2233",
+     "text": "זַרְעֲ",
+     "translit": "",
+     "w": 10
+    },
+    {
+     "after": " ",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σου",
+     "lxx_strong": "4675",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ֖",
+     "translit": "",
+     "w": 10
+    },
+    {
+     "after": "־",
+     "english": "for",
+     "gloss": "until",
+     "lemma": "עַד",
+     "lxx": "ἕως",
+     "lxx_strong": "2193",
+     "morph": "R",
+     "strong": "5704",
+     "text": "עַד",
+     "translit": "ʿaḏ-",
+     "w": 11
+    },
+    {
+     "after": "׃",
+     "english": "ever",
+     "gloss": "perpetuity",
+     "lemma": "עוֹלָם",
+     "lxx": "αἰῶνος",
+     "lxx_strong": "165",
+     "morph": "Ncmsa",
+     "strong": "5769",
+     "text": "עוֹלָֽם",
+     "translit": "ʿôlām:",
+     "w": 12
+    }
+   ]
+  },
+  "kjv|EXO 12:40": {
+   "marked": "¶ Now the sojourning of the children of Israel, who dwelt in Egypt, [was] four hundred and thirty years.",
+   "text": "¶ Now the sojourning of the children of Israel, who dwelt in Egypt, was four hundred and thirty years."
+  },
+  "kjv|GAL 3:15": {
+   "marked": "Brethren, I speak after the manner of men; Though [it be] but a man’s covenant, yet [if it be] confirmed, no man disannulleth, or addeth thereto.",
+   "text": "Brethren, I speak after the manner of men; Though it be but a man’s covenant, yet if it be confirmed, no man disannulleth, or addeth thereto."
+  },
+  "kjv|GAL 3:16": {
+   "marked": "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.",
+   "text": "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ."
+  },
+  "kjv|GAL 3:17": {
+   "marked": "And this I say, [that] the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect.",
+   "text": "And this I say, that the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect."
+  },
+  "kjv|GAL 3:18": {
+   "marked": "For if the inheritance [be] of the law, [it is] no more of promise: but God gave [it] to Abraham by promise.",
+   "text": "For if the inheritance be of the law, it is no more of promise: but God gave it to Abraham by promise."
+  },
+  "kjv|GEN 13:15": {
+   "marked": "For all the land which thou seest, to thee will I give it, and to thy seed for ever.",
+   "text": "For all the land which thou seest, to thee will I give it, and to thy seed for ever."
+  },
+  "lat|EXO 12:40": {
+   "text": "Habitatio autem filiorum Israël qua manserunt in Ægypto, fuit quadringentorum triginta annorum."
+  },
+  "lat|GAL 3:15": {
+   "text": "Fratres (secundum hominem dico) tamen hominis confirmatum testamentum nemo spernit, aut superordinat."
+  },
+  "lat|GAL 3:16": {
+   "text": "Abrahæ dictæ sunt promissiones, et semini ejus. Non dicit: Et seminibus, quasi in multis: sed quasi in uno: Et semini tuo, qui est Christus."
+  },
+  "lat|GAL 3:17": {
+   "text": "Hoc autem dico, testamentum confirmatum a Deo: quæ post quadringentos et triginta annos facta est lex, non irritum facit ad evacuandam promissionem."
+  },
+  "lat|GAL 3:18": {
+   "text": "Nam si ex lege hæreditas, jam non ex promissione. Abrahæ autem per repromissionem donavit Deus."
+  },
+  "lat|GEN 13:15": {
+   "text": "Omnem terram, quam conspicis, tibi dabo, et semini tuo usque in sempiternum."
+  }
+ }
+}

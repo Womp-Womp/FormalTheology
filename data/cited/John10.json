@@ -1,0 +1,1038 @@
+{
+ "file": "lean/John10.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|JHN 10:33": {
+   "text": "“We are not stoning You for any good work,” said the Jews, “but for blasphemy, because You, who are a man, declare Yourself to be God.”"
+  },
+  "bsb|JHN 10:34": {
+   "text": "Jesus replied, “Is it not written in your Law: ‘I have said you are gods’?"
+  },
+  "bsb|JHN 10:35": {
+   "text": "If he called them gods to whom the word of God came—and the Scripture cannot be broken—"
+  },
+  "bsb|JHN 10:36": {
+   "text": "then what about the One whom the Father sanctified and sent into the world? How then can you accuse Me of blasphemy for stating that I am the Son of God?"
+  },
+  "bsb|PSA 82:6": {
+   "text": "I have said, ‘You are gods; you are all sons of the Most High.’"
+  },
+  "grc|JHN 10:33": {
+   "lemmas": [
+    "αὐτός",
+    "βλασφημία",
+    "εἰμί",
+    "θεός",
+    "καί",
+    "καλός",
+    "λιθάζω",
+    "οὐ",
+    "περί",
+    "ποιέω",
+    "σεαυτοῦ",
+    "σύ",
+    "ἀλλά",
+    "ἀποκρίνομαι",
+    "ἄνθρωπος",
+    "ἔργον",
+    "Ἰουδαῖος",
+    "ὁ",
+    "ὅτι"
+   ],
+   "text": "ἀπεκρίθησαν αὐτῷ οἱ Ἰουδαῖοι Περὶ καλοῦ ἔργου οὐ λιθάζομέν σε ἀλλὰ περὶ βλασφημίας,καὶ ὅτι σὺ ἄνθρωπος ὢν ποιεῖς σεαυτὸν Θεόν.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Answered",
+     "lemma": "ἀποκρίνομαι",
+     "ln": "33.184",
+     "morph": "V-ADI-3P",
+     "strong": "611",
+     "text": "ἀπεκρίθησαν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DSM",
+     "strong": "846",
+     "text": "αὐτῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NPM",
+     "strong": "3588",
+     "text": "οἱ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Jews",
+     "lemma": "Ἰουδαῖος",
+     "ln": "93.172",
+     "morph": "A-NPM",
+     "strong": "2453",
+     "text": "Ἰουδαῖοι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "For",
+     "lemma": "περί",
+     "ln": "89.36",
+     "morph": "PREP",
+     "strong": "4012",
+     "text": "Περὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a good",
+     "lemma": "καλός",
+     "ln": "88.4",
+     "morph": "A-GSN",
+     "strong": "2570",
+     "text": "καλοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "work",
+     "lemma": "ἔργον",
+     "ln": "42.11",
+     "morph": "N-GSN",
+     "strong": "2041",
+     "text": "ἔργου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "we do stone",
+     "lemma": "λιθάζω",
+     "ln": "20.79",
+     "morph": "V-PAI-1P",
+     "strong": "3034",
+     "text": "λιθάζομέν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "You",
+     "lemma": "σύ",
+     "ln": "92.6",
+     "morph": "P-2AS",
+     "strong": "4771",
+     "text": "σε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "but",
+     "lemma": "ἀλλά",
+     "ln": "89.125",
+     "morph": "CONJ",
+     "strong": "235",
+     "text": "ἀλλὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "περί",
+     "ln": "89.36",
+     "morph": "PREP",
+     "strong": "4012",
+     "text": "περὶ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "blasphemy",
+     "lemma": "βλασφημία",
+     "ln": "33.400",
+     "morph": "N-GSF",
+     "strong": "988",
+     "text": "βλασφημίας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "because",
+     "lemma": "ὅτι",
+     "ln": "89.33",
+     "morph": "CONJ",
+     "strong": "3754",
+     "text": "ὅτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "You",
+     "lemma": "σύ",
+     "ln": "92.6",
+     "morph": "P-2NS",
+     "strong": "4771",
+     "text": "σὺ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a man",
+     "lemma": "ἄνθρωπος",
+     "ln": "9.1",
+     "morph": "N-NSM",
+     "strong": "444",
+     "text": "ἄνθρωπος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "being",
+     "lemma": "εἰμί",
+     "ln": "13.1",
+     "morph": "V-PAP-NSM",
+     "strong": "1510",
+     "text": "ὢν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "make",
+     "lemma": "ποιέω",
+     "ln": "13.9",
+     "morph": "V-PAI-2S",
+     "strong": "4160",
+     "text": "ποιεῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "yourself",
+     "lemma": "σεαυτοῦ",
+     "ln": "92.10",
+     "morph": "F-2ASM",
+     "strong": "4572",
+     "text": "σεαυτὸν"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "God",
+     "lemma": "θεός",
+     "ln": "12.1",
+     "morph": "N-ASM",
+     "strong": "2316",
+     "text": "Θεόν"
+    }
+   ]
+  },
+  "grc|JHN 10:34": {
+   "lemmas": [
+    "αὐτός",
+    "γράφω",
+    "εἰμί",
+    "θεός",
+    "λέγω",
+    "νόμος",
+    "οὐ",
+    "σύ",
+    "ἀποκρίνομαι",
+    "ἐγώ",
+    "ἐν",
+    "Ἰησοῦς",
+    "ὁ",
+    "ὅτι"
+   ],
+   "text": "ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς Οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν ὅτι Ἐγὼ εἶπα Θεοί ἐστε;",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Answered",
+     "lemma": "ἀποκρίνομαι",
+     "ln": "33.28",
+     "morph": "V-ADI-3S",
+     "strong": "611",
+     "text": "ἀπεκρίθη"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "them",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DPM",
+     "strong": "846",
+     "text": "αὐτοῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Jesus",
+     "lemma": "Ἰησοῦς",
+     "ln": "93.169a",
+     "morph": "N-NSM",
+     "strong": "2424",
+     "text": "Ἰησοῦς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Not",
+     "lemma": "οὐ",
+     "ln": "69.11",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "Οὐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "is it",
+     "lemma": "εἰμί",
+     "ln": "",
+     "morph": "V-PAI-3S",
+     "strong": "1510",
+     "text": "ἔστιν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "written",
+     "lemma": "γράφω",
+     "ln": "33.54",
+     "morph": "V-RPP-NSN",
+     "strong": "1125",
+     "text": "γεγραμμένον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "90.23",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "law",
+     "lemma": "νόμος",
+     "ln": "33.56",
+     "morph": "N-DSM",
+     "strong": "3551",
+     "text": "νόμῳ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of you",
+     "lemma": "σύ",
+     "ln": "92.7",
+     "morph": "P-2GP",
+     "strong": "4771",
+     "text": "ὑμῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὅτι",
+     "ln": "90.21",
+     "morph": "CONJ",
+     "strong": "3754",
+     "text": "ὅτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "I",
+     "lemma": "ἐγώ",
+     "ln": "92.1",
+     "morph": "P-1NS",
+     "strong": "1473",
+     "text": "Ἐγὼ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "said",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-2AAI-1S",
+     "strong": "3004",
+     "text": "εἶπα"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "gods",
+     "lemma": "θεός",
+     "ln": "12.22",
+     "morph": "N-NPM",
+     "strong": "2316",
+     "text": "Θεοί"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "you are",
+     "lemma": "εἰμί",
+     "ln": "13.1",
+     "morph": "V-PAI-2P",
+     "strong": "1510",
+     "text": "ἐστε"
+    }
+   ]
+  },
+  "grc|JHN 10:35": {
+   "lemmas": [
+    "γίνομαι",
+    "γραφή",
+    "δύναμαι",
+    "εἰ",
+    "θεός",
+    "καί",
+    "λέγω",
+    "λόγος",
+    "λύω",
+    "οὐ",
+    "πρός",
+    "ἐκεῖνος",
+    "ὁ",
+    "ὅς"
+   ],
+   "text": "εἰ ἐκείνους εἶπεν θεοὺς πρὸς οὓς ὁ λόγος τοῦ Θεοῦ ἐγένετο,καὶ οὐ δύναται λυθῆναι ἡ γραφή,",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "If",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "them",
+     "lemma": "ἐκεῖνος",
+     "ln": "92.30",
+     "morph": "D-APM",
+     "strong": "1565",
+     "text": "ἐκείνους"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "he called",
+     "lemma": "λέγω",
+     "ln": "33.131",
+     "morph": "V-2AAI-3S",
+     "strong": "3004",
+     "text": "εἶπεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "gods",
+     "lemma": "θεός",
+     "ln": "12.22",
+     "morph": "N-APM",
+     "strong": "2316",
+     "text": "θεοὺς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to",
+     "lemma": "πρός",
+     "ln": "84.18",
+     "morph": "PREP",
+     "strong": "4314",
+     "text": "πρὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "whom",
+     "lemma": "ὅς",
+     "ln": "92.27",
+     "morph": "R-APM",
+     "strong": "3739",
+     "text": "οὓς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "word",
+     "lemma": "λόγος",
+     "ln": "33.260",
+     "morph": "N-NSM",
+     "strong": "3056",
+     "text": "λόγος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of God",
+     "lemma": "θεός",
+     "ln": "12.1",
+     "morph": "N-GSM",
+     "strong": "2316",
+     "text": "Θεοῦ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "came",
+     "lemma": "γίνομαι",
+     "ln": "15.1",
+     "morph": "V-2ADI-3S",
+     "strong": "1096",
+     "text": "ἐγένετο"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.93",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "is able",
+     "lemma": "δύναμαι",
+     "ln": "74.5",
+     "morph": "V-PNI-3S",
+     "strong": "1410",
+     "text": "δύναται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to be broken",
+     "lemma": "λύω",
+     "ln": "13.100",
+     "morph": "V-APN",
+     "strong": "3089",
+     "text": "λυθῆναι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "Scripture",
+     "lemma": "γραφή",
+     "ln": "33.53",
+     "morph": "N-NSF",
+     "strong": "1124",
+     "text": "γραφή"
+    }
+   ]
+  },
+  "grc|JHN 10:36": {
+   "lemmas": [
+    "βλασφημέω",
+    "εἰμί",
+    "εἰς",
+    "θεός",
+    "καί",
+    "κόσμος",
+    "λέγω",
+    "πατήρ",
+    "σύ",
+    "υἱός",
+    "ἀποστέλλω",
+    "ἁγιάζω",
+    "ὁ",
+    "ὅς",
+    "ὅτι"
+   ],
+   "text": "ὃν ὁ Πατὴρ ἡγίασεν καὶ ἀπέστειλεν εἰς τὸν κόσμον ὑμεῖς λέγετε ὅτι Βλασφημεῖς,ὅτι εἶπον Υἱὸς τοῦ Θεοῦ εἰμι;",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[of Him] whom",
+     "lemma": "ὅς",
+     "ln": "92.27",
+     "morph": "R-ASM",
+     "strong": "3739",
+     "text": "ὃν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Father",
+     "lemma": "πατήρ",
+     "ln": "12.12",
+     "morph": "N-NSM",
+     "strong": "3962",
+     "text": "Πατὴρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "sanctified",
+     "lemma": "ἁγιάζω",
+     "ln": "53.44 88.26",
+     "morph": "V-AAI-3S",
+     "strong": "37",
+     "text": "ἡγίασεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.87 89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "sent",
+     "lemma": "ἀποστέλλω",
+     "ln": "15.66",
+     "morph": "V-AAI-3S",
+     "strong": "649",
+     "text": "ἀπέστειλεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "into",
+     "lemma": "εἰς",
+     "ln": "84.22",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASM",
+     "strong": "3588",
+     "text": "τὸν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "world",
+     "lemma": "κόσμος",
+     "ln": "9.23",
+     "morph": "N-ASM",
+     "strong": "2889",
+     "text": "κόσμον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "you",
+     "lemma": "σύ",
+     "ln": "92.7",
+     "morph": "P-2NP",
+     "strong": "4771",
+     "text": "ὑμεῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "do say",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAI-2P",
+     "strong": "3004",
+     "text": "λέγετε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὅτι",
+     "ln": "90.21",
+     "morph": "CONJ",
+     "strong": "3754",
+     "text": "ὅτι"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "You blaspheme",
+     "lemma": "βλασφημέω",
+     "ln": "33.400",
+     "morph": "V-PAI-2S",
+     "strong": "987",
+     "text": "Βλασφημεῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "because",
+     "lemma": "ὅτι",
+     "ln": "89.33",
+     "morph": "CONJ",
+     "strong": "3754",
+     "text": "ὅτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "I said",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-2AAI-1S",
+     "strong": "3004",
+     "text": "εἶπον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Son",
+     "lemma": "υἱός",
+     "ln": "12.15",
+     "morph": "N-NSM",
+     "strong": "5207",
+     "text": "Υἱὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of God",
+     "lemma": "θεός",
+     "ln": "12.15",
+     "morph": "N-GSM",
+     "strong": "2316",
+     "text": "Θεοῦ"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "I am",
+     "lemma": "εἰμί",
+     "ln": "13.4",
+     "morph": "V-PAI-1S",
+     "strong": "1510",
+     "text": "εἰμι"
+    }
+   ]
+  },
+  "heb|PSA 82:6": {
+   "lemmas": [
+    "אֱלֹהִים",
+    "אֲנִי",
+    "אַתֶּם",
+    "אָמַר",
+    "בֵּן",
+    "הוּא",
+    "וְ",
+    "כֹּל",
+    "עֶלְיוֹן"
+   ],
+   "text": "אֲֽנִי־אָ֭מַרְתִּי אֱלֹהִ֣ים אַתֶּ֑ם וּבְנֵ֖י עֶלְי֣וֹן כֻּלְּכֶֽם׃",
+   "words": [
+    {
+     "after": "־",
+     "english": "I",
+     "gloss": "I",
+     "lemma": "אֲנִי",
+     "lxx": "ἐγὼ",
+     "lxx_strong": "1473",
+     "morph": "Pp1cs",
+     "strong": "0589",
+     "text": "אֲֽנִי",
+     "translit": "ʾănî-",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "said",
+     "gloss": "I.said",
+     "lemma": "אָמַר",
+     "lxx": "εἶπα",
+     "lxx_strong": "2036",
+     "morph": "Vqp1cs",
+     "strong": "0559",
+     "text": "אָ֭מַרְתִּי",
+     "translit": "ʾāmartî",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "gods",
+     "gloss": "[are].gods",
+     "lemma": "אֱלֹהִים",
+     "lxx": "θεοί",
+     "lxx_strong": "2316",
+     "morph": "Ncmpa",
+     "strong": "0430",
+     "text": "אֱלֹהִ֣ים",
+     "translit": "ʾĕlōhiym",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "you",
+     "gloss": "you",
+     "lemma": "אַתֶּם",
+     "lxx": "ἐστε",
+     "lxx_strong": "2075",
+     "morph": "Pp2mp",
+     "strong": "0859a",
+     "text": "אַתֶּ֑ם",
+     "translit": "ʾattem",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and.[are]",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וּ",
+     "translit": "û",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "sons",
+     "gloss": "the.children",
+     "lemma": "בֵּן",
+     "lxx": "υἱοὶ",
+     "lxx_strong": "5207",
+     "morph": "Ncmpc",
+     "strong": "1121",
+     "text": "בְנֵ֖י",
+     "translit": "ḇənēy",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "most high",
+     "gloss": "of.the.Most.High",
+     "lemma": "עֶלְיוֹן",
+     "lxx": "ὑψίστου",
+     "lxx_strong": "5310",
+     "morph": "Aamsa",
+     "strong": "5945a",
+     "text": "עֶלְי֣וֹן",
+     "translit": "ʿelyôn",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "all",
+     "gloss": "of.you",
+     "lemma": "כֹּל",
+     "lxx": "πάντες",
+     "lxx_strong": "3956",
+     "morph": "Ncmsc",
+     "strong": "3605",
+     "text": "כֻּלְּ",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": "׃",
+     "english": "you",
+     "gloss": "all",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp2mp",
+     "strong": "3641b",
+     "text": "כֶֽם",
+     "translit": "",
+     "w": 7
+    }
+   ]
+  },
+  "kjv|JHN 10:33": {
+   "marked": "The Jews answered him, saying, For a good work we stone thee not; but for blasphemy; and because that thou, being a man, makest thyself God.",
+   "text": "The Jews answered him, saying, For a good work we stone thee not; but for blasphemy; and because that thou, being a man, makest thyself God."
+  },
+  "kjv|JHN 10:34": {
+   "marked": "Jesus answered them, Is it not written in your law, I said, Ye are gods?",
+   "text": "Jesus answered them, Is it not written in your law, I said, Ye are gods?"
+  },
+  "kjv|JHN 10:35": {
+   "marked": "If he called them gods, unto whom the word of God came, and the scripture cannot be broken;",
+   "text": "If he called them gods, unto whom the word of God came, and the scripture cannot be broken;"
+  },
+  "kjv|JHN 10:36": {
+   "marked": "Say ye of him, whom the Father hath sanctified, and sent into the world, Thou blasphemest; because I said, I am the Son of God?",
+   "text": "Say ye of him, whom the Father hath sanctified, and sent into the world, Thou blasphemest; because I said, I am the Son of God?"
+  },
+  "kjv|PSA 82:6": {
+   "marked": "I have said, Ye [are] gods; and all of you [are] children of the most High.",
+   "text": "I have said, Ye are gods; and all of you are children of the most High."
+  },
+  "lat|JHN 10:33": {
+   "text": "Responderunt ei Judæi: De bono opere non lapidamus te, sed de blasphemia; et quia tu homo cum sis, facis teipsum Deum."
+  },
+  "lat|JHN 10:34": {
+   "text": "Respondit eis Jesus: Nonne scriptum est in lege vestra, Quia ego dixi: Dii estis?"
+  },
+  "lat|JHN 10:35": {
+   "text": "Si illos dixit deos, ad quos sermo Dei factus est, et non potest solvi Scriptura:"
+  },
+  "lat|JHN 10:36": {
+   "text": "quem Pater sanctificavit, et misit in mundum vos dicitis: Quia blasphemas, quia dixi: Filius Dei sum?"
+  },
+  "lat|PSA 81:6": {
+   "text": "Ego dixi: Dii estis, et filii Excelsi omnes."
+  },
+  "lat|PSA 82:6": {
+   "text": "Quoniam cogitaverunt unanimiter; simul adversum te testamentum disposuerunt:"
+  }
+ }
+}

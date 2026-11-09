@@ -1,0 +1,1693 @@
+{
+ "file": "lean/Hebrews4.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|HEB 4:6": {
+   "text": "Since, then, it remains for some to enter His rest, and since those who formerly heard the good news did not enter because of their disobedience,"
+  },
+  "bsb|HEB 4:7": {
+   "text": "God again designated a certain day as “Today,” when a long time later He spoke through David as was just stated: “Today, if you hear His voice, do not harden your hearts.”"
+  },
+  "bsb|HEB 4:8": {
+   "text": "For if Joshua had given them rest, God would not have spoken later about another day."
+  },
+  "bsb|HEB 4:9": {
+   "text": "There remains, then, a Sabbath rest for the people of God."
+  },
+  "bsb|JOS 21:44": {
+   "text": "And the LORD gave them rest on every side, just as He had sworn to their fathers. None of their enemies could stand against them, for the LORD delivered all their enemies into their hand."
+  },
+  "bsb|PSA 95:11": {
+   "text": "So I swore on oath in My anger, “They shall never enter My rest.”"
+  },
+  "bsb|PSA 95:7": {
+   "text": "For He is our God, and we are the people of His pasture, the sheep under His care. Today, if you hear His voice,"
+  },
+  "grc|HEB 4:6": {
+   "lemmas": [
+    "αὐτός",
+    "διά",
+    "εἰς",
+    "εἰσέρχομαι",
+    "εὐαγγελίζω",
+    "καί",
+    "οὐ",
+    "οὖν",
+    "πρότερος",
+    "τὶς",
+    "ἀπείθεια",
+    "ἀπολείπω",
+    "ἐπεί",
+    "ὁ"
+   ],
+   "text": "ἐπεὶ οὖν ἀπολείπεται τινὰς εἰσελθεῖν εἰς αὐτήν,καὶ οἱ πρότερον εὐαγγελισθέντες οὐκ εἰσῆλθον δι’ἀπείθειαν,",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Since",
+     "lemma": "ἐπεί",
+     "ln": "89.32",
+     "morph": "CONJ",
+     "strong": "1893",
+     "text": "ἐπεὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "therefore",
+     "lemma": "οὖν",
+     "ln": "89.50",
+     "morph": "CONJ",
+     "strong": "3767",
+     "text": "οὖν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "it remains [for]",
+     "lemma": "ἀπολείπω",
+     "ln": "13.140",
+     "morph": "V-PPI-3S",
+     "strong": "620",
+     "text": "ἀπολείπεται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "some",
+     "lemma": "τὶς",
+     "ln": "",
+     "morph": "X-APM",
+     "strong": "5100",
+     "text": "τινὰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to enter",
+     "lemma": "εἰσέρχομαι",
+     "ln": "15.93",
+     "morph": "V-2AAN",
+     "strong": "1525",
+     "text": "εἰσελθεῖν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "into",
+     "lemma": "εἰς",
+     "ln": "84.22",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "it",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-ASF",
+     "strong": "846",
+     "text": "αὐτήν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "those",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NPM",
+     "strong": "3588",
+     "text": "οἱ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "formerly",
+     "lemma": "πρότερος",
+     "ln": "67.18",
+     "morph": "ADV-C",
+     "strong": "4386",
+     "text": "πρότερον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having received the good news",
+     "lemma": "εὐαγγελίζω",
+     "ln": "33.215",
+     "morph": "V-APP-NPM",
+     "strong": "2097",
+     "text": "εὐαγγελισθέντες"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "did enter in",
+     "lemma": "εἰσέρχομαι",
+     "ln": "15.93",
+     "morph": "V-2AAI-3P",
+     "strong": "1525",
+     "text": "εἰσῆλθον"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "because of",
+     "lemma": "διά",
+     "ln": "89.26",
+     "morph": "PREP",
+     "strong": "1223",
+     "text": "δι"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "disobedience",
+     "lemma": "ἀπείθεια",
+     "ln": "31.107 36.23",
+     "morph": "N-ASF",
+     "strong": "543",
+     "text": "ἀπείθειαν"
+    }
+   ]
+  },
+  "grc|HEB 4:7": {
+   "lemmas": [
+    "Δαυίδ",
+    "αὐτός",
+    "καθώς",
+    "καρδία",
+    "λέγω",
+    "μή",
+    "μετά",
+    "πάλιν",
+    "προλέγω",
+    "σήμερον",
+    "σκληρύνω",
+    "σύ",
+    "τοσοῦτος",
+    "τὶς",
+    "φωνή",
+    "χρόνος",
+    "ἀκούω",
+    "ἐάν",
+    "ἐν",
+    "ἡμέρα",
+    "ὁ",
+    "ὁρίζω"
+   ],
+   "text": "πάλιν τινὰ ὁρίζει ἡμέραν,Σήμερον,ἐν Δαυεὶδ λέγων μετὰ τοσοῦτον χρόνον,καθὼς προείρηται Σήμερον ἐὰν τῆς φωνῆς αὐτοῦ ἀκούσητε,μὴ σκληρύνητε τὰς καρδίας ὑμῶν.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "again",
+     "lemma": "πάλιν",
+     "ln": "67.55",
+     "morph": "ADV",
+     "strong": "3825",
+     "text": "πάλιν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a certain",
+     "lemma": "τὶς",
+     "ln": "",
+     "morph": "X-ASF",
+     "strong": "5100",
+     "text": "τινὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "He appoints",
+     "lemma": "ὁρίζω",
+     "ln": "30.83",
+     "morph": "V-PAI-3S",
+     "strong": "3724",
+     "text": "ὁρίζει"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "day",
+     "lemma": "ἡμέρα",
+     "ln": "67.186",
+     "morph": "N-ASF",
+     "strong": "2250",
+     "text": "ἡμέραν"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "Today",
+     "lemma": "σήμερον",
+     "ln": "67.205",
+     "morph": "ADV",
+     "strong": "4594",
+     "text": "Σήμερον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "through",
+     "lemma": "ἐν",
+     "ln": "83.13 90.6",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "David",
+     "lemma": "Δαυίδ",
+     "ln": "93.91",
+     "morph": "N-PRI",
+     "strong": "1138",
+     "text": "Δαυεὶδ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "saying",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAP-NSM",
+     "strong": "3004",
+     "text": "λέγων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "after",
+     "lemma": "μετά",
+     "ln": "67.48",
+     "morph": "PREP",
+     "strong": "3326",
+     "text": "μετὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "so long",
+     "lemma": "τοσοῦτος",
+     "ln": "59.18",
+     "morph": "D-ASM",
+     "strong": "5118",
+     "text": "τοσοῦτον"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "a time",
+     "lemma": "χρόνος",
+     "ln": "67.78",
+     "morph": "N-ASM",
+     "strong": "5550",
+     "text": "χρόνον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "just as",
+     "lemma": "καθώς",
+     "ln": "64.14",
+     "morph": "ADV",
+     "strong": "2531",
+     "text": "καθὼς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "it has been said",
+     "lemma": "προλέγω",
+     "ln": "33.86",
+     "morph": "V-RPI-3S",
+     "strong": "4302",
+     "text": "προείρηται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Today",
+     "lemma": "σήμερον",
+     "ln": "67.205",
+     "morph": "ADV",
+     "strong": "4594",
+     "text": "Σήμερον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "ἐάν",
+     "ln": "",
+     "morph": "COND",
+     "strong": "1437",
+     "text": "ἐὰν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSF",
+     "strong": "3588",
+     "text": "τῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "voice",
+     "lemma": "φωνή",
+     "ln": "33.103",
+     "morph": "N-GSF",
+     "strong": "5456",
+     "text": "φωνῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of Him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-GSM",
+     "strong": "846",
+     "text": "αὐτοῦ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "you shall hear",
+     "lemma": "ἀκούω",
+     "ln": "24.52 31.56",
+     "morph": "V-AAS-2P",
+     "strong": "191",
+     "text": "ἀκούσητε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "μή",
+     "ln": "",
+     "morph": "PRT-N",
+     "strong": "3361",
+     "text": "μὴ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "harden",
+     "lemma": "σκληρύνω",
+     "ln": "88.226",
+     "morph": "V-PAS-2P",
+     "strong": "4645",
+     "text": "σκληρύνητε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-APF",
+     "strong": "3588",
+     "text": "τὰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "hearts",
+     "lemma": "καρδία",
+     "ln": "26.3",
+     "morph": "N-APF",
+     "strong": "2588",
+     "text": "καρδίας"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "of you",
+     "lemma": "σύ",
+     "ln": "",
+     "morph": "P-2GP",
+     "strong": "4771",
+     "text": "ὑμῶν"
+    }
+   ]
+  },
+  "grc|HEB 4:8": {
+   "lemmas": [
+    "αὐτός",
+    "γάρ",
+    "εἰ",
+    "καταπαύω",
+    "λαλέω",
+    "μετά",
+    "οὐ",
+    "οὗτος",
+    "περί",
+    "ἄλλος",
+    "ἄν",
+    "ἡμέρα",
+    "Ἰησοῦς"
+   ],
+   "text": "εἰ γὰρ αὐτοὺς Ἰησοῦς κατέπαυσεν,οὐκ ἂν περὶ ἄλλης ἐλάλει μετὰ ταῦτα ἡμέρας.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "If",
+     "lemma": "εἰ",
+     "ln": "",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "γάρ",
+     "ln": "89.23",
+     "morph": "CONJ",
+     "strong": "1063",
+     "text": "γὰρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to them",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-APM",
+     "strong": "846",
+     "text": "αὐτοὺς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Joshua",
+     "lemma": "Ἰησοῦς",
+     "ln": "93.169e",
+     "morph": "N-NSM",
+     "strong": "2424",
+     "text": "Ἰησοῦς"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "had given rest",
+     "lemma": "καταπαύω",
+     "ln": "23.85",
+     "morph": "V-AAI-3S",
+     "strong": "2664",
+     "text": "κατέπαυσεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ἄν",
+     "ln": "71.14",
+     "morph": "PRT",
+     "strong": "302",
+     "text": "ἂν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "about",
+     "lemma": "περί",
+     "ln": "89.6 90.24",
+     "morph": "PREP",
+     "strong": "4012",
+     "text": "περὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "another",
+     "lemma": "ἄλλος",
+     "ln": "58.37",
+     "morph": "A-GSF",
+     "strong": "243",
+     "text": "ἄλλης"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "He would have spoken",
+     "lemma": "λαλέω",
+     "ln": "33.70",
+     "morph": "V-IAI-3S",
+     "strong": "2980",
+     "text": "ἐλάλει"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "after",
+     "lemma": "μετά",
+     "ln": "67.48",
+     "morph": "PREP",
+     "strong": "3326",
+     "text": "μετὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "this",
+     "lemma": "οὗτος",
+     "ln": "",
+     "morph": "D-APN",
+     "strong": "3778",
+     "text": "ταῦτα"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "day",
+     "lemma": "ἡμέρα",
+     "ln": "67.186",
+     "morph": "N-GSF",
+     "strong": "2250",
+     "text": "ἡμέρας"
+    }
+   ]
+  },
+  "grc|HEB 4:9": {
+   "lemmas": [
+    "θεός",
+    "λαός",
+    "σαββατισμός",
+    "ἀπολείπω",
+    "ἄρα",
+    "ὁ"
+   ],
+   "text": "ἄρα ἀπολείπεται σαββατισμὸς τῷ λαῷ τοῦ Θεοῦ.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "So then",
+     "lemma": "ἄρα",
+     "ln": "89.46",
+     "morph": "PRT",
+     "strong": "686",
+     "text": "ἄρα"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "there remains",
+     "lemma": "ἀπολείπω",
+     "ln": "85.65",
+     "morph": "V-PPI-3S",
+     "strong": "620",
+     "text": "ἀπολείπεται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a Sabbath rest",
+     "lemma": "σαββατισμός",
+     "ln": "67.185",
+     "morph": "N-NSM",
+     "strong": "4520",
+     "text": "σαββατισμὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "people",
+     "lemma": "λαός",
+     "ln": "11.12",
+     "morph": "N-DSM",
+     "strong": "2992",
+     "text": "λαῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "of God",
+     "lemma": "θεός",
+     "ln": "12.1",
+     "morph": "N-GSM",
+     "strong": "2316",
+     "text": "Θεοῦ"
+    }
+   ]
+  },
+  "heb|JOS 21:44": {
+   "lemmas": [
+    "אֲשֶׁר",
+    "אִישׁ",
+    "אֵת",
+    "אָב",
+    "אָיַב",
+    "בְּ",
+    "הוּא",
+    "וְ",
+    "יָד",
+    "יהוה",
+    "כְּ",
+    "כֹּל",
+    "לְ",
+    "לֹא",
+    "מִן",
+    "נָתַן",
+    "נוּחַ",
+    "סָבִיב",
+    "עָמַד",
+    "פָּנֶה",
+    "שָׁבַע"
+   ],
+   "text": "וַיָּ֨נַח יְהוָ֤ה לָהֶם֙ מִסָּבִ֔יב כְּכֹ֥ל אֲשֶׁר־נִשְׁבַּ֖ע לַאֲבוֹתָ֑ם וְלֹא־עָ֨מַד אִ֤ישׁ בִּפְנֵיהֶם֙ מִכָּל־אֹ֣יְבֵיהֶ֔ם אֵ֚ת כָּל־אֹ֣יְבֵיהֶ֔ם נָתַ֥ן יְהוָ֖ה בְּיָדָֽם׃",
+   "words": [
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "gave ~ rest",
+     "gloss": "he.gave.rest",
+     "lemma": "נוּחַ",
+     "lxx": "κατέπαυσεν",
+     "lxx_strong": "2664",
+     "morph": "Vhw3ms",
+     "strong": "5117",
+     "text": "יָּ֨נַח",
+     "translit": "yyānaḥ",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "LORD",
+     "gloss": "Yahweh",
+     "lemma": "יהוה",
+     "lxx": "αὐτοὺς",
+     "lxx_strong": "848",
+     "morph": "Np",
+     "strong": "3068",
+     "text": "יְהוָ֤ה",
+     "translit": "yəhwāh",
+     "w": 2
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לָ",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "them",
+     "gloss": "them",
+     "lemma": "הוּא",
+     "lxx": "κύριος",
+     "lxx_strong": "2962",
+     "morph": "Sp3mp",
+     "strong": "3963a",
+     "text": "הֶם֙",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "on",
+     "gloss": "from",
+     "lemma": "מִן",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "4480",
+     "text": "מִ",
+     "translit": "mi",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "every side",
+     "gloss": "round.about",
+     "lemma": "סָבִיב",
+     "lxx": "κυκλόθεν",
+     "lxx_strong": "2943",
+     "morph": "Ncbsa",
+     "strong": "5439",
+     "text": "סָּבִ֔יב",
+     "translit": "ssāḇiyḇ",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "according to",
+     "gloss": "according",
+     "lemma": "כְּ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "3509a",
+     "text": "כְּ",
+     "translit": "kə",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "all",
+     "gloss": "to.all",
+     "lemma": "כֹּל",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncmsa",
+     "strong": "3605",
+     "text": "כֹ֥ל",
+     "translit": "ḵōl",
+     "w": 5
+    },
+    {
+     "after": "־",
+     "english": "that",
+     "gloss": "that",
+     "lemma": "אֲשֶׁר",
+     "lxx": "καθότι",
+     "lxx_strong": "2530",
+     "morph": "Tr",
+     "strong": "0834",
+     "text": "אֲשֶׁר",
+     "translit": "ʾăšer-",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "sworn",
+     "gloss": "he.had.sworn",
+     "lemma": "שָׁבַע",
+     "lxx": "ὤμοσεν",
+     "lxx_strong": "3660",
+     "morph": "VNp3ms",
+     "strong": "7650",
+     "text": "נִשְׁבַּ֖ע",
+     "translit": "nišbaʿ",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "τοῖς",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לַ",
+     "translit": "la",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "fathers",
+     "gloss": "ancestors",
+     "lemma": "אָב",
+     "lxx": "πατράσιν",
+     "lxx_strong": "3962",
+     "morph": "Ncmpc",
+     "strong": "0001",
+     "text": "אֲבוֹתָ֑",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "their",
+     "gloss": "their",
+     "lemma": "הוּא",
+     "lxx": "αὐτῶν",
+     "lxx_strong": "846",
+     "morph": "Sp3mp",
+     "strong": "3963a",
+     "text": "ם",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 9
+    },
+    {
+     "after": "־",
+     "english": "not",
+     "gloss": "not",
+     "lemma": "לֹא",
+     "lxx": "οὐκ",
+     "lxx_strong": "3756",
+     "morph": "Tn",
+     "strong": "3808",
+     "text": "לֹא",
+     "translit": "lōʾ-",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "withstood",
+     "gloss": "he.made.a.stand",
+     "lemma": "עָמַד",
+     "lxx": "ἀνέστη",
+     "lxx_strong": "450",
+     "morph": "Vqp3ms",
+     "strong": "5975",
+     "text": "עָ֨מַד",
+     "translit": "ʿāmaḏ",
+     "w": 10
+    },
+    {
+     "after": " ",
+     "english": "one",
+     "gloss": "anyone",
+     "lemma": "אִישׁ",
+     "lxx": "οὐθεὶς",
+     "lxx_strong": "3762",
+     "morph": "Ncmsa",
+     "strong": "0376",
+     "text": "אִ֤ישׁ",
+     "translit": "ʾiyš",
+     "w": 11
+    },
+    {
+     "after": "",
+     "english": "against",
+     "gloss": "in",
+     "lemma": "בְּ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בִּ",
+     "translit": "bi",
+     "w": 12
+    },
+    {
+     "after": "",
+     "english": "faces of",
+     "gloss": "faces",
+     "lemma": "פָּנֶה",
+     "lxx": "κατενώπιον",
+     "lxx_strong": "2714",
+     "morph": "Ncbpc",
+     "strong": "6440",
+     "text": "פְנֵי",
+     "translit": "",
+     "w": 12
+    },
+    {
+     "after": " ",
+     "english": "them",
+     "gloss": "their",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp3mp",
+     "strong": "3963a",
+     "text": "הֶם֙",
+     "translit": "",
+     "w": 12
+    },
+    {
+     "after": "",
+     "english": "of",
+     "gloss": "of",
+     "lemma": "מִן",
+     "lxx": "ἀπὸ",
+     "lxx_strong": "575",
+     "morph": "R",
+     "strong": "4480",
+     "text": "מִ",
+     "translit": "mi",
+     "w": 13
+    },
+    {
+     "after": "־",
+     "english": "all",
+     "gloss": "all",
+     "lemma": "כֹּל",
+     "lxx": "πάντων",
+     "lxx_strong": "3956",
+     "morph": "Ncmsc",
+     "strong": "3605",
+     "text": "כָּל",
+     "translit": "kol-",
+     "w": 13
+    },
+    {
+     "after": "",
+     "english": "enemies",
+     "gloss": "enemies",
+     "lemma": "אָיַב",
+     "lxx": "ἐξθρῶν",
+     "lxx_strong": "2190",
+     "morph": "Vqrmpc",
+     "strong": "0341",
+     "text": "אֹ֣יְבֵי",
+     "translit": "",
+     "w": 14
+    },
+    {
+     "after": " ",
+     "english": "their",
+     "gloss": "their",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp3mp",
+     "strong": "3963a",
+     "text": "הֶ֔ם",
+     "translit": "",
+     "w": 14
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "(et)",
+     "lemma": "אֵת",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "To",
+     "strong": "0853",
+     "text": "אֵ֚ת",
+     "translit": "ʾēṯ",
+     "w": 15
+    },
+    {
+     "after": "־",
+     "english": "all",
+     "gloss": "all",
+     "lemma": "כֹּל",
+     "lxx": "πάντας",
+     "lxx_strong": "3956",
+     "morph": "Ncmsc",
+     "strong": "3605",
+     "text": "כָּל",
+     "translit": "kol-",
+     "w": 16
+    },
+    {
+     "after": "",
+     "english": "enemies",
+     "gloss": "enemies",
+     "lemma": "אָיַב",
+     "lxx": "ἐξθροὺς",
+     "lxx_strong": "2190",
+     "morph": "Vqrmpc",
+     "strong": "0341",
+     "text": "אֹ֣יְבֵי",
+     "translit": "",
+     "w": 17
+    },
+    {
+     "after": " ",
+     "english": "their",
+     "gloss": "their",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp3mp",
+     "strong": "3963a",
+     "text": "הֶ֔ם",
+     "translit": "",
+     "w": 17
+    },
+    {
+     "after": " ",
+     "english": "given",
+     "gloss": "he.gave",
+     "lemma": "נָתַן",
+     "lxx": "παρέδωκεν",
+     "lxx_strong": "3860",
+     "morph": "Vqp3ms",
+     "strong": "5414",
+     "text": "נָתַ֥ן",
+     "translit": "nāṯan",
+     "w": 18
+    },
+    {
+     "after": " ",
+     "english": "LORD",
+     "gloss": "Yahweh",
+     "lemma": "יהוה",
+     "lxx": "κύριος",
+     "lxx_strong": "2962",
+     "morph": "Np",
+     "strong": "3068",
+     "text": "יְהוָ֖ה",
+     "translit": "yəhwāh",
+     "w": 19
+    },
+    {
+     "after": "",
+     "english": "into",
+     "gloss": "in",
+     "lemma": "בְּ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 20
+    },
+    {
+     "after": "",
+     "english": "hand",
+     "gloss": "hand",
+     "lemma": "יָד",
+     "lxx": "ξεῖρας",
+     "lxx_strong": "5495",
+     "morph": "Ncbsc",
+     "strong": "3027",
+     "text": "יָדָֽ",
+     "translit": "",
+     "w": 20
+    },
+    {
+     "after": "׃",
+     "english": "their",
+     "gloss": "their",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp3mp",
+     "strong": "3963a",
+     "text": "ם",
+     "translit": "",
+     "w": 20
+    }
+   ]
+  },
+  "heb|PSA 95:11": {
+   "lemmas": [
+    "אֲשֶׁר",
+    "אִם",
+    "אֶל",
+    "אַף",
+    "בְּ",
+    "בּוֹא",
+    "הוּא",
+    "מְנוּחָה",
+    "נ",
+    "שָׁבַע"
+   ],
+   "text": "אֲשֶׁר־נִשְׁבַּ֥עְתִּי בְאַפִּ֑י אִם־יְ֝בֹא֗וּן אֶל־מְנוּחָתִֽי׃",
+   "words": [
+    {
+     "after": "־",
+     "english": "therefore",
+     "gloss": "that",
+     "lemma": "אֲשֶׁר",
+     "lxx": "ὡς",
+     "lxx_strong": "5613",
+     "morph": "Tr",
+     "strong": "0834",
+     "text": "אֲשֶׁר",
+     "translit": "ʾăšer-",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "swore",
+     "gloss": "I.swore.an.oath",
+     "lemma": "שָׁבַע",
+     "lxx": "ὤμοσα",
+     "lxx_strong": "3660",
+     "morph": "VNp1cs",
+     "strong": "7650",
+     "text": "נִשְׁבַּ֥עְתִּי",
+     "translit": "nišbaʿətî",
+     "w": 2
+    },
+    {
+     "after": "",
+     "english": "in",
+     "gloss": "in",
+     "lemma": "בְּ",
+     "lxx": "ἐν",
+     "lxx_strong": "1722",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְ",
+     "translit": "ḇə",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "anger",
+     "gloss": "anger",
+     "lemma": "אַף",
+     "lxx": "ὀργῇ",
+     "lxx_strong": "3709",
+     "morph": "Ncmsc",
+     "strong": "0639",
+     "text": "אַפִּ֑",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "my",
+     "gloss": "my",
+     "lemma": "הוּא",
+     "lxx": "μου",
+     "lxx_strong": "3450",
+     "morph": "Sp1cs",
+     "strong": "2967a",
+     "text": "י",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": "־",
+     "english": "not",
+     "gloss": "if",
+     "lemma": "אִם",
+     "lxx": "εἰ",
+     "lxx_strong": "1487",
+     "morph": "C",
+     "strong": "0518",
+     "text": "אִם",
+     "translit": "ʾim-",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "enter",
+     "gloss": "they",
+     "lemma": "בּוֹא",
+     "lxx": "εἰσελεύσονται",
+     "lxx_strong": "1525",
+     "morph": "Vqi3mp",
+     "strong": "0935",
+     "text": "יְ֝בֹא֗וּ",
+     "translit": "",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "will.go",
+     "lemma": "נ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sn",
+     "strong": "4993b",
+     "text": "ן",
+     "translit": "",
+     "w": 5
+    },
+    {
+     "after": "־",
+     "english": "into",
+     "gloss": "into",
+     "lemma": "אֶל",
+     "lxx": "εἰς",
+     "lxx_strong": "1519",
+     "morph": "R",
+     "strong": "0413",
+     "text": "אֶל",
+     "translit": "ʾel-",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "rest",
+     "gloss": "rest",
+     "lemma": "מְנוּחָה",
+     "lxx": "κατάπαυσίν",
+     "lxx_strong": "2663",
+     "morph": "Ncbsc",
+     "strong": "4496",
+     "text": "מְנוּחָתִֽ",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": "׃",
+     "english": "my",
+     "gloss": "my",
+     "lemma": "הוּא",
+     "lxx": "μου",
+     "lxx_strong": "3450",
+     "morph": "Sp1cs",
+     "strong": "2967a",
+     "text": "י",
+     "translit": "",
+     "w": 7
+    }
+   ]
+  },
+  "heb|PSA 95:7": {
+   "lemmas": [
+    "אֱלֹהִים",
+    "אֲנַחְנוּ",
+    "אִם",
+    "בְּ",
+    "הַ",
+    "הוּא",
+    "וְ",
+    "יָד",
+    "יוֹם",
+    "כִּי",
+    "מַרְעִית",
+    "עַם",
+    "צֹאן",
+    "קוֹל",
+    "שָׁמַע"
+   ],
+   "text": "כִּ֘י ה֤וּא אֱלֹהֵ֗ינוּ וַאֲנַ֤חְנוּ עַ֣ם מַ֭רְעִיתוֹ וְצֹ֣אן יָד֑וֹ הַ֝יּ֗וֹם אִֽם־בְּקֹל֥וֹ תִשְׁמָֽעוּ׃",
+   "words": [
+    {
+     "after": " ",
+     "english": "for",
+     "gloss": "(dm)",
+     "lemma": "כִּי",
+     "lxx": "ὅτι",
+     "lxx_strong": "3754",
+     "morph": "C",
+     "strong": "3588",
+     "text": "כִּ֘י",
+     "translit": "kiy",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "he",
+     "gloss": "he",
+     "lemma": "הוּא",
+     "lxx": "αὐτός",
+     "lxx_strong": "846",
+     "morph": "Pp3ms",
+     "strong": "1931",
+     "text": "ה֤וּא",
+     "translit": "hûʾ",
+     "w": 2
+    },
+    {
+     "after": "",
+     "english": "God",
+     "gloss": "God",
+     "lemma": "אֱלֹהִים",
+     "lxx": "θεὸς",
+     "lxx_strong": "2316",
+     "morph": "Ncmpc",
+     "strong": "0430",
+     "text": "אֱלֹהֵ֗י",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "our",
+     "gloss": "[is].our",
+     "lemma": "הוּא",
+     "lxx": "ἡμῶν",
+     "lxx_strong": "2257",
+     "morph": "Sp1cp",
+     "strong": "5105a",
+     "text": "נוּ",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "we",
+     "gloss": "we",
+     "lemma": "אֲנַחְנוּ",
+     "lxx": "ἡμεῖς",
+     "lxx_strong": "2249",
+     "morph": "Pp1cp",
+     "strong": "0587",
+     "text": "אֲנַ֤חְנוּ",
+     "translit": "ʾănaḥənû",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "people",
+     "gloss": "[are].the.people",
+     "lemma": "עַם",
+     "lxx": "λαὸς",
+     "lxx_strong": "2992",
+     "morph": "Ncmsc",
+     "strong": "5971",
+     "text": "עַ֣ם",
+     "translit": "ʿam",
+     "w": 5
+    },
+    {
+     "after": "",
+     "english": "pasture",
+     "gloss": "his.pasture",
+     "lemma": "מַרְעִית",
+     "lxx": "νομῆς",
+     "lxx_strong": "",
+     "morph": "Ncfsc",
+     "strong": "4830",
+     "text": "מַ֭רְעִית",
+     "translit": "",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "his",
+     "gloss": "his",
+     "lemma": "הוּא",
+     "lxx": "αὐτοῦ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "sheep",
+     "gloss": "the.flock",
+     "lemma": "צֹאן",
+     "lxx": "πρόβατα",
+     "lxx_strong": "4263",
+     "morph": "Ncbsc",
+     "strong": "6629",
+     "text": "צֹ֣אן",
+     "translit": "ṣōʾn",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "hand",
+     "gloss": "his.hand",
+     "lemma": "יָד",
+     "lxx": "ξειρὸς",
+     "lxx_strong": "5495",
+     "morph": "Ncbsc",
+     "strong": "3027",
+     "text": "יָד֑",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "his",
+     "gloss": "his",
+     "lemma": "הוּא",
+     "lxx": "αὐτοῦ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "the",
+     "gloss": "this",
+     "lemma": "הַ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Td",
+     "strong": "1886a",
+     "text": "הַ֝",
+     "translit": "ha",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "day",
+     "gloss": "day",
+     "lemma": "יוֹם",
+     "lxx": "σήμερον",
+     "lxx_strong": "4594",
+     "morph": "Ncmsa",
+     "strong": "3117",
+     "text": "יּ֗וֹם",
+     "translit": "yyôm",
+     "w": 9
+    },
+    {
+     "after": "־",
+     "english": "if",
+     "gloss": "if",
+     "lemma": "אִם",
+     "lxx": "ἐὰν",
+     "lxx_strong": "1437",
+     "morph": "C",
+     "strong": "0518",
+     "text": "אִֽם",
+     "translit": "ʾim-",
+     "w": 10
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "בְּ",
+     "lxx": "τῆς",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 11
+    },
+    {
+     "after": "",
+     "english": "voice",
+     "gloss": "voice",
+     "lemma": "קוֹל",
+     "lxx": "φωνῆς",
+     "lxx_strong": "5456",
+     "morph": "Ncmsc",
+     "strong": "6963",
+     "text": "קֹל֥",
+     "translit": "",
+     "w": 11
+    },
+    {
+     "after": " ",
+     "english": "his",
+     "gloss": "his",
+     "lemma": "הוּא",
+     "lxx": "αὐτοῦ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 11
+    },
+    {
+     "after": "׃",
+     "english": "hear",
+     "gloss": "you.will.listen",
+     "lemma": "שָׁמַע",
+     "lxx": "ἀκούσητε",
+     "lxx_strong": "191",
+     "morph": "Vqi2mp",
+     "strong": "8085",
+     "text": "תִשְׁמָֽעוּ",
+     "translit": "ṯišmāʿû:",
+     "w": 12
+    }
+   ]
+  },
+  "kjv|HEB 4:6": {
+   "marked": "Seeing therefore it remaineth that some must enter therein, and they to whom it was first preached entered not in because of unbelief:",
+   "text": "Seeing therefore it remaineth that some must enter therein, and they to whom it was first preached entered not in because of unbelief:"
+  },
+  "kjv|HEB 4:7": {
+   "marked": "Again, he limiteth a certain day, saying in David, To day, after so long a time; as it is said, To day if ye will hear his voice, harden not your hearts.",
+   "text": "Again, he limiteth a certain day, saying in David, To day, after so long a time; as it is said, To day if ye will hear his voice, harden not your hearts."
+  },
+  "kjv|HEB 4:8": {
+   "marked": "For if Jesus had given them rest, then would he not afterward have spoken of another day.",
+   "text": "For if Jesus had given them rest, then would he not afterward have spoken of another day."
+  },
+  "kjv|HEB 4:9": {
+   "marked": "There remaineth therefore a rest to the people of God.",
+   "text": "There remaineth therefore a rest to the people of God."
+  },
+  "kjv|JOS 21:44": {
+   "marked": "And the LORD gave them rest round about, according to all that he sware unto their fathers: and there stood not a man of all their enemies before them; the LORD delivered all their enemies into their hand.",
+   "text": "And the LORD gave them rest round about, according to all that he sware unto their fathers: and there stood not a man of all their enemies before them; the LORD delivered all their enemies into their hand."
+  },
+  "kjv|PSA 95:11": {
+   "marked": "Unto whom I sware in my wrath that they should not enter into my rest.",
+   "text": "Unto whom I sware in my wrath that they should not enter into my rest."
+  },
+  "kjv|PSA 95:7": {
+   "marked": "For he [is] our God; and we [are] the people of his pasture, and the sheep of his hand. To day if ye will hear his voice,",
+   "text": "For he is our God; and we are the people of his pasture, and the sheep of his hand. To day if ye will hear his voice,"
+  },
+  "lat|HEB 4:6": {
+   "text": "Quoniam ergo superest introire quosdam in illam, et ii, quibus prioribus annuntiatum est, non introierunt propter incredulitatem:"
+  },
+  "lat|HEB 4:7": {
+   "text": "iterum terminat diem quemdam, Hodie, in David dicendo, post tantum temporis, sicut supra dictum est: Hodie si vocem ejus audieritis, nolite obdurare corda vestra."
+  },
+  "lat|HEB 4:8": {
+   "text": "Nam si eis Jesus requiem præstitisset, numquam de alia loqueretur, posthac, die."
+  },
+  "lat|HEB 4:9": {
+   "text": "Itaque relinquitur sabbatismus populo Dei."
+  },
+  "lat|JOS 21:42": {
+   "text": "Dataque est ab eo pax in omnes per circuitum nationes: nullusque eis hostium resistere ausus est, sed cuncti in eorum ditionem redacti sunt."
+  },
+  "lat|PSA 94:11": {
+   "text": "Et isti non cognoverunt vias meas: ut juravi in ira mea: Si introibunt in requiem meam.]"
+  },
+  "lat|PSA 94:8": {
+   "text": "Hodie si vocem ejus audieritis, nolite obdurare corda vestra"
+  },
+  "lat|PSA 95:11": {
+   "text": "Lætentur cæli, et exsultet terra; commoveatur mare et plenitudo ejus;"
+  },
+  "lat|PSA 95:7": {
+   "text": "Afferte Domino, patriæ gentium, afferte Domino gloriam et honorem;"
+  }
+ }
+}

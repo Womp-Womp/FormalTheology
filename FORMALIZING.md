@@ -47,6 +47,8 @@ Every `axiom` gets a doc comment with exactly one tag.
 - Hebrew Malachi has 3 chapters (English 4:1–6 = Hebrew 3:19–24); Hebrew Joel has 4.
 Always confirm with `show.py --heb "…"` or `--vul "…"` before citing.
 
+**Context quotes.** The `TAG@REF` form may also quote a neighboring verse when a premise's referents are set up there (Hebrews 7:10's "he" and "his father" are named in 7:9). Use it sparingly and say why in the comment; the required four quotes still come from the premise's own verse.
+
 ## What a premise may say
 
 The Lean statement of a `@cite` axiom must say **no more than its quotes**. If the verse says "if A then B", the axiom is `A → B`, not `A ↔ B`. If you need the converse, the contrapositive in a stronger form, an identification of two different words, a temporal ordering the text implies, or a general rule drawn from a particular case, that is an `@interpretive` axiom, and the receipts will show it.

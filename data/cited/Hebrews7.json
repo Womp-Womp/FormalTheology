@@ -1,0 +1,1857 @@
+{
+ "file": "lean/Hebrews7.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|GEN 14:18": {
+   "text": "Then Melchizedek king of Salem brought out bread and wine—since he was priest of God Most High —"
+  },
+  "bsb|GEN 14:19": {
+   "text": "and he blessed Abram and said: “Blessed be Abram by God Most High, Creator of heaven and earth,"
+  },
+  "bsb|GEN 14:20": {
+   "text": "and blessed be God Most High, who has delivered your enemies into your hand.” Then Abram gave Melchizedek a tenth of everything."
+  },
+  "bsb|GEN 17:5": {
+   "text": "No longer will you be called Abram, but your name will be Abraham, for I have made you a father of many nations."
+  },
+  "bsb|HEB 7:1": {
+   "text": "This Melchizedek was king of Salem and priest of God Most High. He met Abraham returning from the slaughter of the kings and blessed him,"
+  },
+  "bsb|HEB 7:10": {
+   "text": "For when Melchizedek met Abraham, Levi was still in the loin of his ancestor."
+  },
+  "bsb|HEB 7:4": {
+   "text": "Consider how great Melchizedek was: Even the patriarch Abraham gave him a tenth of the plunder."
+  },
+  "bsb|HEB 7:7": {
+   "text": "And indisputably, the lesser is blessed by the greater."
+  },
+  "bsb|HEB 7:9": {
+   "text": "And so to speak, Levi, who collects the tenth, paid the tenth through Abraham."
+  },
+  "grc|HEB 7:1": {
+   "lemmas": [
+    "Μελχισέδεκ",
+    "Σαλήμ",
+    "αὐτός",
+    "βασιλεύς",
+    "γάρ",
+    "εὐλογέω",
+    "θεός",
+    "καί",
+    "κοπή",
+    "οὗτος",
+    "συναντάω",
+    "ἀπό",
+    "Ἀβραάμ",
+    "ἱερεύς",
+    "ὁ",
+    "ὑποστρέφω",
+    "ὕψιστος"
+   ],
+   "text": "Οὗτος γὰρ ὁ Μελχισέδεκ,βασιλεὺς Σαλήμ,ἱερεὺς τοῦ Θεοῦ τοῦ Ὑψίστου,ὁ συναντήσας Ἀβραὰμ ὑποστρέφοντι ἀπὸ τῆς κοπῆς τῶν βασιλέων καὶ εὐλογήσας αὐτόν,",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "This",
+     "lemma": "οὗτος",
+     "ln": "",
+     "morph": "D-NSM",
+     "strong": "3778",
+     "text": "Οὗτος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "γάρ",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "1063",
+     "text": "γὰρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "Melchizedek",
+     "lemma": "Μελχισέδεκ",
+     "ln": "93.261",
+     "morph": "N-PRI",
+     "strong": "3198",
+     "text": "Μελχισέδεκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "King",
+     "lemma": "βασιλεύς",
+     "ln": "37.67",
+     "morph": "N-NSM",
+     "strong": "935",
+     "text": "βασιλεὺς"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "of Salem",
+     "lemma": "Σαλήμ",
+     "ln": "93.321 93.566",
+     "morph": "N-PRI",
+     "strong": "4532",
+     "text": "Σαλήμ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "priest",
+     "lemma": "ἱερεύς",
+     "ln": "53.87",
+     "morph": "N-NSM",
+     "strong": "2409",
+     "text": "ἱερεὺς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of God",
+     "lemma": "θεός",
+     "ln": "12.1",
+     "morph": "N-GSM",
+     "strong": "2316",
+     "text": "Θεοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "Most High",
+     "lemma": "ὕψιστος",
+     "ln": "12.4",
+     "morph": "A-GSM-S",
+     "strong": "5310",
+     "text": "Ὑψίστου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having met",
+     "lemma": "συναντάω",
+     "ln": "13.120",
+     "morph": "V-AAP-NSM",
+     "strong": "4876",
+     "text": "συναντήσας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραὰμ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "returning",
+     "lemma": "ὑποστρέφω",
+     "ln": "15.88",
+     "morph": "V-PAP-DSM",
+     "strong": "5290",
+     "text": "ὑποστρέφοντι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "from",
+     "lemma": "ἀπό",
+     "ln": "84.3",
+     "morph": "PREP",
+     "strong": "575",
+     "text": "ἀπὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSF",
+     "strong": "3588",
+     "text": "τῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "slaughter",
+     "lemma": "κοπή",
+     "ln": "20.74",
+     "morph": "N-GSF",
+     "strong": "2871",
+     "text": "κοπῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GPM",
+     "strong": "3588",
+     "text": "τῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "kings",
+     "lemma": "βασιλεύς",
+     "ln": "37.67",
+     "morph": "N-GPM",
+     "strong": "935",
+     "text": "βασιλέων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having blessed",
+     "lemma": "εὐλογέω",
+     "ln": "33.470",
+     "morph": "V-AAP-NSM",
+     "strong": "2127",
+     "text": "εὐλογήσας"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-ASM",
+     "strong": "846",
+     "text": "αὐτόν"
+    }
+   ]
+  },
+  "grc|HEB 7:10": {
+   "lemmas": [
+    "Μελχισέδεκ",
+    "αὐτός",
+    "γάρ",
+    "εἰμί",
+    "πατήρ",
+    "συναντάω",
+    "ἐν",
+    "ἔτι",
+    "ὀσφῦς",
+    "ὁ",
+    "ὅτε"
+   ],
+   "text": "ἔτι γὰρ ἐν τῇ ὀσφύϊ τοῦ πατρὸς ἦν ὅτε συνήντησεν αὐτῷ Μελχισέδεκ.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Still",
+     "lemma": "ἔτι",
+     "ln": "67.128",
+     "morph": "ADV",
+     "strong": "2089",
+     "text": "ἔτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "γάρ",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "1063",
+     "text": "γὰρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "83.13",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSF",
+     "strong": "3588",
+     "text": "τῇ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "loin",
+     "lemma": "ὀσφῦς",
+     "ln": "8.43",
+     "morph": "N-DSF",
+     "strong": "3751",
+     "text": "ὀσφύϊ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of [his]",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "father",
+     "lemma": "πατήρ",
+     "ln": "10.20",
+     "morph": "N-GSM",
+     "strong": "3962",
+     "text": "πατρὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "he was",
+     "lemma": "εἰμί",
+     "ln": "",
+     "morph": "V-IAI-3S",
+     "strong": "1510",
+     "text": "ἦν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "when",
+     "lemma": "ὅτε",
+     "ln": "",
+     "morph": "ADV",
+     "strong": "3753",
+     "text": "ὅτε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "met",
+     "lemma": "συναντάω",
+     "ln": "13.120",
+     "morph": "V-AAI-3S",
+     "strong": "4876",
+     "text": "συνήντησεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DSM",
+     "strong": "846",
+     "text": "αὐτῷ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "Melchizedek",
+     "lemma": "Μελχισέδεκ",
+     "ln": "93.261",
+     "morph": "N-PRI",
+     "strong": "3198",
+     "text": "Μελχισέδεκ"
+    }
+   ]
+  },
+  "grc|HEB 7:4": {
+   "lemmas": [
+    "δέ",
+    "δέκατος",
+    "δίδωμι",
+    "θεωρέω",
+    "οὗτος",
+    "πατριάρχης",
+    "πηλίκος",
+    "ἀκροθίνιον",
+    "Ἀβραάμ",
+    "ἐκ",
+    "ὁ",
+    "ὅς"
+   ],
+   "text": "Θεωρεῖτε δὲ πηλίκος οὗτος ᾧ δεκάτην Ἀβραὰμ ἔδωκεν ἐκ τῶν ἀκροθινίων ὁ πατριάρχης.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Consider",
+     "lemma": "θεωρέω",
+     "ln": "32.11",
+     "morph": "V-PAM-2P",
+     "strong": "2334",
+     "text": "Θεωρεῖτε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "now",
+     "lemma": "δέ",
+     "ln": "89.94",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "how great",
+     "lemma": "πηλίκος",
+     "ln": "87.32",
+     "morph": "A-NSM",
+     "strong": "4080",
+     "text": "πηλίκος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "this one [was]",
+     "lemma": "οὗτος",
+     "ln": "",
+     "morph": "D-NSM",
+     "strong": "3778",
+     "text": "οὗτος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to whom",
+     "lemma": "ὅς",
+     "ln": "",
+     "morph": "R-DSM",
+     "strong": "3739",
+     "text": "ᾧ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a tenth",
+     "lemma": "δέκατος",
+     "ln": "60.66",
+     "morph": "A-ASF",
+     "strong": "1181",
+     "text": "δεκάτην"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραὰμ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "gave",
+     "lemma": "δίδωμι",
+     "ln": "",
+     "morph": "V-AAI-3S",
+     "strong": "1325",
+     "text": "ἔδωκεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "out of",
+     "lemma": "ἐκ",
+     "ln": "63.20",
+     "morph": "PREP",
+     "strong": "1537",
+     "text": "ἐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GPN",
+     "strong": "3588",
+     "text": "τῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "best spoils",
+     "lemma": "ἀκροθίνιον",
+     "ln": "57.244",
+     "morph": "N-GPN",
+     "strong": "205",
+     "text": "ἀκροθινίων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "patriarch",
+     "lemma": "πατριάρχης",
+     "ln": "10.22",
+     "morph": "N-NSM",
+     "strong": "3966",
+     "text": "πατριάρχης"
+    }
+   ]
+  },
+  "grc|HEB 7:7": {
+   "lemmas": [
+    "δέ",
+    "εὐλογέω",
+    "κρείττων",
+    "πᾶς",
+    "χωρίς",
+    "ἀντιλογία",
+    "ἐλάσσων",
+    "ὁ",
+    "ὑπό"
+   ],
+   "text": "χωρὶς δὲ πάσης ἀντιλογίας τὸ ἔλαττον ὑπὸ τοῦ κρείττονος εὐλογεῖται.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Apart from",
+     "lemma": "χωρίς",
+     "ln": "89.120",
+     "morph": "ADV",
+     "strong": "5565",
+     "text": "χωρὶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "now",
+     "lemma": "δέ",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "1161",
+     "text": "δὲ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "all",
+     "lemma": "πᾶς",
+     "ln": "59.23",
+     "morph": "A-GSF",
+     "strong": "3956",
+     "text": "πάσης"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "dispute",
+     "lemma": "ἀντιλογία",
+     "ln": "33.445 33.456",
+     "morph": "N-GSF",
+     "strong": "485",
+     "text": "ἀντιλογίας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSN",
+     "strong": "3588",
+     "text": "τὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "inferior",
+     "lemma": "ἐλάσσων",
+     "ln": "87.67",
+     "morph": "A-NSN",
+     "strong": "1640",
+     "text": "ἔλαττον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "by",
+     "lemma": "ὑπό",
+     "ln": "90.1",
+     "morph": "PREP",
+     "strong": "5259",
+     "text": "ὑπὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "superior",
+     "lemma": "κρείττων",
+     "ln": "87.28",
+     "morph": "A-GSM-C",
+     "strong": "2909",
+     "text": "κρείττονος"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "is blessed",
+     "lemma": "εὐλογέω",
+     "ln": "33.470",
+     "morph": "V-PPI-3S",
+     "strong": "2127",
+     "text": "εὐλογεῖται"
+    }
+   ]
+  },
+  "grc|HEB 7:9": {
+   "lemmas": [
+    "Λευί",
+    "δέκατος",
+    "δεκατόω",
+    "διά",
+    "καί",
+    "λέγω",
+    "λαμβάνω",
+    "Ἀβραάμ",
+    "ἔπος",
+    "ὁ",
+    "ὡς"
+   ],
+   "text": "καὶ ὡς ἔπος εἰπεῖν,δι’Ἀβραὰμ καὶ Λευεὶς ὁ δεκάτας λαμβάνων δεδεκάτωται·",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "so",
+     "lemma": "ὡς",
+     "ln": "33.139",
+     "morph": "ADV",
+     "strong": "5613",
+     "text": "ὡς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a word",
+     "lemma": "ἔπος",
+     "ln": "33.139",
+     "morph": "N-ASN",
+     "strong": "2031",
+     "text": "ἔπος"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "to speak",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-2AAN",
+     "strong": "3004",
+     "text": "εἰπεῖν"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "through",
+     "lemma": "διά",
+     "ln": "90.4",
+     "morph": "PREP",
+     "strong": "1223",
+     "text": "δι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραὰμ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "also",
+     "lemma": "καί",
+     "ln": "89.93",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Levi",
+     "lemma": "Λευί",
+     "ln": "93.231b",
+     "morph": "N-NSM",
+     "strong": "3017",
+     "text": "Λευεὶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the [one]",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "tithes",
+     "lemma": "δέκατος",
+     "ln": "60.66",
+     "morph": "A-APF",
+     "strong": "1181",
+     "text": "δεκάτας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "receiving",
+     "lemma": "λαμβάνω",
+     "ln": "57.65",
+     "morph": "V-PAP-NSM",
+     "strong": "2983",
+     "text": "λαμβάνων"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "paid the tithe",
+     "lemma": "δεκατόω",
+     "ln": "57.114",
+     "morph": "V-RPI-3S",
+     "strong": "1183",
+     "text": "δεδεκάτωται"
+    }
+   ]
+  },
+  "heb|GEN 14:18": {
+   "lemmas": [
+    "אֵל",
+    "הוּא",
+    "וְ",
+    "יַיִן",
+    "יָצָא",
+    "כֹּהֵן",
+    "לְ",
+    "לֶחֶם",
+    "מֶלֶךְ",
+    "מַלְכִּי צֶדֶק",
+    "מַלְכִּיצֶדֶק",
+    "עֶלְיוֹן",
+    "שָׁלֵם"
+   ],
+   "text": "וּמַלְכִּי־צֶ֨דֶק֙ מֶ֣לֶךְ שָׁלֵ֔ם הוֹצִ֖יא לֶ֣חֶם וָיָ֑יִן וְה֥וּא כֹהֵ֖ן לְאֵ֥ל עֶלְיֽוֹן׃",
+   "words": [
+    {
+     "after": "",
+     "english": "then",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וּ",
+     "translit": "û",
+     "w": 1
+    },
+    {
+     "after": "־",
+     "english": "",
+     "gloss": "Melchizedek",
+     "lemma": "מַלְכִּי צֶדֶק",
+     "lxx": "μελξισεδεκ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "4442",
+     "text": "מַלְכִּי",
+     "translit": "",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Melchizedek",
+     "lemma": "מַלְכִּיצֶדֶק",
+     "lxx": "μελξισεδεκ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "4442",
+     "text": "צֶ֨דֶק֙",
+     "translit": "",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "king",
+     "gloss": "the.king",
+     "lemma": "מֶלֶךְ",
+     "lxx": "βασιλεὺς",
+     "lxx_strong": "935",
+     "morph": "Ncmsc",
+     "strong": "4428",
+     "text": "מֶ֣לֶךְ",
+     "translit": "meleḵ",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "Salem",
+     "gloss": "of.Salem",
+     "lemma": "שָׁלֵם",
+     "lxx": "σαλημ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "8004",
+     "text": "שָׁלֵ֔ם",
+     "translit": "šālēm",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "brought out",
+     "gloss": "he.brought.out",
+     "lemma": "יָצָא",
+     "lxx": "ἐχήνεγκεν",
+     "lxx_strong": "1627",
+     "morph": "Vhp3ms",
+     "strong": "3318",
+     "text": "הוֹצִ֖יא",
+     "translit": "hôṣiyʾ",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "bread",
+     "gloss": "bread",
+     "lemma": "לֶחֶם",
+     "lxx": "ἄρτους",
+     "lxx_strong": "740",
+     "morph": "Ncbsa",
+     "strong": "3899",
+     "text": "לֶ֣חֶם",
+     "translit": "leḥem",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וָ",
+     "translit": "wā",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "wine",
+     "gloss": "wine",
+     "lemma": "יַיִן",
+     "lxx": "οἶνον",
+     "lxx_strong": "3631",
+     "morph": "Ncmsa",
+     "strong": "3196",
+     "text": "יָ֑יִן",
+     "translit": "yāyin",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "now",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "δὲ",
+     "lxx_strong": "1161",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "he",
+     "gloss": "he",
+     "lemma": "הוּא",
+     "lxx": "ἦν",
+     "lxx_strong": "2258",
+     "morph": "Pp3ms",
+     "strong": "1931",
+     "text": "ה֥וּא",
+     "translit": "hûʾ",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "priest",
+     "gloss": "[was].a.priest",
+     "lemma": "כֹּהֵן",
+     "lxx": "ἱερεὺς",
+     "lxx_strong": "2409",
+     "morph": "Ncmsa",
+     "strong": "3548",
+     "text": "כֹהֵ֖ן",
+     "translit": "ḵōhēn",
+     "w": 9
+    },
+    {
+     "after": "",
+     "english": "of",
+     "gloss": "of",
+     "lemma": "לְ",
+     "lxx": "τοῦ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 10
+    },
+    {
+     "after": " ",
+     "english": "God",
+     "gloss": "God",
+     "lemma": "אֵל",
+     "lxx": "θεοῦ",
+     "lxx_strong": "2316",
+     "morph": "Ncmsa",
+     "strong": "0410",
+     "text": "אֵ֥ל",
+     "translit": "ʾēl",
+     "w": 10
+    },
+    {
+     "after": "׃",
+     "english": "most high",
+     "gloss": "Most.High",
+     "lemma": "עֶלְיוֹן",
+     "lxx": "ὑψίστου",
+     "lxx_strong": "5310",
+     "morph": "Aamsa",
+     "strong": "5945a",
+     "text": "עֶלְיֽוֹן",
+     "translit": "ʿelyôn:",
+     "w": 11
+    }
+   ]
+  },
+  "heb|GEN 14:19": {
+   "lemmas": [
+    "אֵל",
+    "אֶרֶץ",
+    "אַבְרָם",
+    "אָמַר",
+    "בָּרַךְ",
+    "הוּא",
+    "וְ",
+    "לְ",
+    "עֶלְיוֹן",
+    "קָנָה",
+    "שָׁמַיִם"
+   ],
+   "text": "וַֽיְבָרְכֵ֖הוּ וַיֹּאמַ֑ר בָּר֤וּךְ אַבְרָם֙ לְאֵ֣ל עֶלְי֔וֹן קֹנֵ֖ה שָׁמַ֥יִם וָאָֽרֶץ׃",
+   "words": [
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַֽ",
+     "translit": "wa",
+     "w": 1
+    },
+    {
+     "after": "",
+     "english": "blessed",
+     "gloss": "he",
+     "lemma": "בָּרַךְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Vpw3ms",
+     "strong": "1288",
+     "text": "יְבָרְכֵ֖",
+     "translit": "",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "him",
+     "gloss": "blessed.him",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp3ms",
+     "strong": "1930a",
+     "text": "הוּ",
+     "translit": "",
+     "w": 1
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "said",
+     "gloss": "he.said",
+     "lemma": "אָמַר",
+     "lxx": "εἶπεν",
+     "lxx_strong": "2036",
+     "morph": "Vqw3ms",
+     "strong": "0559",
+     "text": "יֹּאמַ֑ר",
+     "translit": "yyōʾmar",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "blessed",
+     "gloss": "[be].blessed",
+     "lemma": "בָּרַךְ",
+     "lxx": "εὐλογημένος",
+     "lxx_strong": "2127",
+     "morph": "Vqsmsa",
+     "strong": "1288",
+     "text": "בָּר֤וּךְ",
+     "translit": "bārûḵ",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "Abram",
+     "gloss": "Abram",
+     "lemma": "אַבְרָם",
+     "lxx": "αβραμ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "0087",
+     "text": "אַבְרָם֙",
+     "translit": "ʾaḇrām",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "by",
+     "gloss": "by",
+     "lemma": "לְ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "God",
+     "gloss": "God",
+     "lemma": "אֵל",
+     "lxx": "θεῷ",
+     "lxx_strong": "2316",
+     "morph": "Ncmsa",
+     "strong": "0410",
+     "text": "אֵ֣ל",
+     "translit": "ʾēl",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "most high",
+     "gloss": "Most.High",
+     "lemma": "עֶלְיוֹן",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Aamsa",
+     "strong": "5945a",
+     "text": "עֶלְי֔וֹן",
+     "translit": "ʿelyôn",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "maker",
+     "gloss": "[the].creator",
+     "lemma": "קָנָה",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Vqrmsc",
+     "strong": "7069a",
+     "text": "קֹנֵ֖ה",
+     "translit": "qōnēh",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "heaven",
+     "gloss": "of.heaven",
+     "lemma": "שָׁמַיִם",
+     "lxx": "οὐρανὸν",
+     "lxx_strong": "3772",
+     "morph": "Ncmpa",
+     "strong": "8064",
+     "text": "שָׁמַ֥יִם",
+     "translit": "šāmayim",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וָ",
+     "translit": "wā",
+     "w": 9
+    },
+    {
+     "after": "׃",
+     "english": "earth",
+     "gloss": "earth",
+     "lemma": "אֶרֶץ",
+     "lxx": "γῆν",
+     "lxx_strong": "1093",
+     "morph": "Ncbsa",
+     "strong": "0776",
+     "text": "אָֽרֶץ",
+     "translit": "ʾāreṣ:",
+     "w": 9
+    }
+   ]
+  },
+  "heb|GEN 14:20": {
+   "lemmas": [
+    "אֲשֶׁר",
+    "אֵל",
+    "בְּ",
+    "בָּרַךְ",
+    "הוּא",
+    "וְ",
+    "יָד",
+    "כֹּל",
+    "לְ",
+    "מִן",
+    "מַעֲשֵׂר",
+    "מָגַן",
+    "נָתַן",
+    "עֶלְיוֹן",
+    "צַר"
+   ],
+   "text": "וּבָרוּךְ֙ אֵ֣ל עֶלְי֔וֹן אֲשֶׁר־מִגֵּ֥ן צָרֶ֖יךָ בְּיָדֶ֑ךָ וַיִּתֶּן־ל֥וֹ מַעֲשֵׂ֖ר מִכֹּֽל׃",
+   "words": [
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and.[be]",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וּ",
+     "translit": "û",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "blessed",
+     "gloss": "blessed",
+     "lemma": "בָּרַךְ",
+     "lxx": "εὐλογητὸς",
+     "lxx_strong": "2128",
+     "morph": "Vqsmsa",
+     "strong": "1288",
+     "text": "בָרוּךְ֙",
+     "translit": "ḇārûḵə",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "God",
+     "gloss": "God",
+     "lemma": "אֵל",
+     "lxx": "θεὸς",
+     "lxx_strong": "2316",
+     "morph": "Ncmsa",
+     "strong": "0410",
+     "text": "אֵ֣ל",
+     "translit": "ʾēl",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "most high",
+     "gloss": "Most.High",
+     "lemma": "עֶלְיוֹן",
+     "lxx": "ὕψιστος",
+     "lxx_strong": "5310",
+     "morph": "Aamsa",
+     "strong": "5945a",
+     "text": "עֶלְי֔וֹן",
+     "translit": "ʿelyôn",
+     "w": 3
+    },
+    {
+     "after": "־",
+     "english": "who",
+     "gloss": "who",
+     "lemma": "אֲשֶׁר",
+     "lxx": "ὃς",
+     "lxx_strong": "3739",
+     "morph": "Tr",
+     "strong": "0834",
+     "text": "אֲשֶׁר",
+     "translit": "ʾăšer-",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "delivered",
+     "gloss": "he.has.delivered",
+     "lemma": "מָגַן",
+     "lxx": "παρέδωκεν",
+     "lxx_strong": "3860",
+     "morph": "Vpp3ms",
+     "strong": "4042",
+     "text": "מִגֵּ֥ן",
+     "translit": "miggēn",
+     "w": 5
+    },
+    {
+     "after": "",
+     "english": "enemies",
+     "gloss": "foes",
+     "lemma": "צַר",
+     "lxx": "ἐξθρούς",
+     "lxx_strong": "2190",
+     "morph": "Ncmpc",
+     "strong": "6862a",
+     "text": "צָרֶ֖י",
+     "translit": "",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σου",
+     "lxx_strong": "4675",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ",
+     "translit": "",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "into",
+     "gloss": "in",
+     "lemma": "בְּ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "hand",
+     "gloss": "hand",
+     "lemma": "יָד",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncbsc",
+     "strong": "3027",
+     "text": "יָדֶ֑",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σοι",
+     "lxx_strong": "4671",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "then",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 8
+    },
+    {
+     "after": "־",
+     "english": "gave",
+     "gloss": "he.gave",
+     "lemma": "נָתַן",
+     "lxx": "ἔδωκεν",
+     "lxx_strong": "1325",
+     "morph": "Vqw3ms",
+     "strong": "5414",
+     "text": "יִּתֶּן",
+     "translit": "yyitten-",
+     "w": 8
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "ל֥",
+     "translit": "",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "him",
+     "gloss": "him",
+     "lemma": "הוּא",
+     "lxx": "αὐτῷ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "tenth",
+     "gloss": "a.tenth",
+     "lemma": "מַעֲשֵׂר",
+     "lxx": "δεκάτην",
+     "lxx_strong": "1181",
+     "morph": "Ncmsa",
+     "strong": "4643",
+     "text": "מַעֲשֵׂ֖ר",
+     "translit": "maʿăśēr",
+     "w": 10
+    },
+    {
+     "after": "",
+     "english": "of",
+     "gloss": "of",
+     "lemma": "מִן",
+     "lxx": "ἀπὸ",
+     "lxx_strong": "575",
+     "morph": "R",
+     "strong": "4480",
+     "text": "מִ",
+     "translit": "mi",
+     "w": 11
+    },
+    {
+     "after": "׃",
+     "english": "everything",
+     "gloss": "everything",
+     "lemma": "כֹּל",
+     "lxx": "πάντων",
+     "lxx_strong": "3956",
+     "morph": "Ncmsa",
+     "strong": "3605",
+     "text": "כֹּֽל",
+     "translit": "kōl:",
+     "w": 11
+    }
+   ]
+  },
+  "heb|GEN 17:5": {
+   "lemmas": [
+    "אֵת",
+    "אַבְרָהָם",
+    "אַבְרָם",
+    "אָב",
+    "גּוֹי",
+    "הָיָה",
+    "הָמוֹן",
+    "הוּא",
+    "וְ",
+    "כִּי",
+    "לֹא",
+    "נָתַן",
+    "עוֹד",
+    "קָרָא",
+    "שֵׁם"
+   ],
+   "text": "וְלֹא־יִקָּרֵ֥א ע֛וֹד אֶת־שִׁמְךָ֖ אַבְרָ֑ם וְהָיָ֤ה שִׁמְךָ֙ אַבְרָהָ֔ם כִּ֛י אַב־הֲמ֥וֹן גּוֹיִ֖ם נְתַתִּֽיךָ׃",
+   "words": [
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 1
+    },
+    {
+     "after": "־",
+     "english": "no",
+     "gloss": "not",
+     "lemma": "לֹא",
+     "lxx": "οὐ",
+     "lxx_strong": "3756",
+     "morph": "Tn",
+     "strong": "3808",
+     "text": "לֹא",
+     "translit": "lōʾ-",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "called",
+     "gloss": "it.will.be.called",
+     "lemma": "קָרָא",
+     "lxx": "κληθήσεται",
+     "lxx_strong": "2564",
+     "morph": "VNi3ms",
+     "strong": "7121",
+     "text": "יִקָּרֵ֥א",
+     "translit": "yiqqārēʾ",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "longer",
+     "gloss": "again",
+     "lemma": "עוֹד",
+     "lxx": "ἔτι",
+     "lxx_strong": "2089",
+     "morph": "D",
+     "strong": "5750",
+     "text": "ע֛וֹד",
+     "translit": "ʿôḏ",
+     "w": 3
+    },
+    {
+     "after": "־",
+     "english": "",
+     "gloss": "(et)",
+     "lemma": "אֵת",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "To",
+     "strong": "0853",
+     "text": "אֶת",
+     "translit": "ʾeṯ-",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "name",
+     "gloss": "name",
+     "lemma": "שֵׁם",
+     "lxx": "ὄνομά",
+     "lxx_strong": "3686",
+     "morph": "Ncmsc",
+     "strong": "8034",
+     "text": "שִׁמְ",
+     "translit": "",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σου",
+     "lxx_strong": "4675",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ֖",
+     "translit": "",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "Abram",
+     "gloss": "Abram",
+     "lemma": "אַבְרָם",
+     "lxx": "αβραμ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "0087",
+     "text": "אַבְרָ֑ם",
+     "translit": "ʾaḇrām",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "but",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "ἀλλ’",
+     "lxx_strong": "235",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "be",
+     "gloss": "it.will.be",
+     "lemma": "הָיָה",
+     "lxx": "ἔσται",
+     "lxx_strong": "2071",
+     "morph": "Vqq3ms",
+     "strong": "1961",
+     "text": "הָיָ֤ה",
+     "translit": "hāyāh",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "name",
+     "gloss": "name",
+     "lemma": "שֵׁם",
+     "lxx": "ὄνομά",
+     "lxx_strong": "3686",
+     "morph": "Ncmsc",
+     "strong": "8034",
+     "text": "שִׁמְ",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σου",
+     "lxx_strong": "4675",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ֙",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "Abraham",
+     "gloss": "Abraham",
+     "lemma": "אַבְרָהָם",
+     "lxx": "αβρααμ",
+     "lxx_strong": "11",
+     "morph": "Np",
+     "strong": "0085",
+     "text": "אַבְרָהָ֔ם",
+     "translit": "ʾaḇrāhām",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "for",
+     "gloss": "(dm)",
+     "lemma": "כִּי",
+     "lxx": "ὅτι",
+     "lxx_strong": "3754",
+     "morph": "C",
+     "strong": "3588",
+     "text": "כִּ֛י",
+     "translit": "kiy",
+     "w": 10
+    },
+    {
+     "after": "־",
+     "english": "father",
+     "gloss": "a.father",
+     "lemma": "אָב",
+     "lxx": "πατέρα",
+     "lxx_strong": "3962",
+     "morph": "Ncmsc",
+     "strong": "0001",
+     "text": "אַב",
+     "translit": "ʾaḇ-",
+     "w": 11
+    },
+    {
+     "after": " ",
+     "english": "multitude",
+     "gloss": "of.a.multitude",
+     "lemma": "הָמוֹן",
+     "lxx": "πολλῶν",
+     "lxx_strong": "4183",
+     "morph": "Ncmsc",
+     "strong": "1995",
+     "text": "הֲמ֥וֹן",
+     "translit": "hămôn",
+     "w": 12
+    },
+    {
+     "after": " ",
+     "english": "nations",
+     "gloss": "of.nations",
+     "lemma": "גּוֹי",
+     "lxx": "ἐθνῶν",
+     "lxx_strong": "1484",
+     "morph": "Ncmpa",
+     "strong": "1471",
+     "text": "גּוֹיִ֖ם",
+     "translit": "gôyim",
+     "w": 13
+    },
+    {
+     "after": "",
+     "english": "make",
+     "gloss": "I",
+     "lemma": "נָתַן",
+     "lxx": "τέθεικά",
+     "lxx_strong": "5087",
+     "morph": "Vqp1cs",
+     "strong": "5414",
+     "text": "נְתַתִּֽי",
+     "translit": "",
+     "w": 14
+    },
+    {
+     "after": "׃",
+     "english": "you",
+     "gloss": "have.made.you",
+     "lemma": "הוּא",
+     "lxx": "σε",
+     "lxx_strong": "4571",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ",
+     "translit": "",
+     "w": 14
+    }
+   ]
+  },
+  "kjv|GEN 14:18": {
+   "marked": "And Melchizedek king of Salem brought forth bread and wine: and he [was] the priest of the most high God.",
+   "text": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God."
+  },
+  "kjv|GEN 14:19": {
+   "marked": "And he blessed him, and said, Blessed [be] Abram of the most high God, possessor of heaven and earth:",
+   "text": "And he blessed him, and said, Blessed be Abram of the most high God, possessor of heaven and earth:"
+  },
+  "kjv|GEN 14:20": {
+   "marked": "And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all.",
+   "text": "And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all."
+  },
+  "kjv|GEN 17:5": {
+   "marked": "Neither shall thy name any more be called Abram, but thy name shall be Abraham; for a father of many nations have I made thee.",
+   "text": "Neither shall thy name any more be called Abram, but thy name shall be Abraham; for a father of many nations have I made thee."
+  },
+  "kjv|HEB 7:1": {
+   "marked": "For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;",
+   "text": "For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;"
+  },
+  "kjv|HEB 7:10": {
+   "marked": "For he was yet in the loins of his father, when Melchisedec met him.",
+   "text": "For he was yet in the loins of his father, when Melchisedec met him."
+  },
+  "kjv|HEB 7:4": {
+   "marked": "Now consider how great this man [was], unto whom even the patriarch Abraham gave the tenth of the spoils.",
+   "text": "Now consider how great this man was, unto whom even the patriarch Abraham gave the tenth of the spoils."
+  },
+  "kjv|HEB 7:7": {
+   "marked": "And without all contradiction the less is blessed of the better.",
+   "text": "And without all contradiction the less is blessed of the better."
+  },
+  "kjv|HEB 7:9": {
+   "marked": "And as I may so say, Levi also, who receiveth tithes, payed tithes in Abraham.",
+   "text": "And as I may so say, Levi also, who receiveth tithes, payed tithes in Abraham."
+  },
+  "lat|GEN 14:18": {
+   "text": "At vero Melchisedech rex Salem, proferens panem et vinum, erat enim sacerdos Dei altissimi,"
+  },
+  "lat|GEN 14:19": {
+   "text": "benedixit ei, et ait: Benedictus Abram Deo excelso, qui creavit cælum et terram:"
+  },
+  "lat|GEN 14:20": {
+   "text": "et benedictus Deus excelsus, quo protegente, hostes in manibus tuis sunt. Et dedit ei decimas ex omnibus."
+  },
+  "lat|GEN 17:5": {
+   "text": "Nec ultra vocabitur nomen tuum Abram, sed appellaberis Abraham: quia patrem multarum gentium constitui te."
+  },
+  "lat|HEB 7:1": {
+   "text": "Hic enim Melchisedech, rex Salem, sacerdos Dei summi, qui obviavit Abrahæ regresso a cæde regum, et benedixit ei:"
+  },
+  "lat|HEB 7:10": {
+   "text": "adhuc enim in lumbis patris erat, quando obviavit ei Melchisedech."
+  },
+  "lat|HEB 7:4": {
+   "text": "Intuemini autem quantus sit hic, cui et decimas dedit de præcipuis Abraham patriarcha."
+  },
+  "lat|HEB 7:7": {
+   "text": "Sine ulla autem contradictione, quod minus est, a meliore benedicitur."
+  },
+  "lat|HEB 7:9": {
+   "text": "Et (ut ita dictum sit) per Abraham, et Levi, qui decimas accepit, decimatus est:"
+  }
+ }
+}

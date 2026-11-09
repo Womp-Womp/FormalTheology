@@ -1,0 +1,1772 @@
+{
+ "file": "lean/Romans4.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|GEN 15:6": {
+   "text": "Abram believed the LORD, and it was credited to him as righteousness."
+  },
+  "bsb|GEN 16:15": {
+   "text": "And Hagar bore Abram a son, and Abram gave the name Ishmael to the son she had borne."
+  },
+  "bsb|GEN 16:16": {
+   "text": "Abram was eighty-six years old when Hagar bore Ishmael to him."
+  },
+  "bsb|GEN 17:24": {
+   "text": "So Abraham was ninety-nine years old when he was circumcised,"
+  },
+  "bsb|GEN 17:26": {
+   "text": "Abraham and his son Ishmael were circumcised on the same day."
+  },
+  "bsb|ROM 4:10": {
+   "text": "In what context was it credited? Was it after his circumcision, or before? It was not after, but before."
+  },
+  "bsb|ROM 4:11": {
+   "text": "And he received the sign of circumcision as a seal of the righteousness that he had by faith while he was still uncircumcised. So then, he is the father of all who believe but are not circumcised, in order that righteousness might be credited to them."
+  },
+  "bsb|ROM 4:9": {
+   "text": "Is this blessing only on the circumcised, or also on the uncircumcised? We have been saying that Abraham’s faith was credited to him as righteousness."
+  },
+  "grc|ROM 4:10": {
+   "lemmas": [
+    "εἰμί",
+    "λογίζομαι",
+    "οὐ",
+    "οὖν",
+    "περιτομή",
+    "πῶς",
+    "ἀκροβυστία",
+    "ἀλλά",
+    "ἐν",
+    "ἤ"
+   ],
+   "text": "πῶς οὖν ἐλογίσθη;ἐν περιτομῇ ὄντι ἢ ἐν ἀκροβυστίᾳ;οὐκ ἐν περιτομῇ ἀλλ’ἐν ἀκροβυστίᾳ·",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "How",
+     "lemma": "πῶς",
+     "ln": "92.16",
+     "morph": "ADV-I",
+     "strong": "4459",
+     "text": "πῶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "οὖν",
+     "ln": "89.50",
+     "morph": "CONJ",
+     "strong": "3767",
+     "text": "οὖν"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "was it credited",
+     "lemma": "λογίζομαι",
+     "ln": "57.227",
+     "morph": "V-API-3S",
+     "strong": "3049",
+     "text": "ἐλογίσθη"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "In",
+     "lemma": "ἐν",
+     "ln": "13.8",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "circumcision",
+     "lemma": "περιτομή",
+     "ln": "53.51",
+     "morph": "N-DSF",
+     "strong": "4061",
+     "text": "περιτομῇ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "being",
+     "lemma": "εἰμί",
+     "ln": "58.67",
+     "morph": "V-PAP-DSM",
+     "strong": "1510",
+     "text": "ὄντι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "or",
+     "lemma": "ἤ",
+     "ln": "89.139",
+     "morph": "PRT",
+     "strong": "2228",
+     "text": "ἢ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "13.8",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "uncircumcision",
+     "lemma": "ἀκροβυστία",
+     "ln": "11.52",
+     "morph": "N-DSF",
+     "strong": "203",
+     "text": "ἀκροβυστίᾳ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "13.8",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "circumcision",
+     "lemma": "περιτομή",
+     "ln": "53.51",
+     "morph": "N-DSF",
+     "strong": "4061",
+     "text": "περιτομῇ"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "but",
+     "lemma": "ἀλλά",
+     "ln": "89.125",
+     "morph": "CONJ",
+     "strong": "235",
+     "text": "ἀλλ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "13.8",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "uncircumcision",
+     "lemma": "ἀκροβυστία",
+     "ln": "11.52",
+     "morph": "N-DSF",
+     "strong": "203",
+     "text": "ἀκροβυστίᾳ"
+    }
+   ]
+  },
+  "grc|ROM 4:11": {
+   "lemmas": [
+    "αὐτός",
+    "διά",
+    "δικαιοσύνη",
+    "εἰμί",
+    "εἰς",
+    "καί",
+    "λαμβάνω",
+    "λογίζομαι",
+    "πίστις",
+    "πατήρ",
+    "περιτομή",
+    "πιστεύω",
+    "πᾶς",
+    "σημεῖον",
+    "σφραγίς",
+    "ἀκροβυστία",
+    "ἐν",
+    "ὁ"
+   ],
+   "text": "καὶ σημεῖον ἔλαβεν περιτομῆς σφραγῖδα τῆς δικαιοσύνης τῆς πίστεως τῆς ἐν τῇ ἀκροβυστίᾳ,εἰς τὸ εἶναι αὐτὸν πατέρα πάντων τῶν πιστευόντων δι’ἀκροβυστίας,εἰς τὸ λογισθῆναι αὐτοῖς τὴν δικαιοσύνην,",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.87",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[the] sign",
+     "lemma": "σημεῖον",
+     "ln": "33.477",
+     "morph": "N-ASN",
+     "strong": "4592",
+     "text": "σημεῖον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "he received",
+     "lemma": "λαμβάνω",
+     "ln": "57.125",
+     "morph": "V-2AAI-3S",
+     "strong": "2983",
+     "text": "ἔλαβεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of circumcision",
+     "lemma": "περιτομή",
+     "ln": "53.51",
+     "morph": "N-GSF",
+     "strong": "4061",
+     "text": "περιτομῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a seal",
+     "lemma": "σφραγίς",
+     "ln": "73.9",
+     "morph": "N-ASF",
+     "strong": "4973",
+     "text": "σφραγῖδα"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSF",
+     "strong": "3588",
+     "text": "τῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "righteousness",
+     "lemma": "δικαιοσύνη",
+     "ln": "34.46",
+     "morph": "N-GSF",
+     "strong": "1343",
+     "text": "δικαιοσύνης"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSF",
+     "strong": "3588",
+     "text": "τῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "faith",
+     "lemma": "πίστις",
+     "ln": "31.85",
+     "morph": "N-GSF",
+     "strong": "4102",
+     "text": "πίστεως"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "that [he had]",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSF",
+     "strong": "3588",
+     "text": "τῆς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[while] in",
+     "lemma": "ἐν",
+     "ln": "13.8",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSF",
+     "strong": "3588",
+     "text": "τῇ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "uncircumcision",
+     "lemma": "ἀκροβυστία",
+     "ln": "11.52",
+     "morph": "N-DSF",
+     "strong": "203",
+     "text": "ἀκροβυστίᾳ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "εἰς",
+     "ln": "89.57",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASN",
+     "strong": "3588",
+     "text": "τὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to be",
+     "lemma": "εἰμί",
+     "ln": "13.4",
+     "morph": "V-PAN",
+     "strong": "1510",
+     "text": "εἶναι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-ASM",
+     "strong": "846",
+     "text": "αὐτὸν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "father",
+     "lemma": "πατήρ",
+     "ln": "58.64",
+     "morph": "N-ASM",
+     "strong": "3962",
+     "text": "πατέρα"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of all",
+     "lemma": "πᾶς",
+     "ln": "59.23",
+     "morph": "A-GPM",
+     "strong": "3956",
+     "text": "πάντων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "those",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GPM",
+     "strong": "3588",
+     "text": "τῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "believing",
+     "lemma": "πιστεύω",
+     "ln": "31.85",
+     "morph": "V-PAP-GPM",
+     "strong": "4100",
+     "text": "πιστευόντων"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "in",
+     "lemma": "διά",
+     "ln": "",
+     "morph": "PREP",
+     "strong": "1223",
+     "text": "δι"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "uncircumcision",
+     "lemma": "ἀκροβυστία",
+     "ln": "11.52",
+     "morph": "N-GSF",
+     "strong": "203",
+     "text": "ἀκροβυστίας"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "εἰς",
+     "ln": "89.57",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASN",
+     "strong": "3588",
+     "text": "τὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to be credited",
+     "lemma": "λογίζομαι",
+     "ln": "57.227",
+     "morph": "V-APN",
+     "strong": "3049",
+     "text": "λογισθῆναι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to them",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DPM",
+     "strong": "846",
+     "text": "αὐτοῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASF",
+     "strong": "3588",
+     "text": "τὴν"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "righteousness",
+     "lemma": "δικαιοσύνη",
+     "ln": "34.46",
+     "morph": "N-ASF",
+     "strong": "1343",
+     "text": "δικαιοσύνην"
+    }
+   ]
+  },
+  "grc|ROM 4:9": {
+   "lemmas": [
+    "γάρ",
+    "δικαιοσύνη",
+    "εἰς",
+    "καί",
+    "λέγω",
+    "λογίζομαι",
+    "μακαρισμός",
+    "οὖν",
+    "οὗτος",
+    "πίστις",
+    "περιτομή",
+    "ἀκροβυστία",
+    "Ἀβραάμ",
+    "ἐπί",
+    "ἤ",
+    "ὁ"
+   ],
+   "text": "ὁ μακαρισμὸς οὖν οὗτος ἐπὶ τὴν περιτομὴν ἢ καὶ ἐπὶ τὴν ἀκροβυστίαν;λέγομεν γάρ Ἐλογίσθη τῷ Ἀβραὰμ ἡ πίστις εἰς δικαιοσύνην.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[Is] the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "blessing",
+     "lemma": "μακαρισμός",
+     "ln": "25.118",
+     "morph": "N-NSM",
+     "strong": "3108",
+     "text": "μακαρισμὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "οὖν",
+     "ln": "",
+     "morph": "CONJ",
+     "strong": "3767",
+     "text": "οὖν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "this",
+     "lemma": "οὗτος",
+     "ln": "92.29",
+     "morph": "D-NSM",
+     "strong": "3778",
+     "text": "οὗτος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "on",
+     "lemma": "ἐπί",
+     "ln": "90.57",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐπὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASF",
+     "strong": "3588",
+     "text": "τὴν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "circumcision",
+     "lemma": "περιτομή",
+     "ln": "53.51",
+     "morph": "N-ASF",
+     "strong": "4061",
+     "text": "περιτομὴν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "or",
+     "lemma": "ἤ",
+     "ln": "89.139",
+     "morph": "PRT",
+     "strong": "2228",
+     "text": "ἢ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "also",
+     "lemma": "καί",
+     "ln": "89.93",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "on",
+     "lemma": "ἐπί",
+     "ln": "90.57",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐπὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASF",
+     "strong": "3588",
+     "text": "τὴν"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "uncircumcision",
+     "lemma": "ἀκροβυστία",
+     "ln": "11.53",
+     "morph": "N-ASF",
+     "strong": "203",
+     "text": "ἀκροβυστίαν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "We are saying",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAI-1P",
+     "strong": "3004",
+     "text": "λέγομεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for",
+     "lemma": "γάρ",
+     "ln": "89.23",
+     "morph": "CONJ",
+     "strong": "1063",
+     "text": "γάρ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "was credited",
+     "lemma": "λογίζομαι",
+     "ln": "57.227",
+     "morph": "V-API-3S",
+     "strong": "3049",
+     "text": "Ἐλογίσθη"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραὰμ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "faith",
+     "lemma": "πίστις",
+     "ln": "31.85",
+     "morph": "N-NSF",
+     "strong": "4102",
+     "text": "πίστις"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "as",
+     "lemma": "εἰς",
+     "ln": "13.62",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "righteousness",
+     "lemma": "δικαιοσύνη",
+     "ln": "34.46",
+     "morph": "N-ASF",
+     "strong": "1343",
+     "text": "δικαιοσύνην"
+    }
+   ]
+  },
+  "heb|GEN 15:6": {
+   "lemmas": [
+    "אָמַן",
+    "בְּ",
+    "הוּא",
+    "וְ",
+    "חָשַׁב",
+    "יהוה",
+    "לְ",
+    "צְדָקָה"
+   ],
+   "text": "וְהֶאֱמִ֖ן בַּֽיהוָ֑ה וַיַּחְשְׁבֶ֥הָ לּ֖וֹ צְדָקָֽה׃",
+   "words": [
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "believed",
+     "gloss": "he.believed",
+     "lemma": "אָמַן",
+     "lxx": "ἐπίστευσεν",
+     "lxx_strong": "4100",
+     "morph": "Vhp3ms",
+     "strong": "0539",
+     "text": "הֶאֱמִ֖ן",
+     "translit": "heʾĕmin",
+     "w": 1
+    },
+    {
+     "after": "",
+     "english": "in",
+     "gloss": "in",
+     "lemma": "בְּ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בַּֽ",
+     "translit": "ba",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "LORD",
+     "gloss": "Yahweh",
+     "lemma": "יהוה",
+     "lxx": "θεῷ",
+     "lxx_strong": "2316",
+     "morph": "Np",
+     "strong": "3068",
+     "text": "יהוָ֑ה",
+     "translit": "yhwāh",
+     "w": 2
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "reckoned",
+     "gloss": "he",
+     "lemma": "חָשַׁב",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "Vqw3ms",
+     "strong": "2803",
+     "text": "יַּחְשְׁבֶ֥",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "it",
+     "gloss": "credited.it",
+     "lemma": "הוּא",
+     "lxx": "ἐλογίσθη",
+     "lxx_strong": "3049",
+     "morph": "Sp3fs",
+     "strong": "1886d",
+     "text": "הָ",
+     "translit": "",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לּ֖",
+     "translit": "",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "him",
+     "gloss": "him",
+     "lemma": "הוּא",
+     "lxx": "αὐτῷ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 4
+    },
+    {
+     "after": "׃",
+     "english": "righteousness",
+     "gloss": "righteousness",
+     "lemma": "צְדָקָה",
+     "lxx": "δικαιοσύνην",
+     "lxx_strong": "1343",
+     "morph": "Ncfsa",
+     "strong": "6666",
+     "text": "צְדָקָֽה",
+     "translit": "ṣəḏāqāh:",
+     "w": 5
+    }
+   ]
+  },
+  "heb|GEN 16:15": {
+   "lemmas": [
+    "אֲשֶׁר",
+    "אַבְרָם",
+    "בֵּן",
+    "הָגָר",
+    "הוּא",
+    "וְ",
+    "יִשְׁמָעֵאל",
+    "יָלַד",
+    "לְ",
+    "קָרָא",
+    "שֵׁם"
+   ],
+   "text": "וַתֵּ֧לֶד הָגָ֛ר לְאַבְרָ֖ם בֵּ֑ן וַיִּקְרָ֨א אַבְרָ֧ם שֶׁם־בְּנ֛וֹ אֲשֶׁר־יָלְדָ֥ה הָגָ֖ר יִשְׁמָעֵֽאל׃",
+   "words": [
+    {
+     "after": "",
+     "english": "so",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "bore",
+     "gloss": "she.bore",
+     "lemma": "יָלַד",
+     "lxx": "ἔτεκεν",
+     "lxx_strong": "5088",
+     "morph": "Vqw3fs",
+     "strong": "3205",
+     "text": "תֵּ֧לֶד",
+     "translit": "tēleḏ",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "Hagar",
+     "gloss": "Hagar",
+     "lemma": "הָגָר",
+     "lxx": "αγαρ",
+     "lxx_strong": "28",
+     "morph": "Np",
+     "strong": "1904",
+     "text": "הָגָ֛ר",
+     "translit": "hāḡār",
+     "w": 2
+    },
+    {
+     "after": "",
+     "english": "for",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "Abram",
+     "gloss": "Abram",
+     "lemma": "אַבְרָם",
+     "lxx": "αβραμ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "0087",
+     "text": "אַבְרָ֖ם",
+     "translit": "ʾaḇrām",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "son",
+     "gloss": "a.son",
+     "lemma": "בֵּן",
+     "lxx": "υἱόν",
+     "lxx_strong": "5207",
+     "morph": "Ncmsa",
+     "strong": "1121",
+     "text": "בֵּ֑ן",
+     "translit": "bēn",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וַ",
+     "translit": "wa",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "called",
+     "gloss": "he.called",
+     "lemma": "קָרָא",
+     "lxx": "ἐκάλεσεν",
+     "lxx_strong": "2564",
+     "morph": "Vqw3ms",
+     "strong": "7121",
+     "text": "יִּקְרָ֨א",
+     "translit": "yyiqrāʾ",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "Abram",
+     "gloss": "Abram",
+     "lemma": "אַבְרָם",
+     "lxx": "αβραμ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "0087",
+     "text": "אַבְרָ֧ם",
+     "translit": "ʾaḇrām",
+     "w": 6
+    },
+    {
+     "after": "־",
+     "english": "name",
+     "gloss": "the.name",
+     "lemma": "שֵׁם",
+     "lxx": "ὄνομα",
+     "lxx_strong": "3686",
+     "morph": "Ncmsc",
+     "strong": "8034",
+     "text": "שֶׁם",
+     "translit": "šem-",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "son",
+     "gloss": "his.son",
+     "lemma": "בֵּן",
+     "lxx": "υἱοῦ",
+     "lxx_strong": "5207",
+     "morph": "Ncmsc",
+     "strong": "1121",
+     "text": "בְּנ֛",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "his",
+     "gloss": "his",
+     "lemma": "הוּא",
+     "lxx": "αὐτοῦ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": "־",
+     "english": "whom",
+     "gloss": "whom",
+     "lemma": "אֲשֶׁר",
+     "lxx": "ὃν",
+     "lxx_strong": "3739",
+     "morph": "Tr",
+     "strong": "0834",
+     "text": "אֲשֶׁר",
+     "translit": "ʾăšer-",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "bore",
+     "gloss": "she.had.borne",
+     "lemma": "יָלַד",
+     "lxx": "ἔτεκεν",
+     "lxx_strong": "5088",
+     "morph": "Vqp3fs",
+     "strong": "3205",
+     "text": "יָלְדָ֥ה",
+     "translit": "yāləḏāh",
+     "w": 10
+    },
+    {
+     "after": " ",
+     "english": "Hagar",
+     "gloss": "Hagar",
+     "lemma": "הָגָר",
+     "lxx": "αγαρ",
+     "lxx_strong": "28",
+     "morph": "Np",
+     "strong": "1904",
+     "text": "הָגָ֖ר",
+     "translit": "hāḡār",
+     "w": 11
+    },
+    {
+     "after": "׃",
+     "english": "Ishmael",
+     "gloss": "Ishmael",
+     "lemma": "יִשְׁמָעֵאל",
+     "lxx": "ισμαηλ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "3458",
+     "text": "יִשְׁמָעֵֽאל",
+     "translit": "yišmāʿēʾl:",
+     "w": 12
+    }
+   ]
+  },
+  "heb|GEN 16:16": {
+   "lemmas": [
+    "אֵת",
+    "אַבְרָם",
+    "בְּ",
+    "בֵּן",
+    "הָגָר",
+    "וְ",
+    "יִשְׁמָעֵאל",
+    "יָלַד",
+    "לְ",
+    "שְׁמֹנֶה",
+    "שֵׁשׁ",
+    "שָׁנָה"
+   ],
+   "text": "וְאַבְרָ֕ם בֶּן־שְׁמֹנִ֥ים שָׁנָ֖ה וְשֵׁ֣שׁ שָׁנִ֑ים בְּלֶֽדֶת־הָגָ֥ר אֶת־יִשְׁמָעֵ֖אל לְאַבְרָֽם׃ס",
+   "words": [
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "δὲ",
+     "lxx_strong": "1161",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "Abram",
+     "gloss": "Abram",
+     "lemma": "אַבְרָם",
+     "lxx": "αβραμ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "0087",
+     "text": "אַבְרָ֕ם",
+     "translit": "ʾaḇrām",
+     "w": 1
+    },
+    {
+     "after": "־",
+     "english": "son of",
+     "gloss": "[was].a.son",
+     "lemma": "בֵּן",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncmsc",
+     "strong": "1121",
+     "text": "בֶּן",
+     "translit": "ben-",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "eighty",
+     "gloss": "of.eighty",
+     "lemma": "שְׁמֹנֶה",
+     "lxx": "ὀγδοήκοντα",
+     "lxx_strong": "3589",
+     "morph": "Acbpa",
+     "strong": "8084",
+     "text": "שְׁמֹנִ֥ים",
+     "translit": "šəmōniym",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "year",
+     "gloss": "year[s]",
+     "lemma": "שָׁנָה",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncfsa",
+     "strong": "8141",
+     "text": "שָׁנָ֖ה",
+     "translit": "šānāh",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "six",
+     "gloss": "six",
+     "lemma": "שֵׁשׁ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Acfsa",
+     "strong": "8337",
+     "text": "שֵׁ֣שׁ",
+     "translit": "šēš",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "years",
+     "gloss": "years",
+     "lemma": "שָׁנָה",
+     "lxx": "ἐτῶν",
+     "lxx_strong": "2094",
+     "morph": "Ncfpa",
+     "strong": "8141",
+     "text": "שָׁנִ֑ים",
+     "translit": "šāniym",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "when",
+     "gloss": "when",
+     "lemma": "בְּ",
+     "lxx": "ἡνίκα",
+     "lxx_strong": "2259",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 7
+    },
+    {
+     "after": "־",
+     "english": "bore",
+     "gloss": "bore",
+     "lemma": "יָלַד",
+     "lxx": "ἔτεκεν",
+     "lxx_strong": "5088",
+     "morph": "Vqc",
+     "strong": "3205",
+     "text": "לֶֽדֶת",
+     "translit": "leḏeṯ-",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "Hagar",
+     "gloss": "Hagar",
+     "lemma": "הָגָר",
+     "lxx": "αγαρ",
+     "lxx_strong": "28",
+     "morph": "Np",
+     "strong": "1904",
+     "text": "הָגָ֥ר",
+     "translit": "hāḡār",
+     "w": 8
+    },
+    {
+     "after": "־",
+     "english": "",
+     "gloss": "(et)",
+     "lemma": "אֵת",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "To",
+     "strong": "0853",
+     "text": "אֶת",
+     "translit": "ʾeṯ-",
+     "w": 9
+    },
+    {
+     "after": " ",
+     "english": "Ishmael",
+     "gloss": "Ishmael",
+     "lemma": "יִשְׁמָעֵאל",
+     "lxx": "ισμαηλ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "3458",
+     "text": "יִשְׁמָעֵ֖אל",
+     "translit": "yišmāʿēʾl",
+     "w": 10
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 11
+    },
+    {
+     "after": "׃ס",
+     "english": "Abram",
+     "gloss": "Abram",
+     "lemma": "אַבְרָם",
+     "lxx": "αβραμ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "0087",
+     "text": "אַבְרָֽם",
+     "translit": "ʾaḇrām:",
+     "w": 11
+    }
+   ]
+  },
+  "heb|GEN 17:24": {
+   "lemmas": [
+    "אַבְרָהָם",
+    "בְּ",
+    "בֵּן",
+    "בָּשָׂר",
+    "הוּא",
+    "וְ",
+    "מוּל",
+    "עׇרְלָה",
+    "שָׁנָה",
+    "תֵּשַׁע"
+   ],
+   "text": "וְאַ֨בְרָהָ֔ם בֶּן־תִּשְׁעִ֥ים וָתֵ֖שַׁע שָׁנָ֑ה בְּהִמֹּל֖וֹ בְּשַׂ֥ר עָרְלָתֽוֹ׃",
+   "words": [
+    {
+     "after": "",
+     "english": "now",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "δὲ",
+     "lxx_strong": "1161",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "Abraham",
+     "gloss": "Abraham",
+     "lemma": "אַבְרָהָם",
+     "lxx": "αβρααμ",
+     "lxx_strong": "11",
+     "morph": "Np",
+     "strong": "0085",
+     "text": "אַ֨בְרָהָ֔ם",
+     "translit": "ʾaḇərāhām",
+     "w": 1
+    },
+    {
+     "after": "־",
+     "english": "son of",
+     "gloss": "[was].a.son",
+     "lemma": "בֵּן",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncmsc",
+     "strong": "1121",
+     "text": "בֶּן",
+     "translit": "ben-",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "ninety",
+     "gloss": "of.ninety",
+     "lemma": "תֵּשַׁע",
+     "lxx": "ἐνενήκοντα",
+     "lxx_strong": "",
+     "morph": "Acbpa",
+     "strong": "8673",
+     "text": "תִּשְׁעִ֥ים",
+     "translit": "tišʿiym",
+     "w": 3
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וָ",
+     "translit": "wā",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "nine",
+     "gloss": "nine",
+     "lemma": "תֵּשַׁע",
+     "lxx": "ἐννέα",
+     "lxx_strong": "1767",
+     "morph": "Acfsa",
+     "strong": "8672",
+     "text": "תֵ֖שַׁע",
+     "translit": "ṯēšaʿ",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "year",
+     "gloss": "year[s]",
+     "lemma": "שָׁנָה",
+     "lxx": "ἐτῶν",
+     "lxx_strong": "2094",
+     "morph": "Ncfsa",
+     "strong": "8141",
+     "text": "שָׁנָ֑ה",
+     "translit": "šānāh",
+     "w": 5
+    },
+    {
+     "after": "",
+     "english": "when",
+     "gloss": "when",
+     "lemma": "בְּ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "circumcised",
+     "gloss": "he",
+     "lemma": "מוּל",
+     "lxx": "περιέτεμεν",
+     "lxx_strong": "4059",
+     "morph": "VNc",
+     "strong": "4135",
+     "text": "הִמֹּל֖",
+     "translit": "",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "he",
+     "gloss": "was.circumcised",
+     "lemma": "הוּא",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "flesh",
+     "gloss": "the.flesh",
+     "lemma": "בָּשָׂר",
+     "lxx": "σάρκα",
+     "lxx_strong": "4561",
+     "morph": "Ncmsc",
+     "strong": "1320",
+     "text": "בְּשַׂ֥ר",
+     "translit": "bəśar",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "foreskin",
+     "gloss": "his.foreskin",
+     "lemma": "עׇרְלָה",
+     "lxx": "ἀκροβυστίας",
+     "lxx_strong": "203",
+     "morph": "Ncfsc",
+     "strong": "6190",
+     "text": "עָרְלָתֽ",
+     "translit": "",
+     "w": 8
+    },
+    {
+     "after": "׃",
+     "english": "his",
+     "gloss": "his",
+     "lemma": "הוּא",
+     "lxx": "αὐτοῦ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 8
+    }
+   ]
+  },
+  "heb|GEN 17:26": {
+   "lemmas": [
+    "אַבְרָהָם",
+    "בְּ",
+    "בֵּן",
+    "הַ",
+    "הוּא",
+    "וְ",
+    "זֶה",
+    "יִשְׁמָעֵאל",
+    "יוֹם",
+    "מוּל",
+    "עֶצֶם"
+   ],
+   "text": "בְּעֶ֨צֶם֙ הַיּ֣וֹם הַזֶּ֔ה נִמּ֖וֹל אַבְרָהָ֑ם וְיִשְׁמָעֵ֖אל בְּנֽוֹ׃",
+   "words": [
+    {
+     "after": "",
+     "english": "on",
+     "gloss": "on",
+     "lemma": "בְּ",
+     "lxx": "ἐν",
+     "lxx_strong": "1722",
+     "morph": "R",
+     "strong": "0871a",
+     "text": "בְּ",
+     "translit": "bə",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "very",
+     "gloss": "the.substance",
+     "lemma": "עֶצֶם",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Ncfsc",
+     "strong": "6106",
+     "text": "עֶ֨צֶם֙",
+     "translit": "ʿeṣem",
+     "w": 1
+    },
+    {
+     "after": "",
+     "english": "the",
+     "gloss": "of",
+     "lemma": "הַ",
+     "lxx": "τῆς",
+     "lxx_strong": "3588",
+     "morph": "Td",
+     "strong": "1886a",
+     "text": "הַ",
+     "translit": "ha",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "day",
+     "gloss": "the.day",
+     "lemma": "יוֹם",
+     "lxx": "ἡμέρας",
+     "lxx_strong": "2250",
+     "morph": "Ncmsa",
+     "strong": "3117",
+     "text": "יּ֣וֹם",
+     "translit": "yyôm",
+     "w": 2
+    },
+    {
+     "after": "",
+     "english": "the",
+     "gloss": "(the)",
+     "lemma": "הַ",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Td",
+     "strong": "1886a",
+     "text": "הַ",
+     "translit": "ha",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "that",
+     "gloss": "this",
+     "lemma": "זֶה",
+     "lxx": "ἐκείνης",
+     "lxx_strong": "1565",
+     "morph": "Pdxms",
+     "strong": "2088",
+     "text": "זֶּ֔ה",
+     "translit": "zzeh",
+     "w": 3
+    },
+    {
+     "after": " ",
+     "english": "circumcised",
+     "gloss": "he.was.circumcised",
+     "lemma": "מוּל",
+     "lxx": "περιετμήθη",
+     "lxx_strong": "",
+     "morph": "VNp3ms",
+     "strong": "4135",
+     "text": "נִמּ֖וֹל",
+     "translit": "nimmôl",
+     "w": 4
+    },
+    {
+     "after": " ",
+     "english": "Abraham",
+     "gloss": "Abraham",
+     "lemma": "אַבְרָהָם",
+     "lxx": "αβρααμ",
+     "lxx_strong": "11",
+     "morph": "Np",
+     "strong": "0085",
+     "text": "אַבְרָהָ֑ם",
+     "translit": "ʾaḇrāhām",
+     "w": 5
+    },
+    {
+     "after": "",
+     "english": "and",
+     "gloss": "and",
+     "lemma": "וְ",
+     "lxx": "καὶ",
+     "lxx_strong": "2532",
+     "morph": "C",
+     "strong": "2050b",
+     "text": "וְ",
+     "translit": "wə",
+     "w": 6
+    },
+    {
+     "after": " ",
+     "english": "Ishmael",
+     "gloss": "Ishmael",
+     "lemma": "יִשְׁמָעֵאל",
+     "lxx": "ισμαηλ",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "3458",
+     "text": "יִשְׁמָעֵ֖אל",
+     "translit": "yišmāʿēʾl",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "son",
+     "gloss": "son",
+     "lemma": "בֵּן",
+     "lxx": "υἱὸς",
+     "lxx_strong": "5207",
+     "morph": "Ncmsc",
+     "strong": "1121",
+     "text": "בְּנֽ",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": "׃",
+     "english": "his",
+     "gloss": "his",
+     "lemma": "הוּא",
+     "lxx": "αὐτοῦ",
+     "lxx_strong": "846",
+     "morph": "Sp3ms",
+     "strong": "2050c",
+     "text": "וֹ",
+     "translit": "",
+     "w": 7
+    }
+   ]
+  },
+  "kjv|GEN 15:6": {
+   "marked": "And he believed in the LORD; and he counted it to him for righteousness.",
+   "text": "And he believed in the LORD; and he counted it to him for righteousness."
+  },
+  "kjv|GEN 16:15": {
+   "marked": "¶ And Hagar bare Abram a son: and Abram called his son’s name, which Hagar bare, Ishmael.",
+   "text": "¶ And Hagar bare Abram a son: and Abram called his son’s name, which Hagar bare, Ishmael."
+  },
+  "kjv|GEN 16:16": {
+   "marked": "And Abram [was] fourscore and six years old, when Hagar bare Ishmael to Abram.",
+   "text": "And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram."
+  },
+  "kjv|GEN 17:24": {
+   "marked": "And Abraham [was] ninety years old and nine, when he was circumcised in the flesh of his foreskin.",
+   "text": "And Abraham was ninety years old and nine, when he was circumcised in the flesh of his foreskin."
+  },
+  "kjv|GEN 17:26": {
+   "marked": "In the selfsame day was Abraham circumcised, and Ishmael his son.",
+   "text": "In the selfsame day was Abraham circumcised, and Ishmael his son."
+  },
+  "kjv|ROM 4:10": {
+   "marked": "How was it then reckoned? when he was in circumcision, or in uncircumcision? Not in circumcision, but in uncircumcision.",
+   "text": "How was it then reckoned? when he was in circumcision, or in uncircumcision? Not in circumcision, but in uncircumcision."
+  },
+  "kjv|ROM 4:11": {
+   "marked": "And he received the sign of circumcision, a seal of the righteousness of the faith which [he had yet] being uncircumcised: that he might be the father of all them that believe, though they be not circumcised; that righteousness might be imputed unto them also:",
+   "text": "And he received the sign of circumcision, a seal of the righteousness of the faith which he had yet being uncircumcised: that he might be the father of all them that believe, though they be not circumcised; that righteousness might be imputed unto them also:"
+  },
+  "kjv|ROM 4:9": {
+   "marked": "[Cometh] this blessedness then upon the circumcision [only], or upon the uncircumcision also? for we say that faith was reckoned to Abraham for righteousness.",
+   "text": "Cometh this blessedness then upon the circumcision only, or upon the uncircumcision also? for we say that faith was reckoned to Abraham for righteousness."
+  },
+  "lat|GEN 15:6": {
+   "text": "Credidit Abram Deo, et reputatum est illi ad justitiam."
+  },
+  "lat|GEN 16:15": {
+   "text": "Peperitque Agar Abræ filium: qui vocavit nomen ejus Ismaël."
+  },
+  "lat|GEN 16:16": {
+   "text": "Octoginta et sex annorum erat Abram quando peperit ei Agar Ismaëlem."
+  },
+  "lat|GEN 17:24": {
+   "text": "Abraham nonaginta et novem erat annorum quando circumcidit carnem præputii sui."
+  },
+  "lat|GEN 17:26": {
+   "text": "Eadem die circumcisus est Abraham et Ismaël filius ejus:"
+  },
+  "lat|ROM 4:10": {
+   "text": "Quomodo ergo reputata est? in circumcisione, an in præputio? Non in circumcisione, sed in præputio."
+  },
+  "lat|ROM 4:11": {
+   "text": "Et signum accepit circumcisionis, signaculum justitiæ fidei, quæ est in præputio: ut sit pater omnium credentium per præputium, ut reputetur et illis ad justitiam:"
+  },
+  "lat|ROM 4:9": {
+   "text": "Beatitudo ergo hæc in circumcisione tantum manet, an etiam in præputio? Dicimus enim quia reputata est Abrahæ fides ad justitiam."
+  }
+ }
+}

@@ -14,8 +14,10 @@ from ftlib import CORPUS_DIR, SRC_DIR, utf8_stdout
 def write_layer(layer, books):
     os.makedirs(os.path.join(CORPUS_DIR, layer), exist_ok=True)
     for book, verses in books.items():
-        with open(os.path.join(CORPUS_DIR, layer, f"{book}.json"), "w", encoding="utf-8") as f:
+        final = os.path.join(CORPUS_DIR, layer, f"{book}.json")
+        with open(final + ".tmp", "w", encoding="utf-8") as f:
             json.dump({"layer": layer, "book": book, "verses": verses}, f, ensure_ascii=False)
+        os.replace(final + ".tmp", final)  # atomic: readers never see a half-written book
     n = sum(len(v) for v in books.values())
     print(f"  {layer}: {len(books)} books, {n} verses")
 
@@ -65,6 +67,11 @@ def build_hebrew():
 
 VPL = re.compile(r"^([1-4A-Z]{3}) (\d+):(\d+) ?(.*)$")
 
+# eBible's verse-per-line files use older book codes for 11 books; MACULA uses the standard
+# (Paratext/USFM) codes. Map them so a reference means the same book in every layer.
+EBIBLE_TO_STD = {"MAR": "MRK", "JOH": "JHN", "EZE": "EZK", "JOE": "JOL", "1JO": "1JN",
+                 "2JO": "2JN", "3JO": "3JN", "JAM": "JAS", "PHI": "PHP", "SOL": "SNG", "NAH": "NAM"}
+
 def build_vpl(layer, folder, fname):
     books = defaultdict(dict)
     with open(os.path.join(SRC_DIR, folder, fname), encoding="utf-8-sig") as f:
@@ -73,6 +80,7 @@ def build_vpl(layer, folder, fname):
             if not m:
                 continue
             b, c, v, t = m.groups()
+            b = EBIBLE_TO_STD.get(b, b)
             entry = {"text": " ".join(t.split())}
             if layer == "kjv":
                 entry["marked"] = entry["text"]                       # [brackets] = supplied words

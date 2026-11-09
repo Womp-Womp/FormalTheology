@@ -1,0 +1,1081 @@
+{
+ "file": "lean/Matthew22b.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|MAT 1:1": {
+   "text": "This is the record of the genealogy of Jesus Christ, the son of David, the son of Abraham:"
+  },
+  "bsb|MAT 22:42": {
+   "text": "“What do you think about the Christ? Whose son is He?” “David’s,” they answered."
+  },
+  "bsb|MAT 22:43": {
+   "text": "Jesus said to them, “How then does David in the Spirit call Him ‘Lord’? For he says:"
+  },
+  "bsb|MAT 22:44": {
+   "text": "‘The Lord said to my Lord, “Sit at My right hand until I put Your enemies under Your feet.”’"
+  },
+  "bsb|MAT 22:45": {
+   "text": "So if David calls Him ‘Lord,’ how can He be David’s son?”"
+  },
+  "bsb|PSA 110:1": {
+   "text": "A Psalm of David. The LORD said to my Lord: “Sit at My right hand until I make Your enemies a footstool for Your feet.”"
+  },
+  "grc|MAT 1:1": {
+   "lemmas": [
+    "Δαυίδ",
+    "Χριστός",
+    "βίβλος",
+    "γένεσις",
+    "υἱός",
+    "Ἀβραάμ",
+    "Ἰησοῦς"
+   ],
+   "text": "Βίβλος γενέσεως Ἰησοῦ Χριστοῦ υἱοῦ Δαυεὶδ υἱοῦ Ἀβραάμ.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[The] book",
+     "lemma": "βίβλος",
+     "ln": "33.38",
+     "morph": "N-NSF",
+     "strong": "976",
+     "text": "Βίβλος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of [the] genealogy",
+     "lemma": "γένεσις",
+     "ln": "10.24 33.19",
+     "morph": "N-GSF",
+     "strong": "1078",
+     "text": "γενέσεως"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of Jesus",
+     "lemma": "Ἰησοῦς",
+     "ln": "93.169a",
+     "morph": "N-GSM",
+     "strong": "2424",
+     "text": "Ἰησοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "93.387",
+     "morph": "N-GSM",
+     "strong": "5547",
+     "text": "Χριστοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "son",
+     "lemma": "υἱός",
+     "ln": "10.30",
+     "morph": "N-GSM",
+     "strong": "5207",
+     "text": "υἱοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of David",
+     "lemma": "Δαυίδ",
+     "ln": "93.91",
+     "morph": "N-PRI",
+     "strong": "1138",
+     "text": "Δαυεὶδ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "son",
+     "lemma": "υἱός",
+     "ln": "10.30",
+     "morph": "N-GSM",
+     "strong": "5207",
+     "text": "υἱοῦ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "of Abraham",
+     "lemma": "Ἀβραάμ",
+     "ln": "93.7",
+     "morph": "N-PRI",
+     "strong": "11",
+     "text": "Ἀβραάμ"
+    }
+   ]
+  },
+  "grc|MAT 22:42": {
+   "lemmas": [
+    "Δαυίδ",
+    "Χριστός",
+    "αὐτός",
+    "δοκέω",
+    "εἰμί",
+    "λέγω",
+    "περί",
+    "σύ",
+    "τίς",
+    "υἱός",
+    "ὁ"
+   ],
+   "text": "λέγων Τί ὑμῖν δοκεῖ περὶ τοῦ Χριστοῦ;τίνος υἱός ἐστιν;λέγουσιν αὐτῷ Τοῦ Δαυείδ.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "saying",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAP-NSM",
+     "strong": "3004",
+     "text": "λέγων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "What",
+     "lemma": "τίς",
+     "ln": "92.14",
+     "morph": "I-NSN",
+     "strong": "5101",
+     "text": "Τί"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "you",
+     "lemma": "σύ",
+     "ln": "92.7",
+     "morph": "P-2DP",
+     "strong": "4771",
+     "text": "ὑμῖν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "think",
+     "lemma": "δοκέω",
+     "ln": "31.30",
+     "morph": "V-PAI-3S",
+     "strong": "1380",
+     "text": "δοκεῖ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "concerning",
+     "lemma": "περί",
+     "ln": "90.24",
+     "morph": "PREP",
+     "strong": "4012",
+     "text": "περὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "Christ",
+     "lemma": "Χριστός",
+     "ln": "53.82",
+     "morph": "N-GSM",
+     "strong": "5547",
+     "text": "Χριστοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Of whom",
+     "lemma": "τίς",
+     "ln": "92.14",
+     "morph": "I-GSM",
+     "strong": "5101",
+     "text": "τίνος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "son",
+     "lemma": "υἱός",
+     "ln": "10.30",
+     "morph": "N-NSM",
+     "strong": "5207",
+     "text": "υἱός"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "is He",
+     "lemma": "εἰμί",
+     "ln": "13.4",
+     "morph": "V-PAI-3S",
+     "strong": "1510",
+     "text": "ἐστιν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "They say",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAI-3P",
+     "strong": "3004",
+     "text": "λέγουσιν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to Him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DSM",
+     "strong": "846",
+     "text": "αὐτῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "Τοῦ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "Of David",
+     "lemma": "Δαυίδ",
+     "ln": "93.91",
+     "morph": "N-PRI",
+     "strong": "1138",
+     "text": "Δαυείδ"
+    }
+   ]
+  },
+  "grc|MAT 22:43": {
+   "lemmas": [
+    "Δαυίδ",
+    "αὐτός",
+    "καλέω",
+    "κύριος",
+    "λέγω",
+    "οὖν",
+    "πνεῦμα",
+    "πῶς",
+    "ἐν"
+   ],
+   "text": "λέγει αὐτοῖς Πῶς οὖν Δαυεὶδ ἐν Πνεύματι καλεῖ αὐτὸν Κύριον λέγων",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "He says",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAI-3S",
+     "strong": "3004",
+     "text": "λέγει"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to them",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DPM",
+     "strong": "846",
+     "text": "αὐτοῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "How",
+     "lemma": "πῶς",
+     "ln": "92.16",
+     "morph": "ADV-I",
+     "strong": "4459",
+     "text": "Πῶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "οὖν",
+     "ln": "89.50",
+     "morph": "CONJ",
+     "strong": "3767",
+     "text": "οὖν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "David",
+     "lemma": "Δαυίδ",
+     "ln": "93.91",
+     "morph": "N-PRI",
+     "strong": "1138",
+     "text": "Δαυεὶδ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "90.6",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "spirit",
+     "lemma": "πνεῦμα",
+     "ln": "12.18",
+     "morph": "N-DSN",
+     "strong": "4151",
+     "text": "Πνεύματι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "does call",
+     "lemma": "καλέω",
+     "ln": "33.131",
+     "morph": "V-PAI-3S",
+     "strong": "2564",
+     "text": "καλεῖ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-ASM",
+     "strong": "846",
+     "text": "αὐτὸν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Lord",
+     "lemma": "κύριος",
+     "ln": "12.9",
+     "morph": "N-ASM",
+     "strong": "2962",
+     "text": "Κύριον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "saying",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-PAP-NSM",
+     "strong": "3004",
+     "text": "λέγων"
+    }
+   ]
+  },
+  "grc|MAT 22:44": {
+   "lemmas": [
+    "δεξιός",
+    "κάθημαι",
+    "κύριος",
+    "λέγω",
+    "πούς",
+    "σύ",
+    "τίθημι",
+    "ἄν",
+    "ἐγώ",
+    "ἐκ",
+    "ἐχθρός",
+    "ἕως",
+    "ὁ",
+    "ὑποκάτω"
+   ],
+   "text": "Εἶπεν Κύριος τῷ Κυρίῳ μου Κάθου ἐκ δεξιῶν μου ἕως ἂν θῶ τοὺς ἐχθρούς σου ὑποκάτω τῶν ποδῶν σου;",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Said",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-2AAI-3S",
+     "strong": "3004",
+     "text": "Εἶπεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the Lord",
+     "lemma": "κύριος",
+     "ln": "12.9",
+     "morph": "N-NSM",
+     "strong": "2962",
+     "text": "Κύριος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Lord",
+     "lemma": "κύριος",
+     "ln": "12.9",
+     "morph": "N-DSM",
+     "strong": "2962",
+     "text": "Κυρίῳ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of me",
+     "lemma": "ἐγώ",
+     "ln": "92.1",
+     "morph": "P-1GS",
+     "strong": "1473",
+     "text": "μου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Sit",
+     "lemma": "κάθημαι",
+     "ln": "17.12",
+     "morph": "V-PNM-2S",
+     "strong": "2521",
+     "text": "Κάθου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "on",
+     "lemma": "ἐκ",
+     "ln": "87.34",
+     "morph": "PREP",
+     "strong": "1537",
+     "text": "ἐκ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[the] right hand",
+     "lemma": "δεξιός",
+     "ln": "82.8",
+     "morph": "A-GPN",
+     "strong": "1188",
+     "text": "δεξιῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of Me",
+     "lemma": "ἐγώ",
+     "ln": "92.1",
+     "morph": "P-1GS",
+     "strong": "1473",
+     "text": "μου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "until",
+     "lemma": "ἕως",
+     "ln": "67.119",
+     "morph": "ADV",
+     "strong": "2193",
+     "text": "ἕως"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ἄν",
+     "ln": "71.8",
+     "morph": "PRT",
+     "strong": "302",
+     "text": "ἂν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "I place",
+     "lemma": "τίθημι",
+     "ln": "13.9",
+     "morph": "V-2AAS-1S",
+     "strong": "5087",
+     "text": "θῶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-APM",
+     "strong": "3588",
+     "text": "τοὺς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "enemies",
+     "lemma": "ἐχθρός",
+     "ln": "39.11",
+     "morph": "A-APM",
+     "strong": "2190",
+     "text": "ἐχθρούς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of You",
+     "lemma": "σύ",
+     "ln": "92.6",
+     "morph": "P-2GS",
+     "strong": "4771",
+     "text": "σου"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "[as] a footstool",
+     "lemma": "ὑποκάτω",
+     "ln": "37.8",
+     "morph": "ADV",
+     "strong": "5270",
+     "text": "ὑποκάτω"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "for the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GPM",
+     "strong": "3588",
+     "text": "τῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "feet",
+     "lemma": "πούς",
+     "ln": "37.8",
+     "morph": "N-GPM",
+     "strong": "4228",
+     "text": "ποδῶν"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "of You",
+     "lemma": "σύ",
+     "ln": "92.6",
+     "morph": "P-2GS",
+     "strong": "4771",
+     "text": "σου"
+    }
+   ]
+  },
+  "grc|MAT 22:45": {
+   "lemmas": [
+    "Δαυίδ",
+    "αὐτός",
+    "εἰ",
+    "εἰμί",
+    "καλέω",
+    "κύριος",
+    "οὖν",
+    "πῶς",
+    "υἱός"
+   ],
+   "text": "εἰ οὖν Δαυεὶδ καλεῖ αὐτὸν Κύριον,πῶς υἱὸς αὐτοῦ ἐστιν;",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "If",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "therefore",
+     "lemma": "οὖν",
+     "ln": "89.50",
+     "morph": "CONJ",
+     "strong": "3767",
+     "text": "οὖν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "David",
+     "lemma": "Δαυίδ",
+     "ln": "93.91",
+     "morph": "N-PRI",
+     "strong": "1138",
+     "text": "Δαυεὶδ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "calls",
+     "lemma": "καλέω",
+     "ln": "33.131",
+     "morph": "V-PAI-3S",
+     "strong": "2564",
+     "text": "καλεῖ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-ASM",
+     "strong": "846",
+     "text": "αὐτὸν"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "Lord",
+     "lemma": "κύριος",
+     "ln": "12.9",
+     "morph": "N-ASM",
+     "strong": "2962",
+     "text": "Κύριον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "how",
+     "lemma": "πῶς",
+     "ln": "92.16",
+     "morph": "ADV-I",
+     "strong": "4459",
+     "text": "πῶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "son",
+     "lemma": "υἱός",
+     "ln": "10.30",
+     "morph": "N-NSM",
+     "strong": "5207",
+     "text": "υἱὸς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-GSM",
+     "strong": "846",
+     "text": "αὐτοῦ"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "is He",
+     "lemma": "εἰμί",
+     "ln": "13.4",
+     "morph": "V-PAI-3S",
+     "strong": "1510",
+     "text": "ἐστιν"
+    }
+   ]
+  },
+  "heb|PSA 110:1": {
+   "lemmas": [
+    "אָדוֹן",
+    "אָיַב",
+    "דָּוִד",
+    "הֲדֹם",
+    "הוּא",
+    "יָמִין",
+    "יָשַׁב",
+    "יהוה",
+    "לְ",
+    "מִזְמוֹר",
+    "נְאֻם",
+    "עַד",
+    "רֶגֶל",
+    "שִׁית"
+   ],
+   "text": "לְדָוִ֗ד מִ֫זְמ֥וֹר נְאֻ֤ם יְהוָ֨ה׀לַֽאדֹנִ֗י שֵׁ֥ב לִֽימִינִ֑י עַד־אָשִׁ֥ית אֹ֝יְבֶ֗יךָ הֲדֹ֣ם לְרַגְלֶֽיךָ׃",
+   "words": [
+    {
+     "after": "",
+     "english": "of",
+     "gloss": "of",
+     "lemma": "לְ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 1
+    },
+    {
+     "after": " ",
+     "english": "David",
+     "gloss": "David",
+     "lemma": "דָּוִד",
+     "lxx": "δαυιδ",
+     "lxx_strong": "1138",
+     "morph": "Np",
+     "strong": "1732",
+     "text": "דָוִ֗ד",
+     "translit": "ḏāwiḏ",
+     "w": 1
+    },
+    {
+     "after": "",
+     "english": "psalm",
+     "gloss": "a.psalm",
+     "lemma": "מִזְמוֹר",
+     "lxx": "ψαλμός",
+     "lxx_strong": "",
+     "morph": "Ncmsa",
+     "strong": "4210",
+     "text": "מִ֫זְמ֥וֹר",
+     "translit": "mizəmôr",
+     "w": 2
+    },
+    {
+     "after": " ",
+     "english": "says",
+     "gloss": "the.utterance",
+     "lemma": "נְאֻם",
+     "lxx": "εἶπεν",
+     "lxx_strong": "2036",
+     "morph": "Ncmsc",
+     "strong": "5002",
+     "text": "נְאֻ֤ם",
+     "translit": "nəʾum",
+     "w": 3
+    },
+    {
+     "after": "׀",
+     "english": "LORD",
+     "gloss": "of.Yahweh",
+     "lemma": "יהוה",
+     "lxx": "",
+     "lxx_strong": "",
+     "morph": "Np",
+     "strong": "3068",
+     "text": "יְהוָ֨ה",
+     "translit": "yəhwāh",
+     "w": 4
+    },
+    {
+     "after": "",
+     "english": "to",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "τῷ",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לַֽ",
+     "translit": "la",
+     "w": 5
+    },
+    {
+     "after": "",
+     "english": "Lord",
+     "gloss": "lord",
+     "lemma": "אָדוֹן",
+     "lxx": "κυρίῳ",
+     "lxx_strong": "2962",
+     "morph": "Ncmsc",
+     "strong": "0113",
+     "text": "אדֹנִ֗",
+     "translit": "",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "my",
+     "gloss": "my",
+     "lemma": "הוּא",
+     "lxx": "μου",
+     "lxx_strong": "3450",
+     "morph": "Sp1cs",
+     "strong": "2967a",
+     "text": "י",
+     "translit": "",
+     "w": 5
+    },
+    {
+     "after": " ",
+     "english": "sit",
+     "gloss": "sit",
+     "lemma": "יָשַׁב",
+     "lxx": "κάθου",
+     "lxx_strong": "2521",
+     "morph": "Vqv2ms",
+     "strong": "3427",
+     "text": "שֵׁ֥ב",
+     "translit": "šēḇ",
+     "w": 6
+    },
+    {
+     "after": "",
+     "english": "at",
+     "gloss": "to",
+     "lemma": "לְ",
+     "lxx": "ἐκ",
+     "lxx_strong": "1537",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לִֽ",
+     "translit": "li",
+     "w": 7
+    },
+    {
+     "after": "",
+     "english": "right hand",
+     "gloss": "my.right",
+     "lemma": "יָמִין",
+     "lxx": "δεχιῶν",
+     "lxx_strong": "1188",
+     "morph": "Ncfsc",
+     "strong": "3225",
+     "text": "ימִינִ֑",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": " ",
+     "english": "my",
+     "gloss": "hand",
+     "lemma": "הוּא",
+     "lxx": "μου",
+     "lxx_strong": "3450",
+     "morph": "Sp1cs",
+     "strong": "2967a",
+     "text": "י",
+     "translit": "",
+     "w": 7
+    },
+    {
+     "after": "־",
+     "english": "until",
+     "gloss": "until",
+     "lemma": "עַד",
+     "lxx": "ἕως",
+     "lxx_strong": "2193",
+     "morph": "R",
+     "strong": "5704",
+     "text": "עַד",
+     "translit": "ʿaḏ-",
+     "w": 8
+    },
+    {
+     "after": " ",
+     "english": "make",
+     "gloss": "I.will.make",
+     "lemma": "שִׁית",
+     "lxx": "θῶ",
+     "lxx_strong": "5087",
+     "morph": "Vqi1cs",
+     "strong": "7896",
+     "text": "אָשִׁ֥ית",
+     "translit": "ʾāšiyṯ",
+     "w": 9
+    },
+    {
+     "after": "",
+     "english": "enemies",
+     "gloss": "enemies",
+     "lemma": "אָיַב",
+     "lxx": "ἐξθρούς",
+     "lxx_strong": "2190",
+     "morph": "Vqrmpc",
+     "strong": "0341",
+     "text": "אֹ֝יְבֶ֗י",
+     "translit": "",
+     "w": 10
+    },
+    {
+     "after": " ",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σου",
+     "lxx_strong": "4675",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ",
+     "translit": "",
+     "w": 10
+    },
+    {
+     "after": " ",
+     "english": "footstool",
+     "gloss": "a.footstool",
+     "lemma": "הֲדֹם",
+     "lxx": "ὑποπόδιον",
+     "lxx_strong": "5286",
+     "morph": "Ncmsa",
+     "strong": "1916",
+     "text": "הֲדֹ֣ם",
+     "translit": "hăḏōm",
+     "w": 11
+    },
+    {
+     "after": "",
+     "english": "for",
+     "gloss": "for",
+     "lemma": "לְ",
+     "lxx": "τῶν",
+     "lxx_strong": "3588",
+     "morph": "R",
+     "strong": "3807a",
+     "text": "לְ",
+     "translit": "lə",
+     "w": 12
+    },
+    {
+     "after": "",
+     "english": "feet",
+     "gloss": "feet",
+     "lemma": "רֶגֶל",
+     "lxx": "ποδῶν",
+     "lxx_strong": "4228",
+     "morph": "Ncfdc",
+     "strong": "7272",
+     "text": "רַגְלֶֽי",
+     "translit": "",
+     "w": 12
+    },
+    {
+     "after": "׃",
+     "english": "your",
+     "gloss": "your",
+     "lemma": "הוּא",
+     "lxx": "σου",
+     "lxx_strong": "4675",
+     "morph": "Sp2ms",
+     "strong": "3509b",
+     "text": "ךָ",
+     "translit": "",
+     "w": 12
+    }
+   ]
+  },
+  "kjv|MAT 1:1": {
+   "marked": "The book of the generation of Jesus Christ, the son of David, the son of Abraham.",
+   "text": "The book of the generation of Jesus Christ, the son of David, the son of Abraham."
+  },
+  "kjv|MAT 22:42": {
+   "marked": "Saying, What think ye of Christ? whose son is he? They say unto him, [The Son] of David.",
+   "text": "Saying, What think ye of Christ? whose son is he? They say unto him, The Son of David."
+  },
+  "kjv|MAT 22:43": {
+   "marked": "He saith unto them, How then doth David in spirit call him Lord, saying,",
+   "text": "He saith unto them, How then doth David in spirit call him Lord, saying,"
+  },
+  "kjv|MAT 22:44": {
+   "marked": "The LORD said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool?",
+   "text": "The LORD said unto my Lord, Sit thou on my right hand, till I make thine enemies thy footstool?"
+  },
+  "kjv|MAT 22:45": {
+   "marked": "If David then call him Lord, how is he his son?",
+   "text": "If David then call him Lord, how is he his son?"
+  },
+  "kjv|PSA 110:1": {
+   "marked": "A Psalm of David. The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.",
+   "text": "A Psalm of David. The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool."
+  },
+  "lat|MAT 1:1": {
+   "text": "Liber generationis Jesu Christi filii David, filii Abraham."
+  },
+  "lat|MAT 22:42": {
+   "text": "dicens: Quid vobis videtur de Christo? cujus filius est? Dicunt ei: David."
+  },
+  "lat|MAT 22:43": {
+   "text": "Ait illis: Quomodo ergo David in spiritu vocat eum Dominum, dicens:"
+  },
+  "lat|MAT 22:44": {
+   "text": "Dixit Dominus Domino meo: Sede a dextris meis, donec ponam inimicos tuos scabellum pedum tuorum?"
+  },
+  "lat|MAT 22:45": {
+   "text": "Si ergo David vocat eum Dominum, quomodo filius ejus est?"
+  },
+  "lat|PSA 109:1": {
+   "text": "Psalmus David. [Dixit Dominus Domino meo: Sede a dextris meis, donec ponam inimicos tuos scabellum pedum tuorum."
+  },
+  "lat|PSA 110:1": {
+   "text": "Alleluja. [Confitebor tibi, Domine, in toto corde meo, in consilio justorum, et congregatione."
+  }
+ }
+}

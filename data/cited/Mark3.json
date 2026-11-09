@@ -1,0 +1,1192 @@
+{
+ "file": "lean/Mark3.lean",
+ "sources": {
+  "bsb": {
+   "license": "Public domain (eBible.org engbsb)",
+   "sha256": "72ecd9e0131e82737b76e1f2d706c85771d6054b6350673f80f49c839133f45e",
+   "url": "https://ebible.org/Scriptures/engbsb_vpl.zip"
+  },
+  "kjv": {
+   "license": "Public domain outside the UK (eBible.org eng-kjv)",
+   "sha256": "72e4e5168bf7ee4e5a47227e6169a448b814ee8f131b6b94ae70437d7da07368",
+   "url": "https://ebible.org/Scriptures/eng-kjv_vpl.zip"
+  },
+  "macula_greek": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-greek",
+   "sha256": "c7cf33b8273c0f549e3582d1610603c86210c18e1f245bb80a69281622385fa5",
+   "url": "https://raw.githubusercontent.com/Clear-Bible/macula-greek/8423afe47b9e8f24b7772e808af45c7159a6fe7e/Nestle1904/tsv/macula-greek-Nestle1904.tsv"
+  },
+  "macula_hebrew": {
+   "license": "CC BY 4.0, (c) 2022-2024 Biblica, Inc. https://github.com/Clear-Bible/macula-hebrew",
+   "sha256": "965cb0599beed2fe31283b615bcc369178141c0e718a66d97518d94309cfc124",
+   "url": "https://media.githubusercontent.com/media/Clear-Bible/macula-hebrew/47db250bd55d0d8577f2a94fba114ef16c35b23c/WLC/tsv/macula-hebrew.tsv"
+  },
+  "vulgate": {
+   "license": "Public domain (eBible.org latVUC)",
+   "sha256": "bf13a76cc8131fd469a48158c79d9b2adcaad15766ec53852322fb71ca25301b",
+   "url": "https://ebible.org/Scriptures/latVUC_vpl.zip"
+  }
+ },
+ "verses": {
+  "bsb|MRK 3:22": {
+   "text": "And the scribes who had come down from Jerusalem were saying, “He is possessed by Beelzebul,” and, “By the prince of the demons He drives out demons.”"
+  },
+  "bsb|MRK 3:23": {
+   "text": "So Jesus called them together and began to speak to them in parables: “How can Satan drive out Satan?"
+  },
+  "bsb|MRK 3:24": {
+   "text": "If a kingdom is divided against itself, it cannot stand."
+  },
+  "bsb|MRK 3:25": {
+   "text": "If a house is divided against itself, it cannot stand."
+  },
+  "bsb|MRK 3:26": {
+   "text": "And if Satan is divided and rises against himself, he cannot stand; his end has come."
+  },
+  "bsb|MRK 3:27": {
+   "text": "Indeed, no one can enter a strong man’s house to steal his possessions unless he first ties up the strong man. Then he can plunder his house."
+  },
+  "grc|MRK 3:22": {
+   "lemmas": [
+    "Βεελζεβούλ",
+    "γραμματεύς",
+    "δαιμόνιον",
+    "καί",
+    "καταβαίνω",
+    "λέγω",
+    "ἀπό",
+    "ἄρχων",
+    "ἐκβάλλω",
+    "ἐν",
+    "ἔχω",
+    "Ἱεροσόλυμα",
+    "ὁ",
+    "ὅτι"
+   ],
+   "text": "καὶ οἱ γραμματεῖς οἱ ἀπὸ Ἱεροσολύμων καταβάντες ἔλεγον ὅτι Βεελζεβοὺλ ἔχει,καὶ ὅτι ἐν τῷ ἄρχοντι τῶν δαιμονίων ἐκβάλλει τὰ δαιμόνια.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.87",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NPM",
+     "strong": "3588",
+     "text": "οἱ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "scribes",
+     "lemma": "γραμματεύς",
+     "ln": "53.94",
+     "morph": "N-NPM",
+     "strong": "1122",
+     "text": "γραμματεῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "those",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NPM",
+     "strong": "3588",
+     "text": "οἱ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "from",
+     "lemma": "ἀπό",
+     "ln": "84.3",
+     "morph": "PREP",
+     "strong": "575",
+     "text": "ἀπὸ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Jerusalem",
+     "lemma": "Ἱεροσόλυμα",
+     "ln": "93.480a",
+     "morph": "N-GPN",
+     "strong": "2414",
+     "text": "Ἱεροσολύμων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having come down",
+     "lemma": "καταβαίνω",
+     "ln": "15.107",
+     "morph": "V-2AAP-NPM",
+     "strong": "2597",
+     "text": "καταβάντες"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "were saying",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-IAI-3P",
+     "strong": "3004",
+     "text": "ἔλεγον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὅτι",
+     "ln": "90.21",
+     "morph": "CONJ",
+     "strong": "3754",
+     "text": "ὅτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Beelzebul",
+     "lemma": "Βεελζεβούλ",
+     "ln": "93.68",
+     "morph": "N-PRI",
+     "strong": "954",
+     "text": "Βεελζεβοὺλ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "He has",
+     "lemma": "ἔχω",
+     "ln": "",
+     "morph": "V-PAI-3S",
+     "strong": "2192",
+     "text": "ἔχει"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὅτι",
+     "ln": "90.21",
+     "morph": "CONJ",
+     "strong": "3754",
+     "text": "ὅτι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "By",
+     "lemma": "ἐν",
+     "ln": "90.6",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-DSM",
+     "strong": "3588",
+     "text": "τῷ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "prince",
+     "lemma": "ἄρχων",
+     "ln": "37.56",
+     "morph": "N-DSM",
+     "strong": "758",
+     "text": "ἄρχοντι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GPN",
+     "strong": "3588",
+     "text": "τῶν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "demons",
+     "lemma": "δαιμόνιον",
+     "ln": "12.37",
+     "morph": "N-GPN",
+     "strong": "1140",
+     "text": "δαιμονίων"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "He casts out",
+     "lemma": "ἐκβάλλω",
+     "ln": "53.102",
+     "morph": "V-PAI-3S",
+     "strong": "1544",
+     "text": "ἐκβάλλει"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-APN",
+     "strong": "3588",
+     "text": "τὰ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "demons",
+     "lemma": "δαιμόνιον",
+     "ln": "12.37",
+     "morph": "N-APN",
+     "strong": "1140",
+     "text": "δαιμόνια"
+    }
+   ]
+  },
+  "grc|MRK 3:23": {
+   "lemmas": [
+    "Σατανᾶς",
+    "αὐτός",
+    "δύναμαι",
+    "καί",
+    "λέγω",
+    "παραβολή",
+    "προσκαλέω",
+    "πῶς",
+    "ἐκβάλλω",
+    "ἐν"
+   ],
+   "text": "καὶ προσκαλεσάμενος αὐτοὺς ἐν παραβολαῖς ἔλεγεν αὐτοῖς Πῶς δύναται Σατανᾶς Σατανᾶν ἐκβάλλειν;",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.87",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having called to [Him]",
+     "lemma": "προσκαλέω",
+     "ln": "33.308",
+     "morph": "V-ADP-NSM",
+     "strong": "4341",
+     "text": "προσκαλεσάμενος"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "them",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-APM",
+     "strong": "846",
+     "text": "αὐτοὺς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "in",
+     "lemma": "ἐν",
+     "ln": "89.76",
+     "morph": "PREP",
+     "strong": "1722",
+     "text": "ἐν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "parables",
+     "lemma": "παραβολή",
+     "ln": "33.15",
+     "morph": "N-DPF",
+     "strong": "3850",
+     "text": "παραβολαῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "He began speaking",
+     "lemma": "λέγω",
+     "ln": "33.69",
+     "morph": "V-IAI-3S",
+     "strong": "3004",
+     "text": "ἔλεγεν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to them",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-DPM",
+     "strong": "846",
+     "text": "αὐτοῖς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "How",
+     "lemma": "πῶς",
+     "ln": "92.16",
+     "morph": "ADV-I",
+     "strong": "4459",
+     "text": "Πῶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "is able",
+     "lemma": "δύναμαι",
+     "ln": "74.5",
+     "morph": "V-PNI-3S",
+     "strong": "1410",
+     "text": "δύναται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Satan",
+     "lemma": "Σατανᾶς",
+     "ln": "12.34 93.330",
+     "morph": "N-NSM",
+     "strong": "4567",
+     "text": "Σατανᾶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Satan",
+     "lemma": "Σατανᾶς",
+     "ln": "12.34 93.330",
+     "morph": "N-ASM",
+     "strong": "4567",
+     "text": "Σατανᾶν"
+    },
+    {
+     "after": ";",
+     "english": "",
+     "gloss": "to cast out",
+     "lemma": "ἐκβάλλω",
+     "ln": "53.102",
+     "morph": "V-PAN",
+     "strong": "1544",
+     "text": "ἐκβάλλειν"
+    }
+   ]
+  },
+  "grc|MRK 3:24": {
+   "lemmas": [
+    "βασιλεία",
+    "δύναμαι",
+    "καί",
+    "μερίζω",
+    "οὐ",
+    "ἐάν",
+    "ἐκεῖνος",
+    "ἐπί",
+    "ἑαυτοῦ",
+    "ἵστημι",
+    "ὁ"
+   ],
+   "text": "καὶ ἐὰν βασιλεία ἐφ’ἑαυτὴν μερισθῇ,οὐ δύναται σταθῆναι ἡ βασιλεία ἐκείνη·",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "ἐάν",
+     "ln": "89.67",
+     "morph": "COND",
+     "strong": "1437",
+     "text": "ἐὰν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a kingdom",
+     "lemma": "βασιλεία",
+     "ln": "1.82",
+     "morph": "N-NSF",
+     "strong": "932",
+     "text": "βασιλεία"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "against",
+     "lemma": "ἐπί",
+     "ln": "90.34",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐφ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "itself",
+     "lemma": "ἑαυτοῦ",
+     "ln": "92.25",
+     "morph": "F-3ASF",
+     "strong": "1438",
+     "text": "ἑαυτὴν"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "is divided",
+     "lemma": "μερίζω",
+     "ln": "63.23",
+     "morph": "V-APS-3S",
+     "strong": "3307",
+     "text": "μερισθῇ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "is able",
+     "lemma": "δύναμαι",
+     "ln": "74.5",
+     "morph": "V-PNI-3S",
+     "strong": "1410",
+     "text": "δύναται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to stand",
+     "lemma": "ἵστημι",
+     "ln": "13.90",
+     "morph": "V-APN",
+     "strong": "2476",
+     "text": "σταθῆναι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "kingdom",
+     "lemma": "βασιλεία",
+     "ln": "1.82",
+     "morph": "N-NSF",
+     "strong": "932",
+     "text": "βασιλεία"
+    },
+    {
+     "after": "·",
+     "english": "",
+     "gloss": "that",
+     "lemma": "ἐκεῖνος",
+     "ln": "92.30",
+     "morph": "D-NSF",
+     "strong": "1565",
+     "text": "ἐκείνη"
+    }
+   ]
+  },
+  "grc|MRK 3:25": {
+   "lemmas": [
+    "δύναμαι",
+    "καί",
+    "μερίζω",
+    "οἰκία",
+    "οὐ",
+    "ἐάν",
+    "ἐκεῖνος",
+    "ἐπί",
+    "ἑαυτοῦ",
+    "ἵστημι",
+    "ὁ"
+   ],
+   "text": "καὶ ἐὰν οἰκία ἐφ’ἑαυτὴν μερισθῇ,οὐ δυνήσεται ἡ οἰκία ἐκείνη στῆναι.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "ἐάν",
+     "ln": "89.67",
+     "morph": "COND",
+     "strong": "1437",
+     "text": "ἐὰν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "a house",
+     "lemma": "οἰκία",
+     "ln": "10.8",
+     "morph": "N-NSF",
+     "strong": "3614",
+     "text": "οἰκία"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "against",
+     "lemma": "ἐπί",
+     "ln": "90.34",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐφ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "itself",
+     "lemma": "ἑαυτοῦ",
+     "ln": "92.25",
+     "morph": "F-3ASF",
+     "strong": "1438",
+     "text": "ἑαυτὴν"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "is divided",
+     "lemma": "μερίζω",
+     "ln": "63.23",
+     "morph": "V-APS-3S",
+     "strong": "3307",
+     "text": "μερισθῇ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "will be able",
+     "lemma": "δύναμαι",
+     "ln": "74.5",
+     "morph": "V-FDI-3S",
+     "strong": "1410",
+     "text": "δυνήσεται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSF",
+     "strong": "3588",
+     "text": "ἡ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "house",
+     "lemma": "οἰκία",
+     "ln": "10.8",
+     "morph": "N-NSF",
+     "strong": "3614",
+     "text": "οἰκία"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "that",
+     "lemma": "ἐκεῖνος",
+     "ln": "92.30",
+     "morph": "D-NSF",
+     "strong": "1565",
+     "text": "ἐκείνη"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "to stand",
+     "lemma": "ἵστημι",
+     "ln": "",
+     "morph": "V-2AAN",
+     "strong": "2476",
+     "text": "στῆναι"
+    }
+   ]
+  },
+  "grc|MRK 3:26": {
+   "lemmas": [
+    "Σατανᾶς",
+    "δύναμαι",
+    "εἰ",
+    "καί",
+    "μερίζω",
+    "οὐ",
+    "τέλος",
+    "ἀλλά",
+    "ἀνίστημι",
+    "ἐπί",
+    "ἑαυτοῦ",
+    "ἔχω",
+    "ἵστημι",
+    "ὁ"
+   ],
+   "text": "καὶ εἰ ὁ Σατανᾶς ἀνέστη ἐφ’ἑαυτὸν καὶ ἐμερίσθη,οὐ δύναται στῆναι ἀλλὰ τέλος ἔχει.",
+   "words": [
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "εἰ",
+     "ln": "89.65",
+     "morph": "COND",
+     "strong": "1487",
+     "text": "εἰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "-",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-NSM",
+     "strong": "3588",
+     "text": "ὁ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "Satan",
+     "lemma": "Σατανᾶς",
+     "ln": "12.34 93.330",
+     "morph": "N-NSM",
+     "strong": "4567",
+     "text": "Σατανᾶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "has risen up",
+     "lemma": "ἀνίστημι",
+     "ln": "39.34",
+     "morph": "V-2AAI-3S",
+     "strong": "450",
+     "text": "ἀνέστη"
+    },
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "against",
+     "lemma": "ἐπί",
+     "ln": "90.34",
+     "morph": "PREP",
+     "strong": "1909",
+     "text": "ἐφ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "himself",
+     "lemma": "ἑαυτοῦ",
+     "ln": "92.25",
+     "morph": "F-3ASM",
+     "strong": "1438",
+     "text": "ἑαυτὸν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "and",
+     "lemma": "καί",
+     "ln": "89.92",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "has been divided",
+     "lemma": "μερίζω",
+     "ln": "63.23",
+     "morph": "V-API-3S",
+     "strong": "3307",
+     "text": "ἐμερίσθη"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "he is able",
+     "lemma": "δύναμαι",
+     "ln": "74.5",
+     "morph": "V-PNI-3S",
+     "strong": "1410",
+     "text": "δύναται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "to stand",
+     "lemma": "ἵστημι",
+     "ln": "13.90",
+     "morph": "V-2AAN",
+     "strong": "2476",
+     "text": "στῆναι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "but",
+     "lemma": "ἀλλά",
+     "ln": "89.125",
+     "morph": "CONJ",
+     "strong": "235",
+     "text": "ἀλλὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "an end",
+     "lemma": "τέλος",
+     "ln": "67.66",
+     "morph": "N-ASN",
+     "strong": "5056",
+     "text": "τέλος"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "is coming to",
+     "lemma": "ἔχω",
+     "ln": "90.65",
+     "morph": "V-PAI-3S",
+     "strong": "2192",
+     "text": "ἔχει"
+    }
+   ]
+  },
+  "grc|MRK 3:27": {
+   "lemmas": [
+    "αὐτός",
+    "δέω",
+    "διαρπάζω",
+    "δύναμαι",
+    "εἰς",
+    "εἰσέρχομαι",
+    "καί",
+    "μή",
+    "οἰκία",
+    "οὐ",
+    "οὐδείς",
+    "πρῶτος",
+    "σκεῦος",
+    "τότε",
+    "ἀλλά",
+    "ἐάν",
+    "ἰσχυρός",
+    "ὁ"
+   ],
+   "text": "ἀλλ’οὐ δύναται οὐδεὶς εἰς τὴν οἰκίαν τοῦ ἰσχυροῦ εἰσελθὼν τὰ σκεύη αὐτοῦ διαρπάσαι,ἐὰν μὴ πρῶτον τὸν ἰσχυρὸν δήσῃ,καὶ τότε τὴν οἰκίαν αὐτοῦ διαρπάσει.",
+   "words": [
+    {
+     "after": "’",
+     "english": "",
+     "gloss": "But",
+     "lemma": "ἀλλά",
+     "ln": "89.125",
+     "morph": "CONJ",
+     "strong": "235",
+     "text": "ἀλλ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "οὐ",
+     "ln": "69.3",
+     "morph": "PRT-N",
+     "strong": "3756",
+     "text": "οὐ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "is able",
+     "lemma": "δύναμαι",
+     "ln": "74.5",
+     "morph": "V-PNI-3S",
+     "strong": "1410",
+     "text": "δύναται"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "no one",
+     "lemma": "οὐδείς",
+     "ln": "92.23",
+     "morph": "A-NSM-N",
+     "strong": "3762",
+     "text": "οὐδεὶς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "into",
+     "lemma": "εἰς",
+     "ln": "84.22",
+     "morph": "PREP",
+     "strong": "1519",
+     "text": "εἰς"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASF",
+     "strong": "3588",
+     "text": "τὴν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "house",
+     "lemma": "οἰκία",
+     "ln": "7.3",
+     "morph": "N-ASF",
+     "strong": "3614",
+     "text": "οἰκίαν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-GSM",
+     "strong": "3588",
+     "text": "τοῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "strong man",
+     "lemma": "ἰσχυρός",
+     "ln": "79.63",
+     "morph": "A-GSM",
+     "strong": "2478",
+     "text": "ἰσχυροῦ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "having entered",
+     "lemma": "εἰσέρχομαι",
+     "ln": "15.93",
+     "morph": "V-2AAP-NSM",
+     "strong": "1525",
+     "text": "εἰσελθὼν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-APN",
+     "strong": "3588",
+     "text": "τὰ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "goods",
+     "lemma": "σκεῦος",
+     "ln": "57.20",
+     "morph": "N-APN",
+     "strong": "4632",
+     "text": "σκεύη"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-GSM",
+     "strong": "846",
+     "text": "αὐτοῦ"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "to plunder",
+     "lemma": "διαρπάζω",
+     "ln": "57.238",
+     "morph": "V-AAN",
+     "strong": "1283",
+     "text": "διαρπάσαι"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "if",
+     "lemma": "ἐάν",
+     "ln": "",
+     "morph": "COND",
+     "strong": "1437",
+     "text": "ἐὰν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "not",
+     "lemma": "μή",
+     "ln": "",
+     "morph": "PRT-N",
+     "strong": "3361",
+     "text": "μὴ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "first",
+     "lemma": "πρῶτος",
+     "ln": "67.18",
+     "morph": "ADV-S",
+     "strong": "4412",
+     "text": "πρῶτον"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASM",
+     "strong": "3588",
+     "text": "τὸν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "strong man",
+     "lemma": "ἰσχυρός",
+     "ln": "79.63",
+     "morph": "A-ASM",
+     "strong": "2478",
+     "text": "ἰσχυρὸν"
+    },
+    {
+     "after": ",",
+     "english": "",
+     "gloss": "he binds",
+     "lemma": "δέω",
+     "ln": "37.114",
+     "morph": "V-AAS-3S",
+     "strong": "1210",
+     "text": "δήσῃ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "And",
+     "lemma": "καί",
+     "ln": "89.87",
+     "morph": "CONJ",
+     "strong": "2532",
+     "text": "καὶ"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "then",
+     "lemma": "τότε",
+     "ln": "67.47",
+     "morph": "ADV",
+     "strong": "5119",
+     "text": "τότε"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "the",
+     "lemma": "ὁ",
+     "ln": "92.24",
+     "morph": "T-ASF",
+     "strong": "3588",
+     "text": "τὴν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "house",
+     "lemma": "οἰκία",
+     "ln": "7.3",
+     "morph": "N-ASF",
+     "strong": "3614",
+     "text": "οἰκίαν"
+    },
+    {
+     "after": " ",
+     "english": "",
+     "gloss": "of him",
+     "lemma": "αὐτός",
+     "ln": "92.11",
+     "morph": "P-GSM",
+     "strong": "846",
+     "text": "αὐτοῦ"
+    },
+    {
+     "after": ".",
+     "english": "",
+     "gloss": "he will plunder",
+     "lemma": "διαρπάζω",
+     "ln": "57.238",
+     "morph": "V-FAI-3S",
+     "strong": "1283",
+     "text": "διαρπάσει"
+    }
+   ]
+  },
+  "kjv|MRK 3:22": {
+   "marked": "¶ And the scribes which came down from Jerusalem said, He hath Beelzebub, and by the prince of the devils casteth he out devils.",
+   "text": "¶ And the scribes which came down from Jerusalem said, He hath Beelzebub, and by the prince of the devils casteth he out devils."
+  },
+  "kjv|MRK 3:23": {
+   "marked": "And he called them [unto him], and said unto them in parables, How can Satan cast out Satan?",
+   "text": "And he called them unto him, and said unto them in parables, How can Satan cast out Satan?"
+  },
+  "kjv|MRK 3:24": {
+   "marked": "And if a kingdom be divided against itself, that kingdom cannot stand.",
+   "text": "And if a kingdom be divided against itself, that kingdom cannot stand."
+  },
+  "kjv|MRK 3:25": {
+   "marked": "And if a house be divided against itself, that house cannot stand.",
+   "text": "And if a house be divided against itself, that house cannot stand."
+  },
+  "kjv|MRK 3:26": {
+   "marked": "And if Satan rise up against himself, and be divided, he cannot stand, but hath an end.",
+   "text": "And if Satan rise up against himself, and be divided, he cannot stand, but hath an end."
+  },
+  "kjv|MRK 3:27": {
+   "marked": "No man can enter into a strong man’s house, and spoil his goods, except he will first bind the strong man; and then he will spoil his house.",
+   "text": "No man can enter into a strong man’s house, and spoil his goods, except he will first bind the strong man; and then he will spoil his house."
+  },
+  "lat|MRK 3:22": {
+   "text": "Et scribæ, qui ab Jerosolymis descenderant, dicebant: Quoniam Beelzebub habet, et quia in principe dæmoniorum ejicit dæmonia."
+  },
+  "lat|MRK 3:23": {
+   "text": "Et convocatis eis in parabolis dicebat illis: Quomodo potest Satanas Satanam ejicere?"
+  },
+  "lat|MRK 3:24": {
+   "text": "Et si regnum in se dividatur, non potest regnum illud stare."
+  },
+  "lat|MRK 3:25": {
+   "text": "Et si domus super semetipsam dispertiatur, non potest domus illa stare."
+  },
+  "lat|MRK 3:26": {
+   "text": "Et si Satanas consurrexerit in semetipsum, dispertitus est, et non poterit stare, sed finem habet."
+  },
+  "lat|MRK 3:27": {
+   "text": "Nemo potest vasa fortis ingressus in domum diripere, nisi prius fortem alliget, et tunc domum ejus diripiet."
+  }
+ }
+}
