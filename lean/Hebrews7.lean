@@ -313,3 +313,90 @@ end Hebrews7
 #print axioms Hebrews7.better_than_levi
 #print axioms Hebrews7.abraham_greater_refuted
 #print axioms Hebrews7.levi_greater_refuted
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Hebrews7.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Person : Type
+  melchizedek : Person
+  abram : Person
+  abraham : Person
+  levi : Person
+  he19 : Person
+  he20 : Person
+  him20 : Person
+  Blessed : Person → Person → Prop
+  GaveTenth : Person → Person → Prop
+  Better : Person → Person → Prop
+  TithedThrough : Person → Person → Prop
+  InLoinsWhenMet : Person → Person → Prop
+  gen14_19 : Blessed he19 abram
+  gen14_20 : GaveTenth he20 him20
+  gen17_5 : abram = abraham
+  heb7_1 : Blessed melchizedek abraham
+  heb7_4 : GaveTenth abraham melchizedek
+  heb7_7 : ∀ x y : Person, Blessed x y → Better x y
+  heb7_9 : TithedThrough levi abraham
+  heb7_10 : InLoinsWhenMet levi abraham
+  gen14_19_subject : he19 = melchizedek
+  gen14_20_pronouns : he20 = abram ∧ him20 = melchizedek
+  tithe_shows_greater : ∀ x : Person, GaveTenth x melchizedek → Better melchizedek x
+  represented_in_abraham :  ∀ x y : Person, TithedThrough x y → InLoinsWhenMet x y → GaveTenth y melchizedek → GaveTenth x melchizedek
+  better_asymm : ∀ x y : Person, Better x y → ¬Better y x
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Hebrews7.Person, Hebrews7.melchizedek, Hebrews7.abram, Hebrews7.abraham, Hebrews7.levi, Hebrews7.he19, Hebrews7.he20, Hebrews7.him20, Hebrews7.Blessed, Hebrews7.GaveTenth, Hebrews7.Better, Hebrews7.TithedThrough, Hebrews7.InLoinsWhenMet, Hebrews7.gen14_19, Hebrews7.gen14_20, Hebrews7.gen17_5, Hebrews7.heb7_1, Hebrews7.heb7_4, Hebrews7.heb7_7, Hebrews7.heb7_9, Hebrews7.heb7_10, Hebrews7.gen14_19_subject, Hebrews7.gen14_20_pronouns, Hebrews7.tithe_shows_greater, Hebrews7.represented_in_abraham, Hebrews7.better_asymm⟩
+
+end Hebrews7.Consistency
+-- END GENERATED THEORY
+
+namespace Hebrews7.Consistency
+
+/-- A world of numbered persons: 0 is Melchizedek, 1 is Abram who is Abraham, 2 is Levi, and every
+other number stands in no relation. Genesis 14:20's pronouns hold as Hebrews reads them ("he" is
+1, "him" is 0). Melchizedek blesses Abraham, and Abraham (with Levi in him) gives Melchizedek a
+tenth. `Better` is asymmetric, with Melchizedek above everyone else. Abraham and Levi are not
+ranked against each other, so "the patriarch is better than his descendant" does not follow from
+these axioms. -/
+def model : Theory where
+  Person := Nat
+  melchizedek := 0
+  abram := 1
+  abraham := 1
+  levi := 2
+  he19 := 0
+  he20 := 1
+  him20 := 0
+  Blessed := fun x y => x = 0 ∧ y = 1
+  GaveTenth := fun x y => y = 0 ∧ (x = 1 ∨ x = 2)
+  Better := fun x y => x = 0 ∧ y ≠ 0
+  TithedThrough := fun x y => x = 2 ∧ y = 1
+  InLoinsWhenMet := fun x y => x = 2 ∧ y = 1
+  gen14_19 := ⟨rfl, rfl⟩
+  gen14_20 := ⟨rfl, Or.inl rfl⟩
+  gen17_5 := rfl
+  heb7_1 := ⟨rfl, rfl⟩
+  heb7_4 := ⟨rfl, Or.inl rfl⟩
+  heb7_7 := fun _ y ⟨hx, hy⟩ => ⟨hx, by subst hy; decide⟩
+  heb7_9 := ⟨rfl, rfl⟩
+  heb7_10 := ⟨rfl, rfl⟩
+  gen14_19_subject := rfl
+  gen14_20_pronouns := ⟨rfl, rfl⟩
+  tithe_shows_greater := fun x ⟨_, h⟩ =>
+    ⟨rfl, by cases h with
+      | inl h => subst h; decide
+      | inr h => subst h; decide⟩
+  represented_in_abraham := fun _ _ ⟨hx, _⟩ _ _ => ⟨rfl, Or.inr hx⟩
+  better_asymm := fun _ _ ⟨_, hy⟩ ⟨hy0, _⟩ => hy hy0
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Hebrews7.Consistency
+
+#print axioms Hebrews7.Consistency.consistent

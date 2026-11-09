@@ -331,3 +331,91 @@ end Hebrews4
 #print axioms Hebrews4.first_hearers_out_via_hebrews
 #print axioms Hebrews4.first_hearers_out_via_psalm
 #print axioms Hebrews4.a_rest_remains
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Hebrews4.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Era : Type
+  joshuaDays : Era
+  davidDays : Era
+  After : Era → Era → Prop
+  JoshuaGaveRest : Prop
+  SpokeOfAnotherDay : Era → Prop
+  SetsToday : Era → Prop
+  PsalmToday : Prop
+  SworeIf : Prop → Prop
+  TheyEnterMyRest : Prop
+  SomeMustEnter : Prop
+  FirstHearersEntered : Prop
+  SabbathRestRemains : Prop
+  LandRestGiven : Prop
+  heb4_6a : SomeMustEnter
+  heb4_6b : ¬FirstHearersEntered
+  heb4_7 : SetsToday davidDays
+  heb4_8 : JoshuaGaveRest → ¬∃ t, After joshuaDays t ∧ SpokeOfAnotherDay t
+  ps95_7 : PsalmToday
+  ps95_11 : SworeIf TheyEnterMyRest
+  jos21_44 : LandRestGiven
+  psalm_in_david : PsalmToday → SetsToday davidDays
+  again_is_another : SetsToday davidDays → SpokeOfAnotherDay davidDays
+  joshua_before_david : After joshuaDays davidDays
+  contrary_to_fact : ¬JoshuaGaveRest
+  oath_means_not : SworeIf TheyEnterMyRest → ¬TheyEnterMyRest
+  they_are_first_hearers : FirstHearersEntered → TheyEnterMyRest
+  remains_reading : SomeMustEnter → FirstHearersEntered ∨ JoshuaGaveRest ∨ SabbathRestRemains
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Hebrews4.Era, Hebrews4.joshuaDays, Hebrews4.davidDays, Hebrews4.After, Hebrews4.JoshuaGaveRest, Hebrews4.SpokeOfAnotherDay, Hebrews4.SetsToday, Hebrews4.PsalmToday, Hebrews4.SworeIf, Hebrews4.TheyEnterMyRest, Hebrews4.SomeMustEnter, Hebrews4.FirstHearersEntered, Hebrews4.SabbathRestRemains, Hebrews4.LandRestGiven, Hebrews4.heb4_6a, Hebrews4.heb4_6b, Hebrews4.heb4_7, Hebrews4.heb4_8, Hebrews4.ps95_7, Hebrews4.ps95_11, Hebrews4.jos21_44, Hebrews4.psalm_in_david, Hebrews4.again_is_another, Hebrews4.joshua_before_david, Hebrews4.contrary_to_fact, Hebrews4.oath_means_not, Hebrews4.they_are_first_hearers, Hebrews4.remains_reading⟩
+
+end Hebrews4.Consistency
+-- END GENERATED THEORY
+
+namespace Hebrews4.Consistency
+
+/-- A world of moments numbered in `Nat`, with 0 = Joshua's days and 1 = David's: God sets the
+"To day" and speaks of another day only at 1, which comes after 0. Here the land-rest of Joshua 21:44 IS given
+but THE rest is not, so the identification `LandRestGiven → JoshuaGaveRest` is false; the oath "if
+they enter" stands while the entering is false; nobody of the old era enters, and a Sabbath-rest
+remains. Hebrews 4:8 holds because its "if" clause is false, as the Greek contrary-to-fact mood
+presents it; every model must make it so, since the theorems above force `¬JoshuaGaveRest`. -/
+def model : Theory where
+  Era := Nat
+  joshuaDays := 0
+  davidDays := 1
+  After := fun a b => a < b
+  JoshuaGaveRest := False
+  SpokeOfAnotherDay := fun t => t = 1
+  SetsToday := fun t => t = 1
+  PsalmToday := True
+  SworeIf := fun _ => True
+  TheyEnterMyRest := False
+  SomeMustEnter := True
+  FirstHearersEntered := False
+  SabbathRestRemains := True
+  LandRestGiven := True
+  heb4_6a := trivial
+  heb4_6b := fun h => h
+  heb4_7 := rfl
+  heb4_8 := fun h _ => h
+  ps95_7 := trivial
+  ps95_11 := trivial
+  jos21_44 := trivial
+  psalm_in_david := fun _ => rfl
+  again_is_another := fun h => h
+  joshua_before_david := Nat.zero_lt_one
+  contrary_to_fact := fun h => h
+  oath_means_not := fun _ h => h
+  they_are_first_hearers := fun h => h
+  remains_reading := fun _ => Or.inr (Or.inr trivial)
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Hebrews4.Consistency
+
+#print axioms Hebrews4.Consistency.consistent

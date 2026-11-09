@@ -142,3 +142,60 @@ end Matthew22
 #print axioms Matthew22.abraham_died_yet_lives
 #print axioms Matthew22.sadducee_premise_refuted
 #print axioms Matthew22.abraham_raised
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Matthew22.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Person : Type
+  abraham : Person
+  Died : Person → Prop
+  GodOf : Person → Prop
+  GodOfNow : Person → Prop
+  DeadNow : Person → Prop
+  LivingNow : Person → Prop
+  Raised : Person → Prop
+  gen25_8 : Died abraham
+  exo3_6 : GodOf abraham
+  mat22_32a : GodOfNow abraham
+  mat22_32b : ∀ p : Person, GodOfNow p → ¬DeadNow p ∧ LivingNow p
+  nominal_present : GodOf abraham → GodOfNow abraham
+  lives_after_death_raised : ∀ p : Person, Died p → LivingNow p → Raised p
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Matthew22.Person, Matthew22.abraham, Matthew22.Died, Matthew22.GodOf, Matthew22.GodOfNow, Matthew22.DeadNow, Matthew22.LivingNow, Matthew22.Raised, Matthew22.gen25_8, Matthew22.exo3_6, Matthew22.mat22_32a, Matthew22.mat22_32b, Matthew22.nominal_present, Matthew22.lives_after_death_raised⟩
+
+end Matthew22.Consistency
+-- END GENERATED THEORY
+
+namespace Matthew22.Consistency
+
+/-- A one-person world where every axiom holds: Abraham died (Gen 25:8), God is his God now, he is
+living and not among "the dead", and he is raised. Note that `Died` and `DeadNow` come apart here,
+exactly as the text keeps מוּת and νεκρός apart; the Sadducees' premise is false in this world. -/
+def model : Theory where
+  Person := Unit
+  abraham := ()
+  Died := fun _ => True
+  GodOf := fun _ => True
+  GodOfNow := fun _ => True
+  DeadNow := fun _ => False
+  LivingNow := fun _ => True
+  Raised := fun _ => True
+  gen25_8 := trivial
+  exo3_6 := trivial
+  mat22_32a := trivial
+  mat22_32b := fun _ _ => ⟨id, trivial⟩
+  nominal_present := fun _ => trivial
+  lives_after_death_raised := fun _ _ _ => trivial
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Matthew22.Consistency
+
+#print axioms Matthew22.Consistency.consistent

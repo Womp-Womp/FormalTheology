@@ -349,3 +349,81 @@ end Romans4
 #print axioms Romans4.circumcision_not_prior_via_paul
 #print axioms Romans4.circumcision_not_prior_via_genesis
 #print axioms Romans4.father_of_uncircumcised_believers
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Romans4.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Person : Type
+  ReckonedGk : Nat → Prop
+  InCircumcision : Nat → Prop
+  InUncircumcision : Nat → Prop
+  BelievesUncircumcised : Person → Prop
+  FatherOf : Person → Prop
+  InOrderThat : Prop → Prop
+  ReckonedHeb : Nat → Prop
+  IshmaelBornAt : Nat → Prop
+  CircumcisedAt : Nat → Prop
+  AgedAt : Nat → Nat → Prop
+  rom4_9 : ∃ t, ReckonedGk t
+  rom4_10 : ∀ t, ReckonedGk t → ¬InCircumcision t ∧ InUncircumcision t
+  rom4_11 : InOrderThat (∀ p, BelievesUncircumcised p → FatherOf p)
+  gen15_6 : ∃ t, ReckonedHeb t
+  gen16_15 : ∃ t, IshmaelBornAt t
+  gen16_16 : ∀ t, IshmaelBornAt t → AgedAt t 86
+  gen17_24 : ∀ t, CircumcisedAt t → AgedAt t 99
+  gen17_26 : ∃ t, CircumcisedAt t
+  same_reckoning : ∀ t, ReckonedGk t ↔ ReckonedHeb t
+  reckoned_before_ishmael : ∀ r b, ReckonedHeb r → IshmaelBornAt b → r ≤ b
+  aging_monotone : ∀ s t m n, s ≤ t → AgedAt s m → AgedAt t n → m ≤ n
+  uncircumcision_precedes : ∀ a c, InUncircumcision a → CircumcisedAt c → a < c
+  purpose_realized :  InOrderThat (∀ p, BelievesUncircumcised p → FatherOf p) → ∀ p, BelievesUncircumcised p → FatherOf p
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Romans4.Person, Romans4.ReckonedGk, Romans4.InCircumcision, Romans4.InUncircumcision, Romans4.BelievesUncircumcised, Romans4.FatherOf, Romans4.InOrderThat, Romans4.ReckonedHeb, Romans4.IshmaelBornAt, Romans4.CircumcisedAt, Romans4.AgedAt, Romans4.rom4_9, Romans4.rom4_10, Romans4.rom4_11, Romans4.gen15_6, Romans4.gen16_15, Romans4.gen16_16, Romans4.gen17_24, Romans4.gen17_26, Romans4.same_reckoning, Romans4.reckoned_before_ishmael, Romans4.aging_monotone, Romans4.uncircumcision_precedes, Romans4.purpose_realized⟩
+
+end Romans4.Consistency
+-- END GENERATED THEORY
+
+namespace Romans4.Consistency
+
+/-- A timeline with one instant per year of Abraham's age (`AgedAt t n` is `t = n`): faith reckoned
+at 85, Ishmael born at 86, circumcision at 99; "in uncircumcision" is every instant before 99 and
+"in circumcision" every instant from 99 on. `InOrderThat` is read as plain truth (the BSB's result
+reading), and the one believer in the world is Abraham's child. -/
+def model : Theory where
+  Person := Unit
+  ReckonedGk := fun t => t = 85
+  InCircumcision := fun t => 99 ≤ t
+  InUncircumcision := fun t => t < 99
+  BelievesUncircumcised := fun _ => True
+  FatherOf := fun _ => True
+  InOrderThat := fun P => P
+  ReckonedHeb := fun t => t = 85
+  IshmaelBornAt := fun t => t = 86
+  CircumcisedAt := fun t => t = 99
+  AgedAt := fun t n => t = n
+  rom4_9 := ⟨85, rfl⟩
+  rom4_10 := fun t h => by subst h; exact ⟨by decide, by decide⟩
+  rom4_11 := fun _ _ => trivial
+  gen15_6 := ⟨85, rfl⟩
+  gen16_15 := ⟨86, rfl⟩
+  gen16_16 := fun _ h => h
+  gen17_24 := fun _ h => h
+  gen17_26 := ⟨99, rfl⟩
+  same_reckoning := fun _ => Iff.rfl
+  reckoned_before_ishmael := fun r b hr hb => by subst hr; subst hb; decide
+  aging_monotone := fun s t m n hst hm hn => by subst hm; subst hn; exact hst
+  uncircumcision_precedes := fun a c ha hc => by subst hc; exact ha
+  purpose_realized := fun h => h
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Romans4.Consistency
+
+#print axioms Romans4.Consistency.consistent

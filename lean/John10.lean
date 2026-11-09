@@ -253,3 +253,76 @@ end John10
 #print axioms John10.charge_refuted
 #print axioms John10.accusers_premise_refuted
 #print axioms John10.bare_rule_refuted
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace John10.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Person : Type
+  jesus : Person
+  Man : Person → Prop
+  Blasphemy : Person → Prop
+  CalledElohim : Person → Prop
+  CalledGods : Person → Prop
+  WordCame : Person → Prop
+  ScriptureBroken : Prop
+  SanctifiedSent : Person → Prop
+  SaidSonOfGod : Person → Prop
+  psa82_6 : ∃ p : Person, CalledElohim p
+  jhn10_34 : ∃ p : Person, CalledGods p
+  jhn10_35a : ∀ p : Person, CalledGods p → WordCame p
+  jhn10_35b : ¬ScriptureBroken
+  jhn10_36a : SanctifiedSent jesus
+  jhn10_36b : SaidSonOfGod jesus
+  elohim_read_as_gods : ∀ p : Person, CalledElohim p → CalledGods p
+  blasphemy_would_break_scripture : ∀ p : Person, CalledGods p → Blasphemy p → ScriptureBroken
+  a_fortiori : ∀ a b : Person, WordCame a → CalledGods a → ¬Blasphemy a → SanctifiedSent b → SaidSonOfGod b → ¬Blasphemy b
+  addressees_are_men : ∀ p : Person, CalledGods p → Man p
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨John10.Person, John10.jesus, John10.Man, John10.Blasphemy, John10.CalledElohim, John10.CalledGods, John10.WordCame, John10.ScriptureBroken, John10.SanctifiedSent, John10.SaidSonOfGod, John10.psa82_6, John10.jhn10_34, John10.jhn10_35a, John10.jhn10_35b, John10.jhn10_36a, John10.jhn10_36b, John10.elohim_read_as_gods, John10.blasphemy_would_break_scripture, John10.a_fortiori, John10.addressees_are_men⟩
+
+end John10.Consistency
+-- END GENERATED THEORY
+
+namespace John10.Consistency
+
+/-- A two-person world (Person := Bool): `false` is Jesus, sanctified and sent, who says "I am
+the Son of God"; `true` stands for the Psalm's addressees, called אֱלֹהִים and gods, to whom the
+word came. Both are men (so `addressees_are_men` holds; the angelic reading would need it false), no name is
+blasphemy, and Scripture is unbroken. The roles stay apart (Jesus is not among those the Psalm
+calls gods, so `a_fortiori` does real work), and `Man jesus` holds, so the hypothesis of
+`accusers_premise_refuted` is satisfiable and that theorem is not vacuous. The accusers' premise
+is false here. -/
+def model : Theory where
+  Person := Bool
+  jesus := false
+  Man := fun _ => True
+  Blasphemy := fun _ => False
+  CalledElohim := fun p => p = true
+  CalledGods := fun p => p = true
+  WordCame := fun p => p = true
+  ScriptureBroken := False
+  SanctifiedSent := fun p => p = false
+  SaidSonOfGod := fun p => p = false
+  psa82_6 := ⟨true, rfl⟩
+  jhn10_34 := ⟨true, rfl⟩
+  jhn10_35a := fun _ h => h
+  jhn10_35b := id
+  jhn10_36a := rfl
+  jhn10_36b := rfl
+  elohim_read_as_gods := fun _ h => h
+  blasphemy_would_break_scripture := fun _ _ h => h
+  a_fortiori := fun _ _ _ _ _ _ _ => id
+  addressees_are_men := fun _ _ => trivial
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end John10.Consistency
+
+#print axioms John10.Consistency.consistent

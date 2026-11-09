@@ -63,6 +63,16 @@ When translations disagree with the original, trust the original, and say so in 
 - **Logic made visible:** if a step needs excluded middle, let `Classical.byContradiction` show it, and where possible also prove the constructive form.
 - No trivial padding: don't restate an axiom as a theorem unless it's a named witness route.
 
+## Consistency: every file carries a model
+
+If a file's premises and readings contradicted each other, Lean could prove anything from them, and every theorem in the file would be worthless. So every file must show its axioms can all be true at once:
+
+1. `python -I tools/consistency.py lean/<Name>.lean` appends a generated `structure Theory` (one field per axiom) and a check that the file's real axioms inhabit it. Never edit that block; re-run the tool when axioms change.
+2. After it, write `def model : Theory where …`: a concrete little world (`Unit`, `Bool`, `Fin n`, `Nat`, lambdas) in which every premise and reading is proved true (`trivial`, `decide`, `omega`, `simp`, explicit terms).
+3. `theorem consistent : ¬(Theory → False) := fun h => h model`, then `#print axioms <Name>.Consistency.consistent`.
+
+`check_all.py` requires the receipt of `consistent` to contain no premise or reading at all. Build worlds from `Unit`, `Bool` and `Nat` rather than `Fin n`: `Fin` number literals carry bound proofs that pull `propext` into the receipt (found independently by three formalizers). A model's docstring should say what the world shows: often the opponent's premise is visibly false in it (Matthew 22: "died" and "dead" come apart). If no model can be found, the axioms are inconsistent: report it, never paper over it.
+
 ## Hard rules
 
 - Core Lean 4 only: no `import Mathlib`. No `sorry`, `admit` or `native_decide`.

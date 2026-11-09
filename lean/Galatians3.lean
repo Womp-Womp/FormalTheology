@@ -421,3 +421,108 @@ end Galatians3
 #print axioms Galatians3.as_of_one
 #print axioms Galatians3.seed_is_christ_alone
 #print axioms Galatians3.promises_to_christ
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Galatians3.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Instrument : Type
+  Person : Type
+  covenant : Instrument
+  law : Instrument
+  OfMan : Instrument → Prop
+  OfGod : Instrument → Prop
+  RatifiedIn : Instrument → Nat → Prop
+  ArisesIn : Instrument → Nat → Prop
+  SetAside : Instrument → Prop
+  Annuls : Instrument → Instrument → Prop
+  VoidsPromise : Instrument → Prop
+  InheritanceOfLaw : Prop
+  InheritanceOfPromise : Prop
+  GrantedThroughPromise : Prop
+  abraham : Person
+  christ : Person
+  PromisedTo : Person → Prop
+  Seed : Person → Prop
+  SaysSeeds : Prop
+  DwellingSpan : Nat → Nat → Prop
+  gal3_15 : ∀ c : Instrument, ∀ t : Nat, OfMan c → RatifiedIn c t → ¬SetAside c
+  gal3_17_byGod : OfGod covenant
+  gal3_17_later : ∃ t : Nat, RatifiedIn covenant t ∧ ArisesIn law (t + (400 + 30))
+  gal3_17_not_annulled : ¬Annuls law covenant
+  gal3_18_exclusive : InheritanceOfLaw → ¬InheritanceOfPromise
+  gal3_18_granted : GrantedThroughPromise
+  gal3_16_spoken : PromisedTo abraham ∧ ∀ p : Person, Seed p → PromisedTo p
+  gal3_16_not_seeds : ¬SaysSeeds
+  gal3_16_christ : Seed christ
+  gen13_15_seed : ¬SaysSeeds
+  exo12_40 : ∃ a : Nat, DwellingSpan a (a + (30 + 400))
+  a_fortiori :  (∀ c : Instrument, ∀ t : Nat, OfMan c → RatifiedIn c t → ¬SetAside c) → (∀ c : Instrument, ∀ t : Nat, OfGod c → RatifiedIn c t → ¬SetAside c)
+  annul_is_set_aside :  ∀ x c : Instrument, ∀ t t' : Nat, RatifiedIn c t → ArisesIn x t' → t < t' → Annuls x c → SetAside c
+  void_requires_annulment : ∀ x : Instrument, VoidsPromise x → Annuls x covenant
+  granted_through_is_of_promise : GrantedThroughPromise → InheritanceOfPromise
+  plural_if_many : (∃ p q : Person, Seed p ∧ Seed q ∧ p ≠ q) → SaysSeeds
+  sojourn_is_pauls_span :  ∀ a b : Nat, DwellingSpan a b → RatifiedIn covenant a ∧ ArisesIn law b
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Galatians3.Instrument, Galatians3.Person, Galatians3.covenant, Galatians3.law, Galatians3.OfMan, Galatians3.OfGod, Galatians3.RatifiedIn, Galatians3.ArisesIn, Galatians3.SetAside, Galatians3.Annuls, Galatians3.VoidsPromise, Galatians3.InheritanceOfLaw, Galatians3.InheritanceOfPromise, Galatians3.GrantedThroughPromise, Galatians3.abraham, Galatians3.christ, Galatians3.PromisedTo, Galatians3.Seed, Galatians3.SaysSeeds, Galatians3.DwellingSpan, Galatians3.gal3_15, Galatians3.gal3_17_byGod, Galatians3.gal3_17_later, Galatians3.gal3_17_not_annulled, Galatians3.gal3_18_exclusive, Galatians3.gal3_18_granted, Galatians3.gal3_16_spoken, Galatians3.gal3_16_not_seeds, Galatians3.gal3_16_christ, Galatians3.gen13_15_seed, Galatians3.exo12_40, Galatians3.a_fortiori, Galatians3.annul_is_set_aside, Galatians3.void_requires_annulment, Galatians3.granted_through_is_of_promise, Galatians3.plural_if_many, Galatians3.sojourn_is_pauls_span⟩
+
+end Galatians3.Consistency
+-- END GENERATED THEORY
+
+namespace Galatians3.Consistency
+
+/-- Instruments are numbered (0 = God's covenant, ratified in year 0; 1 = the law, arising in year
+430; 2 = a man's covenant, also ratified, so verse 15 is not vacuous) and persons are Bool (false =
+Abraham, true = Christ, the only seed). Nothing is ever set aside or annulled, so the "later
+overrides earlier" rule fails here: the law comes later and annuls nothing. `plural_if_many` holds
+because there are never two distinct seeds, and Scripture never says "seeds". -/
+def model : Theory where
+  Instrument := Nat
+  Person := Bool
+  covenant := 0
+  law := 1
+  OfMan := fun c => c = 2
+  OfGod := fun c => c = 0
+  RatifiedIn := fun c t => (c = 0 ∨ c = 2) ∧ t = 0
+  ArisesIn := fun x t => x = 1 ∧ t = 430
+  SetAside := fun _ => False
+  Annuls := fun _ _ => False
+  VoidsPromise := fun _ => False
+  InheritanceOfLaw := False
+  InheritanceOfPromise := True
+  GrantedThroughPromise := True
+  abraham := false
+  christ := true
+  PromisedTo := fun _ => True
+  Seed := fun p => p = true
+  SaysSeeds := False
+  DwellingSpan := fun a b => a = 0 ∧ b = 430
+  gal3_15 := fun _ _ _ _ setAside => setAside
+  gal3_17_byGod := rfl
+  gal3_17_later := ⟨0, ⟨Or.inl rfl, rfl⟩, ⟨rfl, by decide⟩⟩
+  gal3_17_not_annulled := id
+  gal3_18_exclusive := fun ofLaw => ofLaw.elim
+  gal3_18_granted := trivial
+  gal3_16_spoken := ⟨trivial, fun _ _ => trivial⟩
+  gal3_16_not_seeds := id
+  gal3_16_christ := rfl
+  gen13_15_seed := id
+  exo12_40 := ⟨0, rfl, by decide⟩
+  a_fortiori := fun _ _ _ _ _ setAside => setAside
+  annul_is_set_aside := fun _ _ _ _ _ _ _ annuls => annuls
+  void_requires_annulment := fun _ voids => voids
+  granted_through_is_of_promise := fun _ => trivial
+  plural_if_many := fun ⟨_, _, sp, sq, distinct⟩ => distinct (Eq.trans sp (Eq.symm sq))
+  sojourn_is_pauls_span := fun _ _ ⟨start, stop⟩ => ⟨⟨Or.inl rfl, start⟩, ⟨rfl, stop⟩⟩
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Galatians3.Consistency
+
+#print axioms Galatians3.Consistency.consistent

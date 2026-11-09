@@ -31,12 +31,24 @@ def main():
         c2, out2 = run([sys.executable, "-I", "tools/check_citations.py", rel])
         c3, out3 = run([sys.executable, "-I", "tools/check_citations.py", "--selftest", rel])
         caught = out3.count("CAUGHT"); total = caught + out3.count("MISSED")
-        status = "OK " if not (bad_lean or c2 or c3) else "FAIL"
-        print(f"{status} {rel}: lean {'ok' if not bad_lean else 'FAILED'}, citations {'ok' if not c2 else 'FAILED'}, tamper test {caught}/{total}")
+        # Consistency: the generated Theory block must match the axioms, a model must exist, and
+        # `consistent` must rest on NO premise or reading (only Lean's own logic, if anything).
+        c4, out4 = run([sys.executable, "-I", "tools/consistency.py", "--check", rel])
+        rc = receipts(out)
+        cons = [k for k in rc if k.endswith(".Consistency.consistent")]
+        no_dep = re.search(r"'[^']*\.Consistency\.consistent' does not depend on any axioms", out)
+        logic_only = cons and all(a in ("propext", "Quot.sound") for a in rc[cons[0]])
+        cons_ok = c4 == 0 and (no_dep or logic_only)
+        status = "OK " if not (bad_lean or c2 or c3 or not cons_ok) else "FAIL"
+        print(f"{status} {rel}: lean {'ok' if not bad_lean else 'FAILED'}, citations {'ok' if not c2 else 'FAILED'}, "
+              f"tamper test {caught}/{total}, consistency {'certified' if cons_ok else 'MISSING/FAILED'}")
         if bad_lean: print(out)
         if c2: print(out2)
         if c3: print(out3)
-        for thm, ax in receipts(out).items():
+        if not cons_ok: print("   " + out4.strip() + ("" if (no_dep or logic_only) else "  (consistent missing or rests on premises)"))
+        for thm, ax in rc.items():
+            if thm.endswith(".Consistency.consistent"):
+                continue
             logic = [a for a in ax if a in ("propext", "Classical.choice", "Quot.sound")]
             prem = [a.split(".")[-1] for a in ax if a not in logic]
             print(f"     {thm}  <=  {', '.join(prem)}" + ("   [+classical logic]" if "Classical.choice" in logic else ""))

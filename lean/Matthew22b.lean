@@ -257,3 +257,76 @@ end Matthew22b
 #print axioms Matthew22b.christ_is_davids_lord
 #print axioms Matthew22b.son_and_lord
 #print axioms Matthew22b.only_son_refuted
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Matthew22b.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  Person : Type
+  christ : Person
+  david : Person
+  jesus : Person
+  speaker : Person
+  myLord : Person
+  HeadedLeDavid : Prop
+  SonOf : Person → Person → Prop
+  CallsLord : Person → Person → Prop
+  IsLordOf : Person → Person → Prop
+  TheySay : Prop → Prop
+  mat22_42 : TheySay (SonOf christ david)
+  mat22_43 : CallsLord david christ
+  psa110_heading : HeadedLeDavid
+  psa110_1 : CallsLord speaker myLord
+  mat1_1 : SonOf jesus david
+  answer_granted : TheySay (SonOf christ david) → SonOf christ david
+  jesus_is_the_christ : jesus = christ
+  heading_names_speaker : HeadedLeDavid → speaker = david
+  my_lord_is_christ : myLord = christ
+  in_spirit_true : CallsLord david christ → IsLordOf christ david
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Matthew22b.Person, Matthew22b.christ, Matthew22b.david, Matthew22b.jesus, Matthew22b.speaker, Matthew22b.myLord, Matthew22b.HeadedLeDavid, Matthew22b.SonOf, Matthew22b.CallsLord, Matthew22b.IsLordOf, Matthew22b.TheySay, Matthew22b.mat22_42, Matthew22b.mat22_43, Matthew22b.psa110_heading, Matthew22b.psa110_1, Matthew22b.mat1_1, Matthew22b.answer_granted, Matthew22b.jesus_is_the_christ, Matthew22b.heading_names_speaker, Matthew22b.my_lord_is_christ, Matthew22b.in_spirit_true⟩
+
+end Matthew22b.Consistency
+-- END GENERATED THEORY
+
+namespace Matthew22b.Consistency
+
+/-- A two-person world, `false` = David and `true` = the Christ (who is Jesus): David is the
+psalm's voice and the Christ its "my lord", so both disputed readings hold here, and the Christ
+is David's son and David's lord while David is not his own son. The father-son custom fails in
+this world (David calls his own son "lord"), yet nothing collapses, so "son and lord" needs no
+merging of David with the Christ. -/
+def model : Theory where
+  Person := Bool
+  christ := true
+  david := false
+  jesus := true
+  speaker := false
+  myLord := true
+  HeadedLeDavid := True
+  SonOf := fun c f => c = true ∧ f = false
+  CallsLord := fun a b => a = false ∧ b = true
+  IsLordOf := fun b a => b = true ∧ a = false
+  TheySay := fun p => p
+  mat22_42 := ⟨rfl, rfl⟩
+  mat22_43 := ⟨rfl, rfl⟩
+  psa110_heading := trivial
+  psa110_1 := ⟨rfl, rfl⟩
+  mat1_1 := ⟨rfl, rfl⟩
+  answer_granted := fun h => h
+  jesus_is_the_christ := rfl
+  heading_names_speaker := fun _ => rfl
+  my_lord_is_christ := rfl
+  in_spirit_true := fun _ => ⟨rfl, rfl⟩
+
+/-- The premises and readings of this file cannot contradict each other: a world satisfying all of
+them exists. So no theorem above holds merely because the axioms were inconsistent. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Matthew22b.Consistency
+
+#print axioms Matthew22b.Consistency.consistent

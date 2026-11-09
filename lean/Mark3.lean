@@ -25,7 +25,7 @@ What it shows:
   (constructive); "has bound him" needs excluded middle, and Lean shows it.
 * A reductio proves nothing if its background is already inconsistent. A two-figure world in which
   every premise and reading of this file holds, Satan still stands, and the exorcist has bound him
-  shows that the contradiction belongs to the charge alone.
+  shows that the contradiction belongs to the charge alone (`Mark3.Consistency`, at the end).
 
 Not formalized: the first clause, "He has Beelzebul" (Βεελζεβοὺλ ἔχει). This argument does not
 answer it; Mark answers it at 3:28–30 ("Because they said, He hath an unclean spirit," 3:30).
@@ -273,16 +273,24 @@ theorem not_not_strong_man_bound (x : Entity) (h : CastsOutDemons x) : ¬¬Binds
 theorem strong_man_bound (x : Entity) (h : CastsOutDemons x) : Binds x satan :=
   Classical.byContradiction (not_not_strong_man_bound x h)
 
-/-! ## Consistency: the charge has no world, the answer has one
+end Mark3
 
-A reductio proves something only if its background is consistent: from inconsistent premises
-every charge "leads to a contradiction", the true ones too. Lean cannot test the file's axioms
-from inside, so the premises are bundled as a structure. The first `example` checks that the
-file's own axioms fill the bundle exactly, field by field. Then a two-figure world fills it too,
-with the charge false, Satan still standing, and an exorcist who has bound him. -/
+/-! ## The receipts -/
+#print axioms Mark3.divided_satan_falls_v26
+#print axioms Mark3.divided_satan_falls_kingdom
+#print axioms Mark3.divided_satan_falls_house
+#print axioms Mark3.charge_ends_satan
+#print axioms Mark3.satan_cannot_cast_out_satan
+#print axioms Mark3.charge_refuted
+#print axioms Mark3.not_not_strong_man_bound
+#print axioms Mark3.strong_man_bound
 
-/-- Every term, premise and reading of this file, as one bundle. -/
-structure Premises where
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Mark3.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
   Entity : Type
   satan : Entity
   ByPrince : Entity → Prop
@@ -305,29 +313,28 @@ structure Premises where
   charge_is_self_expulsion : ∀ x : Entity, ByPrince x → SatanCastsOutSatan
   self_expulsion_is_division : SatanCastsOutSatan → RoseAgainstHimself satan ∧ Divided satan
   satan_still_stands : Stand satan
-  division_divides_his_kingdom : RoseAgainstHimself satan ∧ Divided satan →
-    ∃ k : Entity, Kingdom k ∧ DividedAgainstItself k ∧ (Stand satan → Stand k)
-  division_divides_his_house : RoseAgainstHimself satan ∧ Divided satan →
-    ∃ h : Entity, House h ∧ DividedAgainstItself h ∧ (Stand satan → Stand h)
+  division_divides_his_kingdom :  RoseAgainstHimself satan ∧ Divided satan → ∃ k : Entity, Kingdom k ∧ DividedAgainstItself k ∧ (Stand satan → Stand k)
+  division_divides_his_house :  RoseAgainstHimself satan ∧ Divided satan → ∃ h : Entity, House h ∧ DividedAgainstItself h ∧ (Stand satan → Stand h)
   strong_man_is_satan : StrongMan satan ∧ ∀ x : Entity, CastsOutDemons x → PlundersGoods x satan
 
-/-- The bundle is exactly this file: Lean checks every field against the axiom of the same name. -/
-noncomputable example : Premises :=
-  { Entity, satan, ByPrince, CastsOutDemons, SatanCastsOutSatan, Kingdom, House,
-    DividedAgainstItself, Stand, RoseAgainstHimself, Divided, HasEnd, StrongMan, PlundersGoods,
-    Binds, mrk3_24, mrk3_25, mrk3_26, mrk3_27, charge_is_self_expulsion,
-    self_expulsion_is_division, satan_still_stands, division_divides_his_kingdom,
-    division_divides_his_house, strong_man_is_satan }
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Mark3.Entity, Mark3.satan, Mark3.ByPrince, Mark3.CastsOutDemons, Mark3.SatanCastsOutSatan, Mark3.Kingdom, Mark3.House, Mark3.DividedAgainstItself, Mark3.Stand, Mark3.RoseAgainstHimself, Mark3.Divided, Mark3.HasEnd, Mark3.StrongMan, Mark3.PlundersGoods, Mark3.Binds, Mark3.mrk3_24, Mark3.mrk3_25, Mark3.mrk3_26, Mark3.mrk3_27, Mark3.charge_is_self_expulsion, Mark3.self_expulsion_is_division, Mark3.satan_still_stands, Mark3.division_divides_his_kingdom, Mark3.division_divides_his_house, Mark3.strong_man_is_satan⟩
+
+end Mark3.Consistency
+-- END GENERATED THEORY
+
+namespace Mark3.Consistency
 
 /-- The two figures of the small world. -/
 inductive Figure where
   | satan
   | exorcist
 
-/-- Jesus' answer in miniature. Nothing is divided, so nothing falls; Satan stands, as the strong
-man; the exorcist casts out demons, has bound him, and plunders his goods; nobody casts out by the
-prince of the demons. It shows only that the premises fit together, not that they are true. -/
-abbrev world : Premises where
+/-- Jesus' answer in miniature, a two-figure world: nothing is divided, so nothing falls; Satan
+still stands, as the strong man, and is bound; the exorcist casts out demons and plunders his goods;
+nobody casts out by the prince of the demons, so the charge is false. -/
+def model : Theory where
   Entity := Figure
   satan := Figure.satan
   ByPrince := fun _ => False
@@ -354,28 +361,23 @@ abbrev world : Premises where
   division_divides_his_house := fun h => h.1.elim
   strong_man_is_satan := ⟨rfl, fun _ h => ⟨h, rfl⟩⟩
 
-/-- The verdict. In EVERY world where this file's premises hold, no one casts out demons by the
-prince of the demons. And there IS such a world, in which Satan still stands and someone casts out
-demons and has bound him. So the contradiction is the charge's alone, and the answer of 3:27 is
-consistent with the refutation. Its receipt lists no verse: both halves speak about the bundle,
-not about the text, so this is pure logic. -/
+/-- The premises and the six readings of this file cannot contradict each other: a world
+satisfying all of them exists. So the reductio's contradiction is not the background's. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+/-- What `consistent` alone does not say. In EVERY world of the theory, no one casts out demons by
+the prince of the demons: the charge has no model at all. And there is a world in which someone
+does cast out demons while Satan still stands and is bound, so the answer of 3:27 is not vacuous
+and fits with the refutation. Pure logic over `Theory`: no verse in the receipt. -/
 theorem charge_fails_answer_fits :
-    (∀ P : Premises, ∀ x : P.Entity, ¬P.ByPrince x) ∧
-    (∃ P : Premises, P.Stand P.satan ∧ ∃ x : P.Entity, P.CastsOutDemons x ∧ P.Binds x P.satan) :=
-  ⟨fun P x charge =>
-      (P.mrk3_26 (P.self_expulsion_is_division (P.charge_is_self_expulsion x charge))).1
-        P.satan_still_stands,
-   ⟨world, trivial, Figure.exorcist, rfl, rfl, rfl⟩⟩
+    (∀ T : Theory, ∀ x : T.Entity, ¬T.ByPrince x) ∧
+    (∃ T : Theory, T.Stand T.satan ∧ ∃ x : T.Entity, T.CastsOutDemons x ∧ T.Binds x T.satan) :=
+  ⟨fun T x charge =>
+      (T.mrk3_26 (T.self_expulsion_is_division (T.charge_is_self_expulsion x charge))).1
+        T.satan_still_stands,
+   ⟨model, trivial, Figure.exorcist, rfl, And.intro rfl rfl⟩⟩
 
-end Mark3
+end Mark3.Consistency
 
-/-! ## The receipts -/
-#print axioms Mark3.divided_satan_falls_v26
-#print axioms Mark3.divided_satan_falls_kingdom
-#print axioms Mark3.divided_satan_falls_house
-#print axioms Mark3.charge_ends_satan
-#print axioms Mark3.satan_cannot_cast_out_satan
-#print axioms Mark3.charge_refuted
-#print axioms Mark3.not_not_strong_man_bound
-#print axioms Mark3.strong_man_bound
-#print axioms Mark3.charge_fails_answer_fits
+#print axioms Mark3.Consistency.consistent
+#print axioms Mark3.Consistency.charge_fails_answer_fits

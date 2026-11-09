@@ -142,3 +142,57 @@ end Cor15
 #print axioms Cor15.not_not_dead_raised
 #print axioms Cor15.dead_raised
 #print axioms Cor15.dead_raised_via13
+
+-- BEGIN GENERATED THEORY (tools/consistency.py; do not edit by hand)
+namespace Cor15.Consistency
+
+/-- Every axiom of this file, as one structure: a "theory". A value of this type is a world in
+which all the file's terms are interpreted and all its premises and readings are true. -/
+structure Theory where
+  ResurrectionIs : Prop
+  DeadRaised : Prop
+  ChristRaised : Prop
+  PreachingEmpty : Prop
+  FaithEmpty : Prop
+  FaithFutile : Prop
+  StillInSins : Prop
+  v13 : ¬ResurrectionIs → ¬ChristRaised
+  v14 : ¬ChristRaised → PreachingEmpty ∧ FaithEmpty
+  v16 : ¬DeadRaised → ¬ChristRaised
+  v17 : ¬ChristRaised → FaithFutile ∧ StillInSins
+  v20 : ChristRaised
+  same_event : ResurrectionIs ↔ DeadRaised
+
+/-- The file's own axioms inhabit `Theory`, field for field: Lean checks each type, so the
+structure cannot silently differ from the file. -/
+noncomputable example : Theory := ⟨Cor15.ResurrectionIs, Cor15.DeadRaised, Cor15.ChristRaised, Cor15.PreachingEmpty, Cor15.FaithEmpty, Cor15.FaithFutile, Cor15.StillInSins, Cor15.v13, Cor15.v14, Cor15.v16, Cor15.v17, Cor15.v20, Cor15.same_event⟩
+
+end Cor15.Consistency
+-- END GENERATED THEORY
+
+namespace Cor15.Consistency
+
+/-- Paul's world as v20 describes it: Christ is raised, the dead are raised, there is a
+resurrection, and so preaching and faith are neither empty nor futile. Every premise holds: the
+conditionals of v13–v17 are true because their "if" clauses are false. -/
+def model : Theory where
+  ResurrectionIs := True
+  DeadRaised := True
+  ChristRaised := True
+  PreachingEmpty := False
+  FaithEmpty := False
+  FaithFutile := False
+  StillInSins := False
+  v13 := fun h => absurd trivial h
+  v14 := fun h => absurd trivial h
+  v16 := fun h => absurd trivial h
+  v17 := fun h => absurd trivial h
+  v20 := trivial
+  same_event := Iff.rfl
+
+/-- The premises and the reading `same_event` cannot contradict each other. -/
+theorem consistent : ¬(Theory → False) := fun h => h model
+
+end Cor15.Consistency
+
+#print axioms Cor15.Consistency.consistent
